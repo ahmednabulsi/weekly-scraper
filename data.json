@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-19 23:43:09.633068",
+    "date_scraped": "2026-04-19 23:48:17.977574",
     "locations": {
         "MCA": [
             {
@@ -19,6 +19,13 @@
             {
                 "label": "Jummah 2",
                 "details": "2:30PM Sh. Alauddin El-Bakri (4/17) (attend main campus - no outside overflow)"
+            }
+        ],
+        "SBIA": [
+            {
+                "label": "Jumu'ah 1",
+                "time": "1:15 PM",
+                "details": "Jumu'ah 2 at: 2:30PM"
             }
         ]
     }
