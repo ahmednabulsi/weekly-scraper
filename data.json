@@ -1,32 +1,4 @@
 {
-    "date_scraped": "2026-04-19 23:48:17.977574",
-    "locations": {
-        "MCA": [
-            {
-                "label": "Jummah 1",
-                "details": "12:15 PM Sh. Samy Hilali (4/17) | Park Legally, Towing Enforced"
-            },
-            {
-                "label": "Jummah 2",
-                "details": "1:30PM Imam Fuad Mohamed  (4/17) | Park Legally, Towing Enforced"
-            }
-        ],
-        "Al-Noor": [
-            {
-                "label": "Jummah 1",
-                "details": "1:30 PM Sh. Alauddin El-Bakri (4/17) (attend main campus - no outside overflow)"
-            },
-            {
-                "label": "Jummah 2",
-                "details": "2:30PM Sh. Alauddin El-Bakri (4/17) (attend main campus - no outside overflow)"
-            }
-        ],
-        "SBIA": [
-            {
-                "label": "Jumu'ah 1",
-                "time": "1:15 PM",
-                "details": "Jumu'ah 2 at: 2:30PM"
-            }
-        ]
-    }
+    "date_scraped": "2026-04-19 23:58:49.852596",
+    "data": []
 }
