@@ -5,49 +5,63 @@ from datetime import datetime
 
 def scrape_prayer_times():
     url = "https://www.mcabayarea.org/"
-    # User-Agent makes the request look like it's coming from a browser
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    # A more complete Header makes the site think you are a real Chrome browser
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
     
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
+    try:
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+    except Exception as e:
+        print(f"Error fetching site: {e}")
+        return
+
     results = {
         "date_scraped": str(datetime.now()),
-        "locations": {}
+        "locations": {
+            "MCA": [],
+            "Al-Noor": []
+        }
     }
 
-    # List of location IDs to look for in the HTML
-    locations = {
-        "MCA": "loc_mca",
-        "Al-Noor": "loc_alnoor"
-    }
-
-    for loc_name, div_id in locations.items():
-        loc_div = soup.find('div', id=div_id)
-        if not loc_div:
-            continue
-            
-        jummah_data = []
-        # Find all rows labeled as 'prayer-jummah'
-        rows = loc_div.find_all('tr', class_='prayer-jummah')
+    # Find all Jummah rows on the entire page
+    all_jummah_rows = soup.find_all('tr', class_='prayer-jummah')
+    
+    for row in all_jummah_rows:
+        name_td = row.find('td', class_='prayer-name')
+        time_td = row.find('td', class_='prayer-time')
         
-        for row in rows:
-            name = row.find('td', class_='prayer-name').get_text(strip=True)
-            time_td = row.find('td', class_='prayer-time')
+        if name_td and time_td:
+            label = name_td.get_text(strip=True) # e.g., "Jummah 1"
+            details = time_td.get_text(" ", strip=True) # e.g., "12:15 PM Sh. Samy..."
             
-            # get_text(separator="|") helps separate the time from the speaker text
-            time_text = time_td.get_text(" ", strip=True)
-            
-            jummah_data.append({
-                "label": name,
-                "details": time_text
-            })
-            
-        results["locations"][loc_name] = jummah_data
+            # Logic: MCA Jummahs usually come first in the HTML, 
+            # Al-Noor Jummahs come later. 
+            # If we already found 2 for MCA, the rest are likely Al-Noor.
+            if len(results["locations"]["MCA"]) < 2:
+                results["locations"]["MCA"].append({"label": label, "details": details})
+            else:
+                results["locations"]["Al-Noor"].append({"label": label, "details": details})
 
-    # Save to JSON file
+    # Fallback: If classes failed, search for text "Jummah" in all tables
+    if not results["locations"]["MCA"]:
+        tables = soup.find_all('table')
+        for table in tables:
+            rows = table.find_all('tr')
+            for row in rows:
+                if "Jummah" in row.get_text():
+                    text_data = row.get_text(" | ", strip=True)
+                    if len(results["locations"]["MCA"]) < 2:
+                        results["locations"]["MCA"].append(text_data)
+                    else:
+                        results["locations"]["Al-Noor"].append(text_data)
+
     with open('data.json', 'w') as f:
         json.dump(results, f, indent=4)
+    
+    print(f"Successfully scraped {len(results['locations']['MCA']) + len(results['locations']['Al-Noor'])} entries.")
 
 if __name__ == "__main__":
     scrape_prayer_times()
