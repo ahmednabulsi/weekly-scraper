@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-20 02:13:24.641921",
+    "date_scraped": "2026-04-20 02:14:14.264373",
     "data": [
         {
             "location": "MCA",
@@ -13,6 +13,36 @@
                     "label": "Jummah 2",
                     "time": "1:30PM",
                     "speaker": "Imam Fuad Mohamed"
+                }
+            ]
+        },
+        {
+            "location": "AlNoor",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:30 PM",
+                    "speaker": "Sh. Alauddin El-Bakri"
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "2:30 PM",
+                    "speaker": "Sh. Alauddin El-Bakri"
+                }
+            ]
+        },
+        {
+            "location": "SBIA",
+            "prayers": [
+                {
+                    "label": "Jumu'ah 1",
+                    "time": "1:15 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jumu'ah 2",
+                    "time": "2:30 PM",
+                    "speaker": null
                 }
             ]
         },
