@@ -123,29 +123,48 @@ def main():
         "WVMuslim": ("https://wvmuslim.org/prayer/", None)
     }
 
-    final_results = {
-        "date_scraped": str(datetime.now()),
-        "data": []
-    }
+    # Use a dictionary to store mosque data keyed by location (to preserve other mosques)
+    mosque_data_map = {}
+    
+    # 1. Try to load existing data
+    data_file = 'data.json'
+    if os.path.exists(data_file):
+        try:
+            with open(data_file, 'r') as f:
+                existing_json = json.load(f)
+                # Populate the map with existing data
+                for item in existing_json.get('data', []):
+                    mosque_data_map[item['location']] = item
+            print(f"Loaded {len(mosque_data_map)} mosques from existing {data_file}")
+        except Exception as e:
+            print(f"Warning: Could not load existing {data_file}: {e}")
 
+    # 2. Scrape and update only the specified sites
     for i, (name, (url, section_id)) in enumerate(sites.items()):
         print(f"Requesting AI parse for {name}...")
         site_data = get_data_with_ai(url, name, section_id=section_id)
         if site_data:
-            final_results["data"].append(site_data)
-            print(f"Successfully scraped {name}.")
+            mosque_data_map[name] = site_data
+            print(f"Successfully updated {name}.")
         else:
-            print(f"Skipping {name} due to empty or failed response.")
+            print(f"Skipping update for {name} due to error.")
 
         if i < len(sites) - 1:
             print("Waiting 5 seconds before next request...")
             time.sleep(5)
 
-    with open('data.json', 'w') as f:
+    # 3. Construct final results (preserving all mosques)
+    final_results = {
+        "date_scraped": str(datetime.now()),
+        "data": list(mosque_data_map.values())
+    }
+
+    # 4. Save back to data.json
+    with open(data_file, 'w') as f:
         json.dump(final_results, f, indent=4)
 
     print("Process Finished.")
-    print(json.dumps(final_results, indent=4))
+    print(f"Total mosques in output: {len(final_results['data'])}")
 
 
 if __name__ == "__main__":
