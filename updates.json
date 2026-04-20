@@ -3,7 +3,7 @@
     "mosques": {
         "alnoor": {
             "version": "2024.04.18",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/main/data/alnoor.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/alnoor.json"
         }
     }
 }
