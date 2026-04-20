@@ -1,70 +1,58 @@
 import os
 import requests
 import json
+import time
 from datetime import datetime
 from google import genai
-import time
 
-def get_data_with_ai(url, site_name):
-    for attempt in range(retries):
-        try:
-            # ... your existing code ...
-            return json.loads(text.strip())
-        except Exception as e:
-            if '429' in str(e) and attempt < retries - 1:
-                wait = 30 * (attempt + 1)  # 30s, 60s, 90s
-                print(f"Rate limited. Retrying in {wait}s...")
-                time.sleep(wait)
-            else:
-                print(f"Error processing {site_name}: {e}")
-                return None
-                
-    # Initialize the client
+
+def get_data_with_ai(url, site_name, retries=3):
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
-    try:
-        clean_url = url.strip("[]() ")
-        response = requests.get(clean_url, headers=headers, timeout=15)
-        response.raise_for_status()
-        
-        # We use a smaller chunk of HTML to be safe and fast
-        html_content = response.text[:35000]
-        
-        prompt = f"""
-        Extract the Friday/Jummah prayer times and speakers from this HTML for {site_name}.
-        Return ONLY a valid JSON object.
-        Format: {{ "location": "{site_name}", "prayers": [{{ "label": "", "time": "", "details": "" }}] }}
-        """
-        
-        # FIX: Explicitly using the full model path 'models/gemini-1.5-flash'
-        # and checking the generate method
-        for m in client.models.list():
-            print(m.name)
-        response = client.models.generate_content(
-            model='gemini-2.0-flash-lite',
-            contents=f"{prompt}\n\nHTML Content:\n{html_content}"
-        )
-        
-        if not response.text:
-            print(f"Gemini returned empty text for {site_name}")
-            return None
+    for attempt in range(retries):
+        try:
+            clean_url = url.strip("[]() ")
+            response = requests.get(clean_url, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            html_content = response.text[:15000]
+            
+            prompt = f"""
+            Extract the Friday/Jummah prayer times and speakers from this HTML for {site_name}.
+            Return ONLY a valid JSON object.
+            Format: {{ "location": "{site_name}", "prayers": [{{ "label": "", "time": "", "details": "" }}] }}
+            """
+            
+            ai_response = client.models.generate_content(
+                model='gemini-2.0-flash',
+                contents=f"{prompt}\n\nHTML Content:\n{html_content}"
+            )
+            
+            if not ai_response.text:
+                print(f"Gemini returned empty text for {site_name}")
+                return None
 
-        # Clean AI response from any markdown code blocks
-        text = response.text.strip()
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-        
-        return json.loads(text.strip())
-        
-    except Exception as e:
-        print(f"Error processing {site_name}: {e}")
-        return None
+            text = ai_response.text.strip()
+            if text.startswith("```"):
+                text = text.split("```")[1]
+                if text.startswith("json"):
+                    text = text[4:]
+            
+            return json.loads(text.strip())
+
+        except Exception as e:
+            if '429' in str(e) and attempt < retries - 1:
+                wait = 30 * (attempt + 1)
+                print(f"Rate limited on {site_name}. Retrying in {wait}s... (attempt {attempt + 1}/{retries})")
+                time.sleep(wait)
+            else:
+                print(f"Error processing {site_name}: {e}")
+                return None
+
 
 def main():
     sites = {
@@ -77,17 +65,25 @@ def main():
         "data": []
     }
 
-    for name, url in sites.items():
+    for i, (name, url) in enumerate(sites.items()):
         print(f"Requesting AI parse for {name}...")
         site_data = get_data_with_ai(url, name)
         if site_data:
             final_results["data"].append(site_data)
+            print(f"Successfully scraped {name}.")
         else:
             print(f"Skipping {name} due to empty or failed response.")
 
+        # Wait between requests, but skip delay after the last site
+        if i < len(sites) - 1:
+            print("Waiting 5 seconds before next request...")
+            time.sleep(5)
+
     with open('data.json', 'w') as f:
         json.dump(final_results, f, indent=4)
+
     print("Process Finished.")
+
 
 if __name__ == "__main__":
     main()
