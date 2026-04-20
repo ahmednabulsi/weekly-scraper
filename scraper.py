@@ -5,7 +5,7 @@ from datetime import datetime
 from google import genai
 
 def get_data_with_ai(url, site_name):
-    # Setup Gemini Client inside the function
+    # Initialize the client
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     
     headers = {
@@ -13,38 +13,44 @@ def get_data_with_ai(url, site_name):
     }
     
     try:
-        # Ensure URL is a clean string with no brackets
         clean_url = url.strip("[]() ")
         response = requests.get(clean_url, headers=headers, timeout=15)
         response.raise_for_status()
         
-        # We take the first 40k characters to ensure we get the prayer table
-        html_content = response.text[:40000]
+        # We use a smaller chunk of HTML to be safe and fast
+        html_content = response.text[:35000]
         
         prompt = f"""
         Extract the Friday/Jummah prayer times and speakers from this HTML for {site_name}.
-        Include 'Jummah 1', 'Jummah 2', etc.
         Return ONLY a valid JSON object.
         Format: {{ "location": "{site_name}", "prayers": [{{ "label": "", "time": "", "details": "" }}] }}
         """
         
-        # Using the new 2026 SDK method
+        # FIX: Explicitly using the full model path 'models/gemini-1.5-flash'
+        # and checking the generate method
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
-            contents=[prompt, html_content]
+            model='gemini-1.5-flash', 
+            contents=f"{prompt}\n\nHTML Content:\n{html_content}"
         )
         
-        # Clean AI response
-        text = response.text
-        clean_json = text.replace('```json', '').replace('```', '').strip()
-        return json.loads(clean_json)
+        if not response.text:
+            print(f"Gemini returned empty text for {site_name}")
+            return None
+
+        # Clean AI response from any markdown code blocks
+        text = response.text.strip()
+        if text.startswith("```"):
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        
+        return json.loads(text.strip())
         
     except Exception as e:
         print(f"Error processing {site_name}: {e}")
         return None
 
 def main():
-    # CLEAN URLS - No brackets or parentheses!
     sites = {
         "MCA_and_AlNoor": "https://www.mcabayarea.org/",
         "SBIA": "https://sbia.info"
@@ -56,14 +62,16 @@ def main():
     }
 
     for name, url in sites.items():
-        print(f"Asking Gemini to parse {name}...")
+        print(f"Requesting AI parse for {name}...")
         site_data = get_data_with_ai(url, name)
         if site_data:
             final_results["data"].append(site_data)
+        else:
+            print(f"Skipping {name} due to empty or failed response.")
 
     with open('data.json', 'w') as f:
         json.dump(final_results, f, indent=4)
-    print("Done!")
+    print("Process Finished.")
 
 if __name__ == "__main__":
     main()
