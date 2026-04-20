@@ -31,7 +31,7 @@ def get_data_with_ai(url, site_name):
         for m in client.models.list():
             print(m.name)
         response = client.models.generate_content(
-            model='gemini-2.0-flash',
+            model='gemini-2.0-flash-lite',
             contents=f"{prompt}\n\nHTML Content:\n{html_content}"
         )
         
