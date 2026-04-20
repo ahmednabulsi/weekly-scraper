@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-20 02:14:14.264373",
+    "date_scraped": "2026-04-20 06:57:12.359515",
     "data": [
         {
             "location": "MCA",
@@ -50,13 +50,18 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - Prospect Center",
+                    "label": "1st Jummah",
                     "time": "12:30 PM",
                     "speaker": null
                 },
                 {
-                    "label": "2nd Jummah - LGIC",
+                    "label": "2nd Jummah",
                     "time": "1:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Youth Jummah",
+                    "time": "3:30 PM",
                     "speaker": null
                 }
             ]
