@@ -28,8 +28,10 @@ def get_data_with_ai(url, site_name):
         
         # FIX: Explicitly using the full model path 'models/gemini-1.5-flash'
         # and checking the generate method
+        for m in client.models.list():
+            print(m.name)
         response = client.models.generate_content(
-            model='gemini-1.5-flash', 
+            model='gemini-2.0-flash',
             contents=f"{prompt}\n\nHTML Content:\n{html_content}"
         )
         
