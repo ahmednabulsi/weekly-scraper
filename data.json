@@ -1,4 +1,40 @@
 {
-    "date_scraped": "2026-04-20 00:32:23.098085",
-    "data": []
+    "date_scraped": "2026-04-20 02:13:24.641921",
+    "data": [
+        {
+            "location": "MCA",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "12:15 PM",
+                    "speaker": "Sh. Samy Hilali"
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "1:30PM",
+                    "speaker": "Imam Fuad Mohamed"
+                }
+            ]
+        },
+        {
+            "location": "WVMuslim",
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "12:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "1:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Youth Jummah",
+                    "time": "3:30 PM",
+                    "speaker": null
+                }
+            ]
+        }
+    ]
 }
