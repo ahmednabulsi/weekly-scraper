@@ -25,7 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests google-genai # Note the new library name
+          pip install requests groq
+          # pip install requests google-genai # Note the new library name
 
       - name: Run scraper
         env:
