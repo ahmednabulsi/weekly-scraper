@@ -11,7 +11,7 @@
                 },
                 {
                     "label": "Jummah 2",
-                    "time": "1:30PM",
+                    "time": "1:30 PM",
                     "speaker": "Imam Fuad Mohamed"
                 }
             ]
@@ -50,18 +50,193 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah",
+                    "label": "1st Jummah - Prospect Center",
                     "time": "12:30 PM",
                     "speaker": null
                 },
                 {
-                    "label": "2nd Jummah",
+                    "label": "2nd Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "YaseenBelmont",
+            "prayers": [
+                {
+                    "label": "1st Jumu'ah",
+                    "time": "12:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "2nd Jumu'ah",
+                    "time": "1:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "YaseenBurlingame",
+            "prayers": [
+                {
+                    "label": "1st Jumu'ah",
+                    "time": "12:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "2nd Jumu'ah",
+                    "time": "1:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "Bosni",
+            "prayers": [
+                {
+                    "label": "Jummah",
+                    "time": "1:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "SilverCreek",
+            "prayers": [
+                {
+                    "label": "1st Jummah",
                     "time": "1:30 PM",
                     "speaker": null
                 },
                 {
-                    "label": "Youth Jummah",
+                    "label": "2nd Jummah",
                     "time": "3:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "Zakariya",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:05 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "2:05 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "Fremont",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:00 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "2:00 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 3",
+                    "time": "3:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "MCCEastBay",
+            "prayers": [
+                {
+                    "label": "Jummah 1 - MCC East Bay",
+                    "time": "1:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2 - Rosewood Center",
+                    "time": "1:40 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 3 - MCC East Bay",
+                    "time": "2:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 4 - MCC East Bay",
+                    "time": "3:40 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "Furqaan",
+            "prayers": [
+                {
+                    "label": "Jummah",
+                    "time": "1:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "AlMedina",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "2:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "BlossomValley",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:30 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "2:30 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "Evergreen",
+            "prayers": [
+                {
+                    "label": "Jummah 1",
+                    "time": "1:25 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "Jummah 2",
+                    "time": "3:25 PM",
+                    "speaker": null
+                }
+            ]
+        },
+        {
+            "location": "SVIC",
+            "prayers": [
+                {
+                    "label": "Jummah",
+                    "time": "1:20 PM",
                     "speaker": null
                 }
             ]
