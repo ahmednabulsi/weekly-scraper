@@ -118,8 +118,8 @@ def get_data_with_ai(url, site_name, section_id=None, retries=3):
 def main():
     sites = {
         "MCA": ("https://www.mcabayarea.org/", "loc_mca"),
-        # "AlNoor": ("https://www.mcabayarea.org/", "loc_alnoor"),
-        # "SBIA": ("https://sbia.info", None),
+        "AlNoor": ("https://www.mcabayarea.org/", "loc_alnoor"),
+        "SBIA": ("https://sbia.info", None),
         "WVMuslim": ("https://wvmuslim.org/prayer/", None)
     }
 
