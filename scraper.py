@@ -2,42 +2,52 @@ import os
 import requests
 import json
 from datetime import datetime
-
-# You'll need to add 'google-generativeai' to your requirements
-import google.generativeai as genai
-
-# Setup Gemini
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash')
+from google import genai
 
 def get_data_with_ai(url, site_name):
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    # Setup Gemini Client inside the function
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+    
     try:
-        response = requests.get(url, headers=headers, timeout=15)
-        html_content = response.text[:30000] # Send first 30k chars to stay in limit
+        # Ensure URL is a clean string with no brackets
+        clean_url = url.strip("[]() ")
+        response = requests.get(clean_url, headers=headers, timeout=15)
+        response.raise_for_status()
+        
+        # We take the first 40k characters to ensure we get the prayer table
+        html_content = response.text[:40000]
         
         prompt = f"""
-        Act as a data extractor. I will provide HTML from {site_name}. 
-        Extract the Friday/Jummah prayer times and speakers. 
-        Return ONLY a JSON object with this format:
-        {{ "location": "{site_name}", "prayers": [{{ "label": "", "time": "", "details": "" }}] }}
-        
-        HTML:
-        {html_content}
+        Extract the Friday/Jummah prayer times and speakers from this HTML for {site_name}.
+        Include 'Jummah 1', 'Jummah 2', etc.
+        Return ONLY a valid JSON object.
+        Format: {{ "location": "{site_name}", "prayers": [{{ "label": "", "time": "", "details": "" }}] }}
         """
         
-        ai_response = model.generate_content(prompt)
-        # Clean the response in case Gemini adds ```json markdown
-        clean_json = ai_response.text.replace('```json', '').replace('```', '').strip()
+        # Using the new 2026 SDK method
+        response = client.models.generate_content(
+            model="gemini-1.5-flash",
+            contents=[prompt, html_content]
+        )
+        
+        # Clean AI response
+        text = response.text
+        clean_json = text.replace('```json', '').replace('```', '').strip()
         return json.loads(clean_json)
+        
     except Exception as e:
         print(f"Error processing {site_name}: {e}")
         return None
 
 def main():
+    # CLEAN URLS - No brackets or parentheses!
     sites = {
-        "MCA_and_AlNoor": "[https://www.mcabayarea.org/](https://www.mcabayarea.org/)",
-        "SBIA": "[https://sbia.info](https://sbia.info)"
+        "MCA_and_AlNoor": "https://www.mcabayarea.org/",
+        "SBIA": "https://sbia.info"
     }
     
     final_results = {
@@ -53,6 +63,7 @@ def main():
 
     with open('data.json', 'w') as f:
         json.dump(final_results, f, indent=4)
+    print("Done!")
 
 if __name__ == "__main__":
     main()
