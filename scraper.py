@@ -3,8 +3,22 @@ import requests
 import json
 from datetime import datetime
 from google import genai
+import time
 
 def get_data_with_ai(url, site_name):
+    for attempt in range(retries):
+        try:
+            # ... your existing code ...
+            return json.loads(text.strip())
+        except Exception as e:
+            if '429' in str(e) and attempt < retries - 1:
+                wait = 30 * (attempt + 1)  # 30s, 60s, 90s
+                print(f"Rate limited. Retrying in {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"Error processing {site_name}: {e}")
+                return None
+                
     # Initialize the client
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     
