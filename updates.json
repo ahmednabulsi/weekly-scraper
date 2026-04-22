@@ -1,9 +1,13 @@
 {
-    "last_check": "2024-04-19T20:20:00Z",
+    "last_check": "2024-04-21T20:20:00Z",
     "mosques": {
         "alnoor": {
-            "version": "2024.04.20",
+            "version": "2024.04.21",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/alnoor.json"
+        },
+        "mca": {
+            "version": "2024.04.21",
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/mca.json"
         }
     }
 }
