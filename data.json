@@ -1,16 +1,16 @@
 {
-    "date_scraped": "2026-04-24 04:42:19.631637",
+    "date_scraped": "2026-04-24 04:50:19.967586",
     "data": [
         {
             "location": "MCA",
             "prayers": [
                 {
-                    "label": "Jummah 1",
+                    "label": "1st Jummah",
                     "time": "12:15 PM",
                     "speaker": "Sh. Alauddin Elbakri"
                 },
                 {
-                    "label": "Jummah 2",
+                    "label": "2nd Jummah",
                     "time": "1:30 PM",
                     "speaker": "Imam Fuad Mohamed"
                 }
@@ -20,12 +20,12 @@
             "location": "AlNoor",
             "prayers": [
                 {
-                    "label": "Jummah 1",
+                    "label": "1st Jummah",
                     "time": "1:30 PM",
                     "speaker": "Sh. Kawsar Hossain"
                 },
                 {
-                    "label": "Jummah 2",
+                    "label": "2nd Jummah",
                     "time": "2:30 PM",
                     "speaker": "Br. Saleh Saleh"
                 }
@@ -51,21 +51,11 @@
             "prayers": [
                 {
                     "label": "1st Jummah",
-                    "time": "12:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": null,
                     "time": "1:30 PM",
                     "speaker": "Kareem Elsayed"
                 },
                 {
-                    "label": null,
+                    "label": "2nd Jummah",
                     "time": "1:30 PM",
                     "speaker": "Dr. Hatem Bazian"
                 }
