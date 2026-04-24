@@ -50,14 +50,19 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah",
-                    "time": "1:30 PM",
-                    "speaker": "Kareem Elsayed"
+                    "label": "1st Jummah - Prospect",
+                    "time": "12:30 PM",
+                    "speaker": "Dr. Hatem Bazian"
                 },
                 {
-                    "label": "2nd Jummah",
+                    "label": "2nd Jummah - Prospect",
                     "time": "1:30 PM",
                     "speaker": "Dr. Hatem Bazian"
+                },
+                {
+                    "label": "2nd Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": "Kareem Elsayed"
                 }
             ]
         },
