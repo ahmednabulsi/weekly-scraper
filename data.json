@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-20 06:57:12.359515",
+    "date_scraped": "2026-04-24 04:42:19.631637",
     "data": [
         {
             "location": "MCA",
@@ -7,7 +7,7 @@
                 {
                     "label": "Jummah 1",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Samy Hilali"
+                    "speaker": "Sh. Alauddin Elbakri"
                 },
                 {
                     "label": "Jummah 2",
@@ -22,12 +22,12 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Alauddin El-Bakri"
+                    "speaker": "Sh. Kawsar Hossain"
                 },
                 {
                     "label": "Jummah 2",
                     "time": "2:30 PM",
-                    "speaker": "Sh. Alauddin El-Bakri"
+                    "speaker": "Br. Saleh Saleh"
                 }
             ]
         },
@@ -60,9 +60,14 @@
                     "speaker": null
                 },
                 {
-                    "label": "Youth Jummah",
-                    "time": "3:30 PM",
-                    "speaker": null
+                    "label": null,
+                    "time": "1:30 PM",
+                    "speaker": "Kareem Elsayed"
+                },
+                {
+                    "label": null,
+                    "time": "1:30 PM",
+                    "speaker": "Dr. Hatem Bazian"
                 }
             ]
         },
