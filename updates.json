@@ -1,5 +1,5 @@
 {
-    "last_check": "2026-04-25T21:30:00Z",
+    "last_check": "2026-04-25T21:40:00Z",
     "mosques": {
         "alnoor": {
             "version": "2024.04.21",
@@ -10,7 +10,7 @@
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/mca.json"
         },
         "bosni": {
-            "version": "2024.04.24",
+            "version": "2024.04.25",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/bosni.json"
         },
         "Yaseen Belmont Masjid": {
