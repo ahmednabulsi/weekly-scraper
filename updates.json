@@ -8,6 +8,10 @@
         "mca": {
             "version": "2024.04.21",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/mca.json"
+        },
+        "bosni": {
+            "version": "2024.04.24",
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/bosni.json"
         }
     }
 }
