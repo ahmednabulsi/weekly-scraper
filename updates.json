@@ -1,5 +1,5 @@
 {
-    "last_check": "2024-04-24T20:20:00Z",
+    "last_check": "2026-04-25T21:30:00Z",
     "mosques": {
         "alnoor": {
             "version": "2024.04.21",
@@ -12,6 +12,14 @@
         "bosni": {
             "version": "2024.04.24",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/bosni.json"
+        },
+        "Yaseen Belmont Masjid": {
+            "version": "2026.04.25",
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Yaseen%20Belmont%20Masjid.json"
+        },
+        "Yaseen Burlingame Center": {
+            "version": "2026.04.25",
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Yaseen%20Burlingame%20Center.json"
         }
     }
 }
