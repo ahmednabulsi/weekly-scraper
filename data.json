@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-24 06:09:38.081482",
+    "date_scraped": "2026-04-25 17:37:55.529852",
     "data": [
         {
             "location": "MCA",
@@ -72,12 +72,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Br. Motie Omari"
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Br. Ihab Badr"
                 }
             ]
         },
@@ -87,12 +87,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Khaled Sarsour"
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Khaled Sarsour"
                 }
             ]
         },
