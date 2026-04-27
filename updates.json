@@ -1,5 +1,5 @@
 {
-    "last_check": "2026-04-27T00:36:07Z",
+    "last_check": "2026-04-27T00:57:17Z",
     "mosques": {
         "alnoor": {
             "version": "2024.04.26",
@@ -22,7 +22,7 @@
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Yaseen%20Burlingame%20Center.json"
         },
         "SVIC": {
-            "version": "2026.04.27",
+            "version": "2026.04.28",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/SVIC.json"
         }
     }
