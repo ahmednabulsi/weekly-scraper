@@ -1,16 +1,18 @@
 {
-  "ios": {
-    "minimum_version": "1.1.0",
-    "latest_version": "1.1.0",
-    "recommended_message": "A new version of South Bay Iqamah is available. Would you like to update?",
-    "force_message": "A critical update is required to continue using South Bay Iqamah.",
-    "store_url": "https://apps.apple.com/us/app/south-bay-iqamah/id6762543002"
-  },
-  "android": {
-    "minimum_version": "1.0.0",
-    "latest_version": "1.0.0",
-    "recommended_message": "A new version of South Bay Iqamah is available. Would you like to update?",
-    "force_message": "A critical update is required to continue using South Bay Iqamah.",
-    "store_url": "https://play.google.com/store/apps/details?id=com.hormuz.southbayiqamah"
-  }
+    "ios": {
+        "minimum_version": "1.1.0",
+        "latest_version": "1.1.0",
+        "recommended_message": "A new version of South Bay Iqamah is available. Would you like to update?",
+        "force_message": "A critical update is required to continue using South Bay Iqamah.",
+        "recommended_update_interval_days": 7,
+        "store_url": "https://apps.apple.com/us/app/south-bay-iqamah/id6762543002"
+    },
+    "android": {
+        "minimum_version": "1.0.0",
+        "latest_version": "1.0.0",
+        "recommended_message": "A new version of South Bay Iqamah is available. Would you like to update?",
+        "force_message": "A critical update is required to continue using South Bay Iqamah.",
+        "recommended_update_interval_days": 7,
+        "store_url": "https://play.google.com/store/apps/details?id=com.hormuz.southbayiqamah"
+    }
 }
