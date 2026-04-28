@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Dashboard Receiver</title>
+    <!-- Google Cast Receiver SDK -->
+    <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #clock-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        #current-time {
+            font-size: 80pt;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        #current-date {
+            font-size: 24pt;
+            color: #aaa;
+            margin-top: -10px;
+        }
+
+        .prayer-grid {
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            max-width: 1000px;
+        }
+
+        .prayer-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            background: #1a1a1a;
+            min-width: 120px;
+            transition: all 0.5s ease;
+        }
+
+        .prayer-card.next {
+            background: #cd7f32; /* Bronze/Gold accent */
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(205, 127, 50, 0.5);
+        }
+
+        .prayer-name {
+            font-size: 16pt;
+            text-transform: uppercase;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .prayer-card.next .prayer-name {
+            color: #fff;
+        }
+
+        .prayer-time {
+            font-size: 28pt;
+            font-weight: 500;
+        }
+
+        #status {
+            position: absolute;
+            bottom: 20px;
+            font-size: 10pt;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="clock-container">
+        <div id="current-time">00:00</div>
+        <div id="current-date">Loading...</div>
+    </div>
+
+    <div class="prayer-grid" id="prayer-grid">
+        <div class="prayer-card" id="fajr">
+            <div class="prayer-name">Fajr</div>
+            <div class="prayer-time">--:--</div>
+        </div>
+        <div class="prayer-card" id="dhuhr">
+            <div class="prayer-name">Dhuhr</div>
+            <div class="prayer-time">--:--</div>
+        </div>
+        <div class="prayer-card" id="asr">
+            <div class="prayer-name">Asr</div>
+            <div class="prayer-time">--:--</div>
+        </div>
+        <div class="prayer-card" id="maghrib">
+            <div class="prayer-name">Maghrib</div>
+            <div class="prayer-time">--:--</div>
+        </div>
+        <div class="prayer-card" id="isha">
+            <div class="prayer-name">Isha</div>
+            <div class="prayer-time">--:--</div>
+        </div>
+    </div>
+
+    <div id="status">Waiting for data...</div>
+
+    <audio id="alert-sound" src="https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/main/notification.mp3" preload="auto"></audio>
+
+    <script>
+        const context = cast.framework.CastReceiverContext.getInstance();
+        const options = new cast.framework.CastReceiverOptions();
+        
+        // Keep the screen awake indefinitely
+        options.disableIdleTimeout = true;
+        
+        let prayerData = null;
+        const JSON_URL = 'https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/alnoor.json';
+
+        // 1. Initialization
+        function init() {
+            updateClock();
+            fetchPrayerData();
+            setInterval(updateClock, 1000);
+            setInterval(fetchPrayerData, 3600000); // Re-fetch every hour to stay in sync
+        }
+
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('current-time').innerText = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            document.getElementById('current-date').innerText = now.toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' });
+            
+            if (prayerData) {
+                checkAlerts(now);
+                highlightNextPrayer(now);
+            }
+        }
+
+        async function fetchPrayerData() {
+            try {
+                const response = await fetch(JSON_URL);
+                const data = await response.json();
+                const now = new Date();
+                const monthNames = ["January", "February", "March", "April", "May", "June",
+                                    "July", "August", "September", "October", "November", "December"];
+                
+                const currentMonth = monthNames[now.getMonth()];
+                const currentDay = now.getDate().toString();
+                
+                prayerData = data[currentMonth][currentDay];
+                updateUI(prayerData);
+                document.getElementById('status').innerText = "Data Updated: " + new Date().toLocaleTimeString();
+            } catch (e) {
+                document.getElementById('status').innerText = "Fetch Error: " + e.message;
+            }
+        }
+
+        function updateUI(data) {
+            document.querySelector('#fajr .prayer-time').innerText = data.fajr_azaan;
+            document.querySelector('#dhuhr .prayer-time').innerText = data.dhuhr_azaan;
+            document.querySelector('#asr .prayer-time').innerText = data.asr_azaan;
+            document.querySelector('#maghrib .prayer-time').innerText = data.maghrib_azaan;
+            document.querySelector('#isha .prayer-time').innerText = data.isha_azaan;
+        }
+
+        function getPrayerDateTime(timeStr, isFajr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            const d = new Date();
+            let h = hours;
+            // PM logic: if not Fajr and hour < 12, assume PM
+            if (!isFajr && h < 12) h += 12;
+            d.setHours(h, minutes, 0, 0);
+            return d;
+        }
+
+        function checkAlerts(now) {
+            const keys = ['fajr_azaan', 'dhuhr_azaan', 'asr_azaan', 'maghrib_azaan', 'isha_azaan'];
+            keys.forEach(k => {
+                const pTime = getPrayerDateTime(prayerData[k], k === 'fajr_azaan');
+                const diff = pTime.getTime() - now.getTime();
+                
+                // Trigger 10 minutes before (600,000 ms)
+                // We check if it's within a 2-second window to prevent multiple triggers
+                if (diff > 599000 && diff < 601000) {
+                    document.getElementById('alert-sound').play();
+                }
+            });
+        }
+
+        function highlightNextPrayer(now) {
+            const keys = ['fajr_azaan', 'dhuhr_azaan', 'asr_azaan', 'maghrib_azaan', 'isha_azaan'];
+            let nextKey = null;
+
+            for (let k of keys) {
+                const pTime = getPrayerDateTime(prayerData[k], k === 'fajr_azaan');
+                if (pTime > now) {
+                    nextKey = k.split('_')[0];
+                    break;
+                }
+            }
+
+            // Reset highlights
+            document.querySelectorAll('.prayer-card').forEach(c => c.classList.remove('next'));
+            if (nextKey) {
+                document.getElementById(nextKey).classList.add('next');
+            } else {
+                // If all prayers passed, next is tomorrow's Fajr
+                document.getElementById('fajr').classList.add('next');
+            }
+        }
+
+        context.start(options);
+        init();
+    </script>
+</body>
+</html>
