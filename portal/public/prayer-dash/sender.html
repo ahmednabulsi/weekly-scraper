@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prayer Dash Controller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --bg-gradient-start: #0f172a;
+            --bg-gradient-end: #1e293b;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+            color: var(--text-main);
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 480px;
+            width: 100%;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            margin: 0 0 30px;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.5;
+        }
+
+        button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            background: var(--primary);
+            color: white;
+            border-radius: 12px;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3), 0 2px 4px -1px rgba(59, 130, 246, 0.2);
+            width: 100%;
+            max-width: 300px;
+        }
+
+        button:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.4), 0 4px 6px -2px rgba(59, 130, 246, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .instructions {
+            margin-top: 40px;
+            color: var(--text-muted);
+            text-align: left;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid var(--card-border);
+        }
+
+        .instructions h3 {
+            margin: 0 0 16px;
+            color: var(--text-main);
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .instructions ol {
+            margin: 0;
+            padding-left: 20px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .instructions li {
+            margin-bottom: 12px;
+        }
+        
+        .instructions li:last-child {
+            margin-bottom: 0;
+        }
+
+        code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+            color: #e2e8f0;
+        }
+
+        .mosque-selector {
+            margin-bottom: 24px;
+            text-align: left;
+        }
+
+        .mosque-selector label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--card-border);
+            color: var(--text-main);
+            font-size: 1rem;
+            font-family: inherit;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 16px;
+        }
+
+        select:focus {
+            border-color: var(--primary);
+        }
+
+        option {
+            background: #1e293b;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prayer Dashboard</h1>
+        <p class="subtitle">Cast this dashboard to your Google Nest Hub or Chromecast device seamlessly.</p>
+
+        <div class="mosque-selector">
+            <label for="mosque-select">Select Mosque</label>
+            <select id="mosque-select">
+                <option value="alnoor.json">Al Noor (Santa Clara)</option>
+                <option value="mca.json">MCA (Santa Clara)</option>
+                <option value="sbia.json">SBIA (San Jose)</option>
+                <option value="wvmuslim.json">WV Muslim (Saratoga)</option>
+                <option value="Evergreen Islamic center.json">Evergreen Islamic Center</option>
+                <option value="Islamic Center of Fremont.json">Islamic Center of Fremont</option>
+                <option value="MCC East Bay.json">MCC East Bay</option>
+                <option value="Masjid Furqaan Hayward.json">Masjid Furqaan (Hayward)</option>
+                <option value="SVIC.json">SVIC (San Martin)</option>
+                <option value="Yaseen Belmont Masjid.json">Yaseen (Belmont)</option>
+                <option value="Yaseen Burlingame Center.json">Yaseen (Burlingame)</option>
+                <option value="Zakariya.json">Zakariya (Fremont)</option>
+            </select>
+        </div>
+
+        <button id="cast-button">
+            <svg viewBox="0 0 24 24">
+                <path d="M1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm0-4v2c4.97 0 9 4.03 9 9h2c0-6.08-4.93-11-11-11zm20-7H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+            </svg>
+            Cast to Device
+        </button>
+
+        <div class="instructions">
+            <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                How to setup
+            </h3>
+            <ol>
+                <li>Host these files on GitHub Pages (HTTPS is required).</li>
+                <li>Register at the Google Cast Developer Console.</li>
+                <li>Replace <code>YOUR_APP_ID</code> in this file with your registered ID.</li>
+                <li>Open this page on Chrome and click the button above.</li>
+            </ol>
+        </div>
+    </div>
+
+    <script type="text/javascript"
+        src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+    <script>
+        window.__onGCastApiAvailable = function (isAvailable) {
+            if (isAvailable) {
+                initializeCastApi();
+            }
+        };
+
+        function initializeCastApi() {
+            // Replace with your App ID from the Google Cast Developer Console
+            const APP_ID = '27BCF799';
+
+            cast.framework.CastContext.getInstance().setOptions({
+                receiverApplicationId: APP_ID,
+                autoJoinPolicy: chrome.cast.AutoJoinPolicy.TAB_AND_ORIGIN_SCOPED
+            });
+
+            // Listen for session state changes (including auto-joins)
+            cast.framework.CastContext.getInstance().addEventListener(
+                cast.framework.CastContextEventType.SESSION_STATE_CHANGED,
+                (event) => {
+                    if (event.sessionState === cast.framework.SessionState.SESSION_STARTED ||
+                        event.sessionState === cast.framework.SessionState.SESSION_RESUMED) {
+                        console.log('Session active, sending selection...');
+                        sendMosqueSelection();
+                    }
+                }
+            );
+        };
+
+        document.getElementById('cast-button').addEventListener('click', () => {
+            cast.framework.CastContext.getInstance().requestSession().then(() => {
+                console.log('Session started');
+                sendMosqueSelection();
+            }).catch((err) => {
+                console.error('Error starting session', err);
+            });
+        });
+
+        document.getElementById('mosque-select').addEventListener('change', () => {
+            sendMosqueSelection();
+        });
+
+        function sendMosqueSelection() {
+            const session = cast.framework.CastContext.getInstance().getCurrentSession();
+            if (session) {
+                const mosqueFile = document.getElementById('mosque-select').value;
+                const namespace = 'urn:x-cast:prayer-dash';
+                // Using JSON stringify for broad compatibility
+                const message = JSON.stringify({ mosqueFile: mosqueFile });
+                
+                session.sendMessage(namespace, message)
+                    .then(() => console.log('Message sent: ' + message))
+                    .catch((err) => {
+                        console.error('Error sending message', err);
+                    });
+            } else {
+                console.log('No active session to send message to.');
+            }
+        }
+    </script>
+</body>
+
+</html>
