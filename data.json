@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-04-25 17:37:55.529852",
+    "date_scraped": "2026-05-01 04:18:29.987760",
     "data": [
         {
             "location": "MCA",
@@ -7,7 +7,7 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Alauddin Elbakri"
+                    "speaker": "Dr. Kareem ElSayed"
                 },
                 {
                     "label": "2nd Jummah",
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Kawsar Hossain"
+                    "speaker": "Br. Ihab Badr"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Br. Saleh Saleh"
+                    "speaker": "Sh. Alauddin El-Bakri"
                 }
             ]
         },
@@ -35,12 +35,12 @@
             "location": "SBIA",
             "prayers": [
                 {
-                    "label": "Jumu'ah 1",
+                    "label": "1st Jummah",
                     "time": "1:15 PM",
                     "speaker": null
                 },
                 {
-                    "label": "Jumu'ah 2",
+                    "label": "2nd Jummah",
                     "time": "2:30 PM",
                     "speaker": null
                 }
@@ -50,19 +50,9 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - Prospect",
-                    "time": "12:30 PM",
-                    "speaker": "Dr. Hatem Bazian"
-                },
-                {
-                    "label": "2nd Jummah - Prospect",
+                    "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Hatem Bazian"
-                },
-                {
-                    "label": "2nd Jummah - LGIC",
-                    "time": "1:30 PM",
-                    "speaker": "Kareem Elsayed"
+                    "speaker": "Shaykh AbdulNasir Jangda"
                 }
             ]
         },
