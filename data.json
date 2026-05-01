@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-01 04:19:29.987760",
+    "date_scraped": "2026-05-01 06:21:03.336243",
     "data": [
         {
             "location": "MCA",
@@ -47,32 +47,14 @@
             ]
         },
         {
-            
-    "location": "WVMuslim",
-    "prayers": [
-        {
-            "label": "1st Jummah - Prospect",
-            "time": "1:30 PM",
-            "speaker": "Kareem Elsayed"
-        },
-        
-        {
-            "label": "1st Jummah - LGIC",
-            "time": "1:30 PM",
-            "speaker": "Shaykh Abdulnasir Jangda"
-        },
-        {
-            "label": "2nd Jummah - Prospect",
-            "time": "2:30 PM",
-            "speaker": "Farhad Noorzay"
-        },
-        {
-            "label": "3rd Jummah - Prospect",
-            "time": "3:30 PM",
-            "speaker": "Saleh Saleh"
-        }
-    ]
-
+            "location": "WVMuslim",
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Shaykh AbdulNasir Jangda"
+                }
+            ]
         },
         {
             "location": "YaseenBelmont",
