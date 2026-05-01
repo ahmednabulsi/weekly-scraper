@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-01 06:21:03.336243",
+    "date_scraped": "2026-05-01 03:44:16.456898",
     "data": [
         {
             "location": "MCA",
@@ -50,9 +50,24 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah",
+                    "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Shaykh AbdulNasir Jangda"
+                    "speaker": "Shaykh Abdulnasir Jangda"
+                },
+                {
+                    "label": "1st Jummah - Prospect",
+                    "time": "1:30 PM",
+                    "speaker": "Kareem Elsayed"
+                },
+                {
+                    "label": "2nd Jummah - Prospect",
+                    "time": "2:30 PM",
+                    "speaker": "Farhad Noorzay"
+                },
+                {
+                    "label": "3rd Jummah - Prospect",
+                    "time": "3:30 PM",
+                    "speaker": "Saleh Saleh"
                 }
             ]
         },
@@ -67,7 +82,7 @@
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": "Dr. Tariq Abuhamdia"
                 }
             ]
         },
@@ -77,12 +92,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": "Dr. Khaled Sarsour"
+                    "speaker": "Br. Abdul Rahman Awadallah"
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Khaled Sarsour"
+                    "speaker": "Br. Khaled Hamadeh"
                 }
             ]
         },
@@ -217,12 +232,12 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:25 PM",
-                    "speaker": null
+                    "speaker": "Sami Rehman"
                 },
                 {
                     "label": "Jummah 2",
                     "time": "3:25 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir"
                 }
             ]
         },
