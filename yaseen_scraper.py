@@ -31,9 +31,11 @@ def get_yaseen_jummah_data():
         images = soup.find_all('img')
         for img in images:
             src = img.get('data-src') or img.get('src')
-            if src and 'YaseenFoundationJummah' in src:
-                img_src = src
-                break
+            if src:
+                src_lower = src.lower()
+                if 'yaseen' in src_lower and 'jummah' in src_lower:
+                    img_src = src
+                    break
         
         if not img_src:
             print("✗ Error: Could not find Jummah schedule image on the website.")
@@ -42,7 +44,7 @@ def get_yaseen_jummah_data():
         print(f"✓ Found image URL: {img_src}")
         
         # 2. Extract data with Gemini AI
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = os.environ.get("GOOGLE_GEMINI_API_KEY")
             
         genai.configure(api_key=api_key)
         # Using 1.5-flash as it's optimized for OCR and fast
@@ -54,54 +56,60 @@ def get_yaseen_jummah_data():
         img_response.raise_for_status()
         pil_img = Image.open(BytesIO(img_response.content))
         
-        prompt = """
+        prompt = f"""
         This is an image of the Jummah (Friday prayer) schedule for Yaseen Foundation.
-        Please extract the prayer times and speaker names for the following locations:
+        Today's date is {datetime.now().strftime('%B %d, %Y')}.
         
+        Please extract the prayer times and speaker names for the upcoming Friday mentioned in the image.
+        
+        Locations to map:
         1. Yaseen Belmont Masjid (YBM) -> Map to location: "YaseenBelmont"
         2. Yaseen Burlingame Center (TBC) -> Map to location: "YaseenBurlingame"
         
-        The image contains a table with columns for 1st Jumu'ah and 2nd Jumu'ah times and speakers.
+        Structure details:
+        - The image contains a table with columns for 1st Jumu'ah and 2nd Jumu'ah.
+        - Each row corresponds to a location.
+        - Extract the TIME (e.g., 1:15 PM) and the SPEAKER name.
         
         Return ONLY a JSON list of objects in this format:
         [
-            {
+            {{
                 "location": "YaseenBelmont",
                 "prayers": [
-                    {
+                    {{
                         "label": "1st Jumu'ah",
                         "time": "HH:MM AM/PM",
                         "speaker": "Name of Speaker"
-                    },
-                    {
+                    }},
+                    {{
                         "label": "2nd Jumu'ah",
                         "time": "HH:MM AM/PM",
                         "speaker": "Name of Speaker"
-                    }
+                    }}
                 ]
-            },
-            {
+            }},
+            {{
                 "location": "YaseenBurlingame",
                 "prayers": [
-                    {
+                    {{
                         "label": "1st Jumu'ah",
                         "time": "HH:MM AM/PM",
                         "speaker": "Name of Speaker"
-                    },
-                    {
+                    }},
+                    {{
                         "label": "2nd Jumu'ah",
                         "time": "HH:MM AM/PM",
                         "speaker": "Name of Speaker"
-                    }
+                    }}
                 ]
-            }
+            }}
         ]
         
         Rules:
         - Return ONLY the raw JSON list. No markdown wrapping.
         - If a speaker is not listed, use null.
         - Ensure times are formatted as "HH:MM AM/PM" (e.g., "1:30 PM").
-        - Capture the specific speakers for the upcoming Friday mentioned in the image.
+        - VERY IMPORTANT: Capture the specific speakers for the upcoming Friday mentioned in the image ({datetime.now().strftime('%B %d')}).
         """
         
         print("Processing image with AI...")

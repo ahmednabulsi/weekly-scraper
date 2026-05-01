@@ -7,7 +7,8 @@ from groq import Groq
 
 
 def get_data_with_ai(url, site_name, section_id=None, retries=3):
-    client = Groq(api_key=os.environ["GEMINI_API_KEY"])
+    api_key = os.environ.get("GEMINI_API_KEY")
+    client = Groq(api_key=api_key)
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -75,6 +76,7 @@ def get_data_with_ai(url, site_name, section_id=None, retries=3):
             - If you find a time without a speaker and a speaker with the same time, combine them
             - If there are multiple speakers for the same time, create separate entries
             - Use "1st Jummah", "2nd Jummah" etc. as labels if not explicitly provided
+            - IMPORTANT for WVMuslim: Many prayers happen at different locations (e.g., LGIC, Prospect Center, etc.). You MUST check the venue or address near the prayer time and append it to the label (e.g., "1st Jummah - LGIC" or "1st Jummah - Prospect").
             
             If a field is not found, use null instead of empty string or guessing.
 
@@ -225,10 +227,15 @@ def consolidate_prayer_data(prayer_data):
     
     consolidated_prayers.sort(key=time_sort_key)
     
-    # Update labels to be sequential
+    # Update labels to be sequential while preserving location info
     for i, prayer in enumerate(consolidated_prayers):
+        current_label = prayer.get('label', '')
+        location_suffix = ""
+        if " - " in current_label:
+            location_suffix = " - " + current_label.split(" - ")[1]
+            
         ordinal = f"{i + 1}{'st' if i == 0 else 'nd' if i == 1 else 'rd' if i == 2 else 'th'}"
-        prayer['label'] = f"{ordinal} Jummah"
+        prayer['label'] = f"{ordinal} Jummah{location_suffix}"
     
     return {
         'location': prayer_data['location'],
@@ -241,7 +248,7 @@ def main():
         "MCA": ("https://www.mcabayarea.org/", "loc_mca"),
         "AlNoor": ("https://www.mcabayarea.org/", "loc_alnoor"),
         "SBIA": ("https://sbia.info", None),
-        "WVMuslim": ("https://wvmuslim.org/prayer/", None)
+        "WVMuslim": ("https://wvmuslim.org/", None)
     }
 
     # Use a dictionary to store mosque data keyed by location (to preserve other mosques)
