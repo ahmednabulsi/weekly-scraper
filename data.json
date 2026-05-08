@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-07 20:59:07.004075",
+    "date_scraped": "2026-05-07 22:53:54.647454",
     "data": [
         {
             "location": "MCA",
@@ -57,17 +57,17 @@
                 {
                     "label": "1st Jummah - Prospect",
                     "time": "1:30 PM",
-                    "speaker": "TBA"
+                    "speaker": "Mahdy Amine"
                 },
                 {
                     "label": "2nd Jummah - Prospect",
                     "time": "2:30 PM",
-                    "speaker": "TBA"
+                    "speaker": "Zaid Yousef"
                 },
                 {
-                    "label": "2nd Jummah - Prospect Center",
+                    "label": "3rd Jummah - Prospect",
                     "time": "3:30 PM",
-                    "speaker": "TBA"
+                    "speaker": "Kareem Darwish"
                 }
             ]
         },
@@ -82,7 +82,7 @@
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Tariq Abuhamdia"
+                    "speaker": "Dr. Ramy Salah"
                 }
             ]
         },
@@ -92,12 +92,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": "Br. Abdul Rahman Awadallah"
+                    "speaker": "Br. Ali Shehadeh"
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Khaled Hamadeh"
+                    "speaker": "Br. Ali Shehadeh"
                 }
             ]
         },
