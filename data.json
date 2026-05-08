@@ -1,20 +1,9 @@
 {
-    "date_scraped": "2026-05-01 03:44:16.456898",
+    "date_scraped": "2026-05-07 20:59:07.004075",
     "data": [
         {
             "location": "MCA",
-            "prayers": [
-                {
-                    "label": "1st Jummah",
-                    "time": "12:15 PM",
-                    "speaker": "Dr. Kareem ElSayed"
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "1:30 PM",
-                    "speaker": "Imam Fuad Mohamed"
-                }
-            ]
+            "prayers": null
         },
         {
             "location": "AlNoor",
@@ -22,12 +11,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": "Imam Tahir Anwar"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Sh. Alauddin El-Bakri"
+                    "speaker": "Imam Fuad Mohamed"
                 }
             ]
         },
@@ -52,22 +41,12 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Shaykh Abdulnasir Jangda"
+                    "speaker": "Ihab Badr"
                 },
                 {
-                    "label": "1st Jummah - Prospect",
-                    "time": "1:30 PM",
-                    "speaker": "Kareem Elsayed"
-                },
-                {
-                    "label": "2nd Jummah - Prospect",
-                    "time": "2:30 PM",
-                    "speaker": "Farhad Noorzay"
-                },
-                {
-                    "label": "3rd Jummah - Prospect",
+                    "label": "2nd Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": "Saleh Saleh"
+                    "speaker": "TBA"
                 }
             ]
         },
@@ -232,12 +211,12 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:25 PM",
-                    "speaker": "Sami Rehman"
+                    "speaker": "Dr. Abdullah Ali"
                 },
                 {
                     "label": "Jummah 2",
                     "time": "3:25 PM",
-                    "speaker": "Imam Tahir"
+                    "speaker": "Ustadh Roger Rojas"
                 }
             ]
         },
