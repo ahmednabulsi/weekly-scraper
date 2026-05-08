@@ -3,7 +3,18 @@
     "data": [
         {
             "location": "MCA",
-            "prayers": null
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "12:15 PM",
+                    "speaker": "Dr. Mohammed Nadeem"
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Imam Fuad Mohamed"
+                }
+            ]
         },
         {
             "location": "AlNoor",
@@ -42,6 +53,16 @@
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
                     "speaker": "Ihab Badr"
+                },
+                {
+                    "label": "1st Jummah - Prospect",
+                    "time": "1:30 PM",
+                    "speaker": "TBA"
+                },
+                {
+                    "label": "2nd Jummah - Prospect",
+                    "time": "2:30 PM",
+                    "speaker": "TBA"
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
