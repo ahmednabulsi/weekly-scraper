@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-07 22:53:54.647454",
+    "date_scraped": "2026-05-14 22:24:45.733076",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Dr. Mohammed Nadeem"
+                    "speaker": "Br. Javed Avdic"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Imam Fuad Mohamed"
+                    "speaker": "Br. Javed Avdic"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Imam Tahir Anwar"
+                    "speaker": "Dr. Khaled Labib"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Imam Fuad Mohamed"
+                    "speaker": "Br. Ihab Badr"
                 }
             ]
         },
@@ -50,24 +50,24 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - LGIC",
+                    "label": "2nd Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Ihab Badr"
+                    "speaker": "Imam Basil Farooq"
                 },
                 {
                     "label": "1st Jummah - Prospect",
                     "time": "1:30 PM",
-                    "speaker": "Mahdy Amine"
+                    "speaker": "Omair Kamil"
                 },
                 {
                     "label": "2nd Jummah - Prospect",
                     "time": "2:30 PM",
-                    "speaker": "Zaid Yousef"
+                    "speaker": "Shaykh Munsif"
                 },
                 {
                     "label": "3rd Jummah - Prospect",
                     "time": "3:30 PM",
-                    "speaker": "Kareem Darwish"
+                    "speaker": "Shaykh Munsif"
                 }
             ]
         },
@@ -107,7 +107,8 @@
                 {
                     "label": "Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -117,12 +118,14 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "3:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -132,12 +135,14 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:05 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 2",
                     "time": "2:05 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -147,17 +152,20 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:00 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 2",
                     "time": "2:00 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 3",
                     "time": "3:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -167,22 +175,26 @@
                 {
                     "label": "Jummah 1 - MCC East Bay",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 2 - Rosewood Center",
                     "time": "1:40 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 3 - MCC East Bay",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 4 - MCC East Bay",
                     "time": "3:40 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -192,7 +204,8 @@
                 {
                     "label": "Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -202,12 +215,14 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 2",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -217,12 +232,14 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 },
                 {
                     "label": "Jummah 2",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         },
@@ -232,12 +249,12 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:25 PM",
-                    "speaker": "Dr. Abdullah Ali"
+                    "speaker": "Imam Ihab Badr"
                 },
                 {
                     "label": "Jummah 2",
                     "time": "3:25 PM",
-                    "speaker": "Ustadh Roger Rojas"
+                    "speaker": "Imam Bilal Mahmoud"
                 }
             ]
         },
@@ -247,7 +264,8 @@
                 {
                     "label": "Jummah",
                     "time": "1:20 PM",
-                    "speaker": null
+                    "speaker": null,
+                    "prev_speaker": null
                 }
             ]
         }
