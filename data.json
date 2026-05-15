@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-14 22:46:10.293225",
+    "date_scraped": "2026-05-15 10:47:55.339248",
     "data": [
         {
             "location": "MCA",
@@ -82,7 +82,7 @@
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Ramy Salah"
+                    "speaker": "Sh. Abdelrahman Saafan"
                 }
             ]
         },
@@ -92,12 +92,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": "Br. Ali Shehadeh"
+                    "speaker": "Dr. Hatem Bazian"
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Ali Shehadeh"
+                    "speaker": "Dr. Hatem Bazian"
                 }
             ]
         },
