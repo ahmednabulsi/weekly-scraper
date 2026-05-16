@@ -1,0 +1,23 @@
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    # Runs every Wednesday at 12:00 UTC (midweek ping to stay active)
+    - cron: '0 12 * * 3'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Supabase
+        run: |
+          curl -s -o /dev/null -w "HTTP status: %{http_code}\n" \
+            'https://actmvmzhhodglnvxkpzf.supabase.co/auth/v1/token?grant_type=password' \
+            -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFjdG12bXpoaG9kZ2xudnhrcHpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMDg2MjAsImV4cCI6MjA5Mjc4NDYyMH0.UUkKfV_wKibQU2zm0G0HLNiXIqziYswyRKnumA9l2lk' \
+            -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFjdG12bXpoaG9kZ2xudnhrcHpmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMDg2MjAsImV4cCI6MjA5Mjc4NDYyMH0.UUkKfV_wKibQU2zm0G0HLNiXIqziYswyRKnumA9l2lk' \
+            -H 'content-type: application/json' \
+            -H 'x-supabase-api-version: 2024-01-01' \
+            --data-raw '{"email":"keepalive@example.com","password":"keepalive","gotrue_meta_security":{}}'
+          echo "Supabase ping complete."
