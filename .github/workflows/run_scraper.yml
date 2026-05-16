@@ -2,8 +2,12 @@ name: Weekly Scraper
 
 on:
   schedule:
-    # Runs at 03:00 UTC every Friday (7:00 PM Thursday PDT)
-    - cron: '0 3 * * 5'
+    # Runs at 00:00 UTC Friday (5:00 PM Thursday PDT / UTC-7)
+    - cron: '0 0 * * 5'
+    # Runs at 05:00 UTC Friday (10:00 PM Thursday PDT / UTC-7)
+    - cron: '0 5 * * 5'
+    # Runs at 09:00 UTC Friday (2:00 AM Friday PDT / UTC-7)
+    - cron: '0 9 * * 5'
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
@@ -25,20 +29,19 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests groq
-          # pip install requests google-genai # Note the new library name
+          pip install requests groq google-generativeai beautifulsoup4 lxml Pillow
 
-      - name: Run scraper
+      - name: Run all scrapers
         env:
           # This pulls the key you saved in GitHub Settings > Secrets
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scraper.py
+        run: python run_all.py
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add -A
           # The "|| exit 0" prevents the workflow from failing if there are no data changes
           git commit -m "Automated data update: $(date)" || exit 0
           git push
