@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-15 10:47:55.339248",
+    "date_scraped": "2026-05-16 07:10:44.182746",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Br. Javed Avdic"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Javed Avdic"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Khaled Labib"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": null
                 }
             ]
         },
@@ -52,22 +52,22 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Imam Basil Farooq"
+                    "speaker": null
                 },
                 {
                     "label": "1st Jummah - Prospect",
                     "time": "1:30 PM",
-                    "speaker": "Omair Kamil"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah - Prospect",
                     "time": "2:30 PM",
-                    "speaker": "Shaykh Munsif"
+                    "speaker": null
                 },
                 {
                     "label": "3rd Jummah - Prospect",
                     "time": "3:30 PM",
-                    "speaker": "Shaykh Munsif"
+                    "speaker": null
                 }
             ]
         },
@@ -77,12 +77,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": "Br. Motie Omari"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Abdelrahman Saafan"
+                    "speaker": null
                 }
             ]
         },
@@ -92,12 +92,12 @@
                 {
                     "label": "1st Jumu'ah",
                     "time": "12:30 PM",
-                    "speaker": "Dr. Hatem Bazian"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jumu'ah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Hatem Bazian"
+                    "speaker": null
                 }
             ]
         },
@@ -249,12 +249,12 @@
                 {
                     "label": "Jummah 1",
                     "time": "1:25 PM",
-                    "speaker": "Imam Ihab Badr"
+                    "speaker": null
                 },
                 {
                     "label": "Jummah 2",
                     "time": "3:25 PM",
-                    "speaker": "Imam Bilal Mahmoud"
+                    "speaker": null
                 }
             ]
         },
