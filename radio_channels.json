@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "channels": [
+    {
+      "id": "abu-dhabi-quran",
+      "name": "Abu Dhabi Quran Kareem",
+      "subtitle": "UAE Official Quran Radio",
+      "streamURL": "https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/quran/quran_hls_nd/index.m3u8?md5=lM61PMEgR3qolW_mbyNulA&expires=1778903210",
+      "icon": "building.columns.fill",
+      "imageURL": null,
+      "assetName": "abu dhabi quran kareem",
+      "country": "UAE"
+    },
+    {
+      "id": "cairo-quran",
+      "name": "Cairo Quran Kareem",
+      "subtitle": "Egyptian Radio — Quran Channel",
+      "streamURL": "https://n06.radiojar.com/8s5u5tpdtwzuv?rj-ttl=5&rj-tok=AAABni67qR4AU3pbSss_e17IdA",
+      "icon": "sun.horizon.fill",
+      "imageURL": null,
+      "assetName": "cairo-quran",
+      "country": "Egypt",
+      "layout": "tile"
+    },
+    {
+      "id": "community-radio",
+      "name": "Your Community Radio 93.5 FM",
+      "subtitle": "UK Muslim Community Station",
+      "streamURL": "http://radio.canstream.co.uk:8096/live.aac",
+      "icon": "antenna.radiowaves.left.and.right",
+      "imageURL": null,
+      "assetName": "community-radio",
+      "country": "UK"
+    },
+    {
+      "id": "nablus-quran",
+      "name": "Nablus Quran",
+      "subtitle": "Palestine Quran Radio",
+      "streamURL": "https://quran-radio.org:8899/;?type=http&nocache=29",
+      "icon": "moon.stars.fill",
+      "imageURL": null,
+      "assetName": "quran nablus",
+      "country": "Palestine"
+    },
+    {
+      "id": "ratib-nabulsi-sharawi",
+      "name": "Quran Tafsir - Ratib Nabulsi and Sharawi",
+      "subtitle": "Islamic Tafsir & Lectures",
+      "streamURL": "https://server.emancity.com:9992/stream",
+      "icon": "book.fill",
+      "imageURL": null,
+      "assetName": "Ratib Nabulsi and Sharawi"
+    },
+    {
+      "id": "radio-al-ruqyah",
+      "name": "Radio Al Ruqyah",
+      "subtitle": "Ruqyah & Quran Healing",
+      "streamURL": "https://radio.alruqyaradio.com:8008/stream",
+      "icon": "waveform.path.ecg",
+      "imageURL": null,
+      "assetName": "Radio Al Ruqyah"
+    }
+  ]
+}
