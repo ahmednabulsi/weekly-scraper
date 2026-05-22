@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-22 08:22:59.592629",
+    "date_scraped": "2026-05-22 11:50:58.899118",
     "data": [
         {
             "location": "MCA",
@@ -56,16 +56,11 @@
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
-                    "time": "1:30 PM",
-                    "speaker": "Imam Basil Farooq"
-                },
-                {
-                    "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
                     "speaker": "Taaha Chaudhry"
                 },
                 {
-                    "label": "4th Jummah - Prospect Center",
+                    "label": "3rd Jummah - Prospect Center",
                     "time": "3:30 PM",
                     "speaker": "Ust. AbdulRehman Baig"
                 }
