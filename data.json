@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-22 03:49:26.478487",
+    "date_scraped": "2026-05-22 08:22:59.592629",
     "data": [
         {
             "location": "MCA",
@@ -55,7 +55,7 @@
                     "speaker": "Ust. AbdulRehman Baig"
                 },
                 {
-                    "label": "2nd Jummah",
+                    "label": "2nd Jummah - Prospect Center",
                     "time": "1:30 PM",
                     "speaker": "Imam Basil Farooq"
                 },
@@ -67,7 +67,7 @@
                 {
                     "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": null
+                    "speaker": "Ust. AbdulRehman Baig"
                 }
             ]
         },
