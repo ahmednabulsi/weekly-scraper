@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-16 07:10:44.182746",
+    "date_scraped": "2026-05-22 03:49:26.478487",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Sh. Abdelrazek El-Ghawaby"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Abdelrazek El-Ghawaby"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Kawsar Hossein"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Alauddin Elbakri"
                 }
             ]
         },
@@ -52,20 +52,20 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Ust. AbdulRehman Baig"
                 },
                 {
-                    "label": "1st Jummah - Prospect",
+                    "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Basil Farooq"
                 },
                 {
-                    "label": "2nd Jummah - Prospect",
+                    "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Taaha Chaudhry"
                 },
                 {
-                    "label": "3rd Jummah - Prospect",
+                    "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
                     "speaker": null
                 }
