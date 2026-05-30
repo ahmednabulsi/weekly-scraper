@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-05-29 12:23:21.033563",
+    "date_scraped": "2026-05-30 07:36:13.163170",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Khaled Obeid"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Omar ElGamal"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Dr. Khaled Labib"
+                    "speaker": null
                 }
             ]
         },
@@ -52,22 +52,22 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Imam Basil Farooq"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
                     "time": "1:30 PM",
-                    "speaker": "Ihab Badr"
+                    "speaker": null
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
-                    "speaker": "Farhad Noorzay"
+                    "speaker": null
                 },
                 {
                     "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": "Shaykh Junaid Bhaiyat"
+                    "speaker": null
                 }
             ]
         },
