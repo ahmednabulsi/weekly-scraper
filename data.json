@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-05 12:16:01.568807",
+    "date_scraped": "2026-06-06 07:43:06.451857",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Alauddin Elbakri"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Khaled Obeid"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Sh. Alauddin Elbakri"
+                    "speaker": null
                 }
             ]
         },
@@ -52,22 +52,22 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Shaykh Junaid Bhaiyat"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Samy Hilali"
+                    "speaker": null
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
-                    "speaker": "Imam Basil Farooq"
+                    "speaker": null
                 },
                 {
                     "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": "Kareem Syed"
+                    "speaker": null
                 }
             ]
         },
