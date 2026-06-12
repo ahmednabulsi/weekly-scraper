@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-12 04:06:40.946595",
+    "date_scraped": "2026-06-12 08:58:06.740982",
     "data": [
         {
             "location": "MCA",
@@ -56,6 +56,11 @@
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
+                    "time": "1:30 PM",
+                    "speaker": "Farhad Noorzay"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
                     "time": "3:30 PM",
                     "speaker": null
                 }
