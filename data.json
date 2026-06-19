@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-19 04:25:24.583334",
+    "date_scraped": "2026-06-19 09:28:38.682097",
     "data": [
         {
             "location": "MCA",
@@ -51,7 +51,22 @@
             "prayers": [
                 {
                     "label": "1st Jummah - LGIC",
-                    "time": "1:30 pm",
+                    "time": "1:30 PM",
+                    "speaker": "Imam Basil Farooq"
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Omair Kamil"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "2:30 PM",
+                    "speaker": "Zaid Yousef"
+                },
+                {
+                    "label": "4th Jummah - Prospect Center",
+                    "time": "3:30 PM",
                     "speaker": "TBA"
                 }
             ]
