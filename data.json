@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-19 12:52:51.057113",
+    "date_scraped": "2026-06-20 08:18:41.376992",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Dr. Talaat Pasha"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Imam Fuad Mohamed"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Samy Hilali"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Sh. Abdulhameed Mohammed"
+                    "speaker": null
                 }
             ]
         },
@@ -52,22 +52,22 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Imam Basil Farooq"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Omair Kamil"
+                    "speaker": null
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
-                    "speaker": "Zaid Yousef"
+                    "speaker": null
                 },
                 {
                     "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": "TBA"
+                    "speaker": null
                 }
             ]
         },
