@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masjid Times — Widget Configurator</title>
+<link rel="stylesheet" href="node_modules/tom-select/dist/css/tom-select.css">
+<script src="node_modules/tom-select/dist/js/tom-select.complete.min.js"></script>
+<script src="masjid-times.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    min-height: 100vh;
+  }
+
+  /* ── Top bar ── */
+  .topbar {
+    background: #1b2d45;
+    color: #fff;
+    padding: 14px 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }
+  .topbar-icon { font-size: 1.5rem; }
+  .topbar h1 { font-size: 1.1rem; font-weight: 700; }
+  .topbar p { font-size: 0.8rem; opacity: 0.65; margin-top: 1px; }
+
+  /* ── Layout ── */
+  .layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 0;
+    height: calc(100vh - 60px);
+  }
+
+  /* ── Controls panel ── */
+  .panel {
+    background: #fff;
+    border-right: 1px solid #dde1e7;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #8090a0;
+    margin-bottom: 8px;
+  }
+  .control-group { display: flex; flex-direction: column; gap: 10px; }
+
+  label.ctrl { display: flex; flex-direction: column; gap: 4px; }
+  label.ctrl .lbl { font-size: 0.8rem; font-weight: 600; color: #3a4a5a; }
+
+  select, input[type="text"], input[type="url"], input[type="color"] {
+    border: 1px solid #d0d5dd;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 0.85rem;
+    color: #1a1a2e;
+    background: #fafbfc;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  select:focus, input:focus { border-color: #1a5276; }
+
+  .ts-wrapper.single .ts-control {
+    border: 1px solid #d0d5dd;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 0.85rem;
+    color: #1a1a2e;
+    background: #fafbfc;
+    box-shadow: none;
+  }
+  .ts-wrapper.focus .ts-control { border-color: #1a5276; }
+  .ts-dropdown { border-radius: 7px; overflow: hidden; }
+  .ts-dropdown .option { padding: 9px 10px; }
+  .mosque-option-name { font-size: 0.85rem; font-weight: 600; color: #1a1a2e; }
+  .mosque-option-address { margin-top: 2px; font-size: 0.72rem; color: #687786; }
+
+  input[type="color"] {
+    padding: 2px 4px;
+    height: 36px;
+    cursor: pointer;
+  }
+
+  .color-row { display: flex; gap: 8px; align-items: center; }
+  .color-row input[type="color"] { width: 48px; flex-shrink: 0; }
+  .color-row input[type="text"] { flex: 1; }
+
+  .width-row { display: flex; gap: 8px; align-items: center; }
+  .width-row select { flex: 1; }
+  .width-fixed { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+  .width-fixed input[type="number"] { width: 70px; padding: 7px 8px; border: 1px solid #d0d5dd; border-radius: 7px; font-size: 0.85rem; }
+  .width-fixed span { font-size: 0.8rem; color: #6c757d; }
+
+  /* Toggles */
+  .toggle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .toggle-item { display: flex; align-items: center; gap: 7px; font-size: 0.82rem; cursor: pointer; }
+  .toggle-item input[type="checkbox"] { width: 16px; height: 16px; accent-color: #1a5276; cursor: pointer; }
+
+  /* Prayers multi-select */
+  .prayer-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .prayer-chip {
+    display: flex; align-items: center; gap: 5px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1.5px solid #d0d5dd;
+    font-size: 0.78rem;
+    cursor: pointer;
+    background: #f5f7fa;
+    transition: all 0.15s;
+    user-select: none;
+  }
+  .prayer-chip.active {
+    background: #1a5276;
+    border-color: #1a5276;
+    color: #fff;
+  }
+
+  /* Theme swatches */
+  .theme-swatches { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .theme-swatch {
+    border-radius: 8px;
+    padding: 8px 6px;
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.15s;
+  }
+  .theme-swatch.active { border-color: #1a5276; }
+  .theme-swatch[data-theme="light"]   { background: #fff; color: #1a5276; border-color: #dee2e6; }
+  .theme-swatch[data-theme="dark"]    { background: #1a1a2e; color: #e8e8e8; }
+  .theme-swatch[data-theme="emerald"] { background: #f0faf4; color: #2d6a4f; border-color: #b7dfca; }
+  .theme-swatch[data-theme="navy"]    { background: #0d1b2a; color: #c9a84c; }
+  .theme-swatch[data-theme="gold"]    { background: #fdfaf3; color: #b7791f; border-color: #e9d87e; }
+  .theme-swatch[data-theme="minimal"] { background: #f5f7fa; color: #2d6a4f; border-color: #ccc; }
+  .theme-swatch.active { outline: 2px solid #1a5276; outline-offset: 2px; }
+
+  /* ── Preview panel ── */
+  .preview-pane {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .preview-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: repeating-conic-gradient(#e8eaed 0% 25%, #f0f2f5 0% 50%) 0 0 / 24px 24px;
+  }
+
+  .preview-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #8090a0;
+    margin-bottom: -16px;
+    align-self: flex-start;
+  }
+
+  masjid-prayer-times {
+    width: 100%;
+  }
+
+  /* ── Code output ── */
+  .code-area {
+    border-top: none;
+    background: #1b2d45;
+    padding: 0 20px 16px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    min-height: 120px;
+    overflow: hidden;
+  }
+  .code-drag-handle {
+    height: 10px;
+    flex-shrink: 0;
+    cursor: ns-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -20px 12px;
+    border-top: 1px solid #dde1e7;
+    background: rgba(255,255,255,0.04);
+    transition: background 0.15s;
+  }
+  .code-drag-handle::after {
+    content: '';
+    width: 36px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.18);
+    transition: background 0.15s;
+  }
+  .code-drag-handle:hover { background: rgba(255,255,255,0.09); }
+  .code-drag-handle:hover::after { background: rgba(255,255,255,0.4); }
+  .code-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .code-title { font-size: 0.75rem; font-weight: 700; color: #8aa8c8; text-transform: uppercase; letter-spacing: 0.5px; }
+  .copy-btn {
+    padding: 5px 14px;
+    border-radius: 6px;
+    border: 1px solid #4a6a8a;
+    background: transparent;
+    color: #a0c0e0;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .copy-btn:hover { background: #2d4a6a; color: #fff; }
+  .copy-btn.copied { background: #2d6a4f; border-color: #2d6a4f; color: #fff; }
+
+  pre.code-block {
+    font-family: 'Fira Code', 'Cascadia Code', 'Menlo', monospace;
+    font-size: 0.78rem;
+    line-height: 1.6;
+    color: #c8dff5;
+    overflow: auto;
+    white-space: pre;
+    flex: 1;
+    min-height: 0;
+  }
+  .tok-tag    { color: #79c0ff; }
+  .tok-attr   { color: #ffa657; }
+  .tok-val    { color: #a5d6ff; }
+  .tok-string { color: #b5e6a0; }
+  .tok-punct  { color: #8090a0; }
+
+  @media (max-width: 820px) {
+    .layout { grid-template-columns: 1fr; grid-template-rows: auto 1fr; height: auto; }
+    .panel { height: auto; max-height: 60vh; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-icon">🕌</div>
+  <div>
+    <h1>Masjid Times — Widget Configurator</h1>
+    <p>Customize the widget then copy the embed code</p>
+  </div>
+</div>
+
+<div class="layout">
+
+  <!-- ── Controls ── -->
+  <div class="panel" id="panel">
+
+    <!-- Mosque -->
+    <div>
+      <div class="section-title">Mosque</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">Mosque</span>
+          <select id="c-mosque-id"><option value="">Loading…</option></select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Logo URL (optional)</span>
+          <input type="url" id="c-logo-url" placeholder="https://example.com/logo.png">
+        </label>
+        <label class="ctrl">
+          <span class="lbl">API URL</span>
+          <input type="text" id="c-api-url" value="http://localhost:3000">
+        </label>
+      </div>
+    </div>
+
+    <!-- Theme -->
+    <div>
+      <div class="section-title">Theme</div>
+      <div class="theme-swatches" id="theme-swatches">
+        <div class="theme-swatch active" data-theme="light">Light</div>
+        <div class="theme-swatch" data-theme="dark">Dark</div>
+        <div class="theme-swatch" data-theme="emerald">Emerald</div>
+        <div class="theme-swatch" data-theme="navy">Navy</div>
+        <div class="theme-swatch" data-theme="gold">Gold</div>
+        <div class="theme-swatch" data-theme="minimal">Minimal</div>
+      </div>
+    </div>
+
+    <!-- Colors -->
+    <div>
+      <div class="section-title">Colors</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">Accent color</span>
+          <div class="color-row">
+            <input type="color" id="c-accent-color-picker" value="#1a5276">
+            <input type="text"  id="c-accent-color" placeholder="theme default" value="">
+          </div>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Background color</span>
+          <div class="color-row">
+            <input type="color" id="c-bg-color-picker" value="#ffffff">
+            <input type="text"  id="c-bg-color" placeholder="transparent / #fff / …" value="">
+          </div>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Text color</span>
+          <div class="color-row">
+            <input type="color" id="c-text-color-picker" value="#1a1a2e">
+            <input type="text"  id="c-text-color" placeholder="theme default" value="">
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Display -->
+    <div>
+      <div class="section-title">Display</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">View</span>
+          <select id="c-view">
+            <option value="daily">Daily</option>
+            <option value="monthly">Monthly</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Daily layout</span>
+          <select id="c-daily-layout">
+            <option value="list">List (vertical)</option>
+            <option value="row">Row (horizontal)</option>
+            <option value="compact">Compact (table, dense)</option>
+            <option value="focused">Focused (hero + strip)</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Language</span>
+          <select id="c-lang">
+            <option value="en">English</option>
+            <option value="ar">Arabic (RTL)</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Time format</span>
+          <select id="c-time-format">
+            <option value="12h">12h (6:05 AM)</option>
+            <option value="24h">24h (06:05)</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Date format</span>
+          <select id="c-date-format">
+            <option value="MMMM D, YYYY">May 13, 2026</option>
+            <option value="D MMMM YYYY">13 May 2026</option>
+            <option value="DD/MM/YYYY">13/05/2026</option>
+            <option value="MM-DD-YYYY">05-13-2026</option>
+            <option value="D MMM YYYY">13 May 2026 (short)</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Font size</span>
+          <select id="c-font-size">
+            <option value="">Normal (default)</option>
+            <option value="0.8rem">Small (0.8rem)</option>
+            <option value="0.875rem">Medium-small (0.875rem)</option>
+            <option value="1.125rem">Large (1.125rem)</option>
+            <option value="1.25rem">XL (1.25rem)</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Monthly options (shown only when view = monthly) -->
+    <div id="monthly-options" style="display:none">
+      <div class="section-title">Monthly Table</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">Layout</span>
+          <select id="c-monthly-layout">
+            <option value="stacked">Stacked — Adhan &amp; Iqamah in one cell</option>
+            <option value="split" selected>Split — separate columns per prayer</option>
+          </select>
+        </label>
+        <label class="ctrl">
+          <span class="lbl">Day name</span>
+          <select id="c-day-name">
+            <option value="short" selected>Short (Sat)</option>
+            <option value="long">Long (Saturday)</option>
+            <option value="none">Hidden</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Highlight (applies to both views) -->
+    <div>
+      <div class="section-title">Highlight</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">Emphasize time</span>
+          <select id="c-highlight-time">
+            <option value="adhan">Adhan (bold)</option>
+            <option value="iqamah">Iqamah (bold)</option>
+            <option value="both" selected>Both (equal weight)</option>
+            <option value="none">None (no emphasis)</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Width -->
+    <div>
+      <div class="section-title">Width</div>
+      <div class="control-group">
+        <label class="ctrl">
+          <span class="lbl">Width mode</span>
+          <div class="width-row">
+            <select id="c-width-mode">
+              <option value="responsive">Responsive — fills container</option>
+              <option value="fixed">Fixed width</option>
+            </select>
+            <div class="width-fixed" id="c-width-fixed" style="display:none">
+              <input type="number" id="c-width-px" value="400" min="240" max="900" step="10">
+              <span>px</span>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Prayers -->
+    <div>
+      <div class="section-title">Prayers to show</div>
+      <div class="prayer-chips" id="prayer-chips">
+        <div class="prayer-chip active" data-prayer="fajr">Fajr</div>
+        <div class="prayer-chip active" data-prayer="dhuhr">Dhuhr</div>
+        <div class="prayer-chip active" data-prayer="asr">Asr</div>
+        <div class="prayer-chip active" data-prayer="maghrib">Maghrib</div>
+        <div class="prayer-chip active" data-prayer="isha">Isha</div>
+      </div>
+    </div>
+
+    <!-- Toggles -->
+    <div>
+      <div class="section-title">Show / Hide</div>
+      <div class="toggle-grid">
+        <label class="toggle-item"><input type="checkbox" id="c-show-azaan"   checked> Adhan times</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-iqamah"  checked> Iqamah times</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-date"    checked> Date header</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-hijri"   checked> Hijri date</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-hijri-col"> Hijri column (monthly)</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-sunrise" checked> Sunrise</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-icons" checked> Prayer icons</label>
+      </div>
+    </div>
+
+    <!-- Custom Labels -->
+    <div>
+      <div class="section-title">Custom Labels</div>
+      <label class="ctrl"><span class="lbl">Prayer names</span>
+        <input type="text" id="c-prayer-names" placeholder="e.g. Fajr,Zuhr,Asr,Maghrib,Isha">
+      </label>
+      <label class="ctrl" style="margin-top:6px"><span class="lbl">Sunrise label</span>
+        <input type="text" id="c-sunrise-label" placeholder="e.g. Sunrise">
+      </label>
+      <label class="ctrl" style="margin-top:6px"><span class="lbl">Adhan label</span>
+        <input type="text" id="c-adhan-label" placeholder="e.g. Adhan">
+      </label>
+      <label class="ctrl" style="margin-top:6px"><span class="lbl">Iqamah label</span>
+        <input type="text" id="c-iqamah-label" placeholder="e.g. Iqamah">
+      </label>
+    </div>
+
+  </div><!-- /panel -->
+
+  <!-- ── Preview + code ── -->
+  <div class="preview-pane">
+    <div class="preview-area">
+      <div class="preview-label">Live Preview</div>
+      <masjid-prayer-times id="widget"
+        mosque-id=""
+        view="daily"
+        theme="light"
+        lang="en"
+        time-format="12h"
+        show-azaan="true"
+        show-iqamah="true"
+        show-sunrise="true"
+        show-date="true"
+        show-hijri="true"
+        date-format="MMMM D, YYYY"
+        prayers="fajr,dhuhr,asr,maghrib,isha"
+        api-url="http://localhost:3000"
+      ></masjid-prayer-times>
+    </div>
+
+    <div class="code-area" id="code-area">
+      <div class="code-drag-handle" id="code-drag-handle"></div>
+      <div class="code-header">
+        <span class="code-title">Embed Code</span>
+        <button class="copy-btn" id="copy-btn">Copy</button>
+      </div>
+      <pre class="code-block" id="code-output"></pre>
+    </div>
+  </div>
+
+</div><!-- /layout -->
+
+<script>
+(function () {
+  const widget = document.getElementById('widget');
+  const codeOut = document.getElementById('code-output');
+  const apiUrlInput = document.getElementById('c-api-url');
+  const mosqueSelect = document.getElementById('c-mosque-id');
+  let mosqueList = [];
+  let mosqueSelectControl = null;
+
+  // ── State ────────────────────────────────────────────────────────────────
+  const OPTIONAL_ATTRS = new Set(['logo-url','accent-color','bg-color','text-color','font-size','prayer-names','sunrise-label','adhan-label','iqamah-label']);
+  const RESPONSIVE_DEFAULT = new Set(['width']); // omit from embed code when at default
+
+  const state = {
+    'mosque-id':       '',
+    'view':            'daily',
+    'theme':           'light',
+    'lang':            'en',
+    'time-format':     '12h',
+    'show-azaan':      'true',
+    'show-iqamah':     'true',
+    'show-sunrise':    'true',
+    'show-date':       'true',
+    'show-hijri':      'true',
+    'show-hijri-col':  'false',
+    'show-icons':      'true',
+    'day-name':        'short',
+    'daily-layout':    'list',
+    'date-format':     'MMMM D, YYYY',
+    'prayers':         'fajr,dhuhr,asr,maghrib,isha',
+    'logo-url':        '',
+    'accent-color':    '',
+    'bg-color':        '',
+    'text-color':      '',
+    'monthly-layout':  'split',
+    'highlight-time':  'both',
+    'width':           'responsive',
+    'font-size':       '',
+    'prayer-names':    '',
+    'sunrise-label':   '',
+    'adhan-label':     '',
+    'iqamah-label':    '',
+    'api-url':         'http://localhost:3000',
+  };
+
+  function applyState() {
+    for (const [k, v] of Object.entries(state)) {
+      if (v === '' && OPTIONAL_ATTRS.has(k)) {
+        widget.removeAttribute(k);
+      } else {
+        widget.setAttribute(k, v);
+      }
+    }
+    // Show/hide monthly-specific panel
+    document.getElementById('monthly-options').style.display =
+      state['view'] === 'monthly' ? 'block' : 'none';
+    // Reflect fixed width on the preview wrapper so it's visible in the demo
+    widget.style.maxWidth = state['width'] === 'responsive' ? '' : state['width'];
+    updateCode();
+  }
+
+  function set(key, val) {
+    state[key] = val;
+    applyState();
+  }
+
+  // ── Load mosques ─────────────────────────────────────────────────────────
+  function mosqueAddress(mosque) {
+    const street = mosque.address && mosque.address !== '-' ? mosque.address : '';
+    const locality = [mosque.city, mosque.state, mosque.zip]
+      .filter(value => value && value !== '-')
+      .join(', ');
+    return [street, locality].filter(Boolean).join(' · ');
+  }
+
+  function setupMosqueSelect() {
+    if (mosqueSelectControl) mosqueSelectControl.destroy();
+    mosqueSelect.replaceChildren();
+
+    mosqueSelectControl = new TomSelect(mosqueSelect, {
+      options: mosqueList,
+      valueField: 'id',
+      labelField: 'name',
+      searchField: [
+        { field: 'name', weight: 3 },
+        { field: 'zip', weight: 3 },
+        { field: 'city', weight: 2 },
+        { field: 'state', weight: 3 },
+        { field: 'address', weight: 2 },
+        { field: 'id', weight: 2 }
+      ],
+      searchConjunction: 'and',
+      placeholder: 'Search by name, ZIP, city, state, or address',
+      maxOptions: 100,
+      closeAfterSelect: true,
+      render: {
+        option(mosque, escape) {
+          const address = mosqueAddress(mosque);
+          return `<div><div class="mosque-option-name">${escape(mosque.name)}</div>` +
+            (address ? `<div class="mosque-option-address">${escape(address)}</div>` : '') +
+            '</div>';
+        },
+        item(mosque, escape) {
+          return `<div>${escape(mosque.name)}</div>`;
+        },
+        no_results(data, escape) {
+          return `<div class="no-results">No mosques found for "${escape(data.input)}"</div>`;
+        }
+      },
+      onChange(value) {
+        if (value) set('mosque-id', value);
+      }
+    });
+
+    if (state['mosque-id']) mosqueSelectControl.setValue(state['mosque-id'], true);
+  }
+
+  async function loadMosques() {
+    try {
+      const res = await fetch(`${state['api-url']}/api/mosques`);
+      if (!res.ok) throw new Error();
+      mosqueList = await res.json();
+      if (!mosqueList.some(mosque => mosque.id === state['mosque-id'])) {
+        state['mosque-id'] = mosqueList[0]?.id || '';
+      }
+      setupMosqueSelect();
+      applyState();
+    } catch {
+      mosqueList = [];
+      if (mosqueSelectControl) {
+        mosqueSelectControl.destroy();
+        mosqueSelectControl = null;
+      }
+      mosqueSelect.innerHTML = '<option value="">Server not running</option>';
+    }
+  }
+
+  // ── Controls wiring ──────────────────────────────────────────────────────
+  const selects = {
+    'c-view':            'view',
+    'c-lang':            'lang',
+    'c-time-format':     'time-format',
+    'c-date-format':     'date-format',
+    'c-monthly-layout':  'monthly-layout',
+    'c-highlight-time':  'highlight-time',
+    'c-daily-layout':    'daily-layout',
+    'c-day-name':        'day-name',
+    'c-font-size':       'font-size',
+  };
+  for (const [id, attr] of Object.entries(selects)) {
+    document.getElementById(id).addEventListener('change', e => {
+      set(attr, e.target.value);
+      // Compact layout works best without icons — auto-uncheck when selected
+      if (attr === 'daily-layout') {
+        const iconsEl = document.getElementById('c-show-icons');
+        const shouldHide = e.target.value === 'compact';
+        if (iconsEl.checked === shouldHide) {
+          iconsEl.checked = !shouldHide;
+          set('show-icons', shouldHide ? 'false' : 'true');
+        }
+      }
+    });
+  }
+
+  document.getElementById('c-logo-url').addEventListener('input', e => set('logo-url', e.target.value.trim()));
+  document.getElementById('c-prayer-names').addEventListener('input',  e => set('prayer-names',  e.target.value.trim()));
+  document.getElementById('c-sunrise-label').addEventListener('input', e => set('sunrise-label', e.target.value.trim()));
+  document.getElementById('c-adhan-label').addEventListener('input',   e => set('adhan-label',   e.target.value.trim()));
+  document.getElementById('c-iqamah-label').addEventListener('input',  e => set('iqamah-label',  e.target.value.trim()));
+
+  apiUrlInput.addEventListener('change', e => {
+    set('api-url', e.target.value.trim());
+    loadMosques();
+  });
+
+  // Checkboxes
+  const checks = {
+    'c-show-azaan':   'show-azaan',
+    'c-show-iqamah':  'show-iqamah',
+    'c-show-sunrise': 'show-sunrise',
+    'c-show-date':    'show-date',
+    'c-show-hijri':     'show-hijri',
+    'c-show-hijri-col': 'show-hijri-col',
+    'c-show-icons':     'show-icons',
+  };
+  for (const [id, attr] of Object.entries(checks)) {
+    document.getElementById(id).addEventListener('change', e => set(attr, e.target.checked ? 'true' : 'false'));
+  }
+
+  // Theme swatches
+  document.getElementById('theme-swatches').addEventListener('click', e => {
+    const sw = e.target.closest('[data-theme]');
+    if (!sw) return;
+    document.querySelectorAll('.theme-swatch').forEach(s => s.classList.remove('active'));
+    sw.classList.add('active');
+    set('theme', sw.dataset.theme);
+  });
+
+  // Prayer chips
+  document.getElementById('prayer-chips').addEventListener('click', e => {
+    const chip = e.target.closest('[data-prayer]');
+    if (!chip) return;
+    chip.classList.toggle('active');
+    const active = [...document.querySelectorAll('.prayer-chip.active')].map(c => c.dataset.prayer);
+    set('prayers', active.join(',') || 'fajr');
+  });
+
+  // Color pickers — keep text + picker in sync
+  function wireColorPair(pickerId, textId, attr) {
+    const picker = document.getElementById(pickerId);
+    const text   = document.getElementById(textId);
+    picker.addEventListener('input', e => { text.value = e.target.value; set(attr, e.target.value); });
+    text.addEventListener('input', e => {
+      const v = e.target.value.trim();
+      if (/^#[0-9a-f]{3,6}$/i.test(v)) picker.value = v;
+      set(attr, v);
+    });
+  }
+  wireColorPair('c-accent-color-picker', 'c-accent-color', 'accent-color');
+  wireColorPair('c-bg-color-picker',     'c-bg-color',     'bg-color');
+  wireColorPair('c-text-color-picker',   'c-text-color',   'text-color');
+
+  // Width control
+  const widthModeEl  = document.getElementById('c-width-mode');
+  const widthFixedEl = document.getElementById('c-width-fixed');
+  const widthPxEl    = document.getElementById('c-width-px');
+
+  function applyWidth() {
+    const isFixed = widthModeEl.value === 'fixed';
+    widthFixedEl.style.display = isFixed ? 'flex' : 'none';
+    set('width', isFixed ? `${widthPxEl.value}px` : 'responsive');
+  }
+  widthModeEl.addEventListener('change', applyWidth);
+  widthPxEl.addEventListener('input', applyWidth);
+
+  // ── Code generation ───────────────────────────────────────────────────────
+  // Attrs that are omitted from snippet when at default value
+  const DEFAULTS = {
+    'monthly-layout': 'stacked',
+    'highlight-time': 'both',
+    'width':          'responsive',
+  };
+
+  function updateCode() {
+    const apiUrl = state['api-url'];
+    const attrs = Object.entries(state)
+      .filter(([k, v]) => {
+        if (v === '' && OPTIONAL_ATTRS.has(k)) return false; // omit blank optionals
+        if (DEFAULTS[k] === v) return false;                 // omit default-value attrs
+        return v !== '';
+      })
+      .map(([k, v]) => `  ${k}="${v}"`)
+      .join('\n');
+
+    const raw = `<script src="${apiUrl}/masjid-times.js"><\/script>\n\n<masjid-prayer-times\n${attrs}\n></masjid-prayer-times>`;
+    codeOut.innerHTML = highlight(escHtml(raw));
+  }
+
+  function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  function highlight(code) {
+    return code
+      .replace(/(&lt;\/?)(\w[\w-]*)/g, (_, p, tag) => `${p}<span class="tok-tag">${tag}</span>`)
+      .replace(/([\w-]+)=&quot;([^&]*)&quot;/g, (_, attr, val) =>
+        `<span class="tok-attr">${attr}</span>=<span class="tok-punct">&quot;</span><span class="tok-val">${val}</span><span class="tok-punct">&quot;</span>`)
+      .replace(/(&gt;|&lt;)/g, s => `<span class="tok-punct">${s}</span>`);
+  }
+
+  // ── Copy button ───────────────────────────────────────────────────────────
+  document.getElementById('copy-btn').addEventListener('click', () => {
+    const apiUrl = state['api-url'];
+    const attrs = Object.entries(state)
+      .filter(([k, v]) => {
+        if (v === '' && OPTIONAL_ATTRS.has(k)) return false;
+        if (DEFAULTS[k] === v) return false;
+        return v !== '';
+      })
+      .map(([k, v]) => `  ${k}="${v}"`)
+      .join('\n');
+    const code = `<script src="${apiUrl}/masjid-times.js"><\/script>\n\n<masjid-prayer-times\n${attrs}\n></masjid-prayer-times>`;
+
+    navigator.clipboard.writeText(code).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+    });
+  });
+
+  // ── Code area drag-to-resize ──────────────────────────────────────────────
+  const codeAreaEl   = document.getElementById('code-area');
+  const dragHandleEl = document.getElementById('code-drag-handle');
+
+  dragHandleEl.addEventListener('mousedown', e => {
+    e.preventDefault();
+    const startY  = e.clientY;
+    const startH  = codeAreaEl.offsetHeight;
+
+    function onMove(e) {
+      const newH = Math.max(120, startH - (e.clientY - startY));
+      codeAreaEl.style.height = `${newH}px`;
+    }
+    function onUp() {
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseup', onUp);
+    }
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+  });
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+  loadMosques();
+  updateCode();
+})();
+</script>
+</body>
+</html>

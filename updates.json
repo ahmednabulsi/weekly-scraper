@@ -3,31 +3,31 @@
     "mosques": {
         "alnoor": {
             "version": "2024.04.26",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/alnoor.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/CA/E5Av2wAX/prayers.json"
         },
         "mca": {
             "version": "2024.04.21",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/mca.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/vOLn92KM/prayers.json"
         },
         "bosni": {
             "version": "2026.06.07",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/bosni.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/CA/icbab/prayers.json"
         },
         "Yaseen Belmont Masjid": {
             "version": "2026.04.25",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Yaseen%20Belmont%20Masjid.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/xwLVbkLJ/prayers.json"
         },
         "Yaseen Burlingame Center": {
             "version": "2026.04.25",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Yaseen%20Burlingame%20Center.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/0AWO20Aj/prayers.json"
         },
         "SVIC": {
             "version": "2026.04.27",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/SVIC.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/zKz05nAO/prayers.json"
         },
         "Blossom Valley Muslim Community Center": {
             "version": "2026.06.07",
-            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/Blossom Valley Muslim Community Center.json"
+            "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/3AOVmaLe/prayers.json"
         }
     }
 }
