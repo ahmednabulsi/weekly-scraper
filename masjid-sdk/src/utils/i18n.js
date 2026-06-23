@@ -1,0 +1,26 @@
+export const I18N = {
+  en: {
+    prayers: { fajr: 'Fajr', dhuhr: 'Dhuhr', asr: 'Asr', maghrib: 'Maghrib', isha: 'Isha', sunrise: 'Sunrise' },
+    azaan: 'Adhan', iqamah: 'Iqamah',
+    months: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+    days: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+    daysShort: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+    dayCol: 'Day',
+    hijriMonths: ['Muharram','Safar','Rabi\' al-Awwal','Rabi\' al-Thani','Jumada al-Awwal','Jumada al-Thani','Rajab','Sha\'ban','Ramadan','Shawwal','Dhul-Qa\'dah','Dhul-Hijjah'],
+    hijriCol: 'Hijri',
+    loading: 'Loading prayer times…',
+    error: 'Unable to load prayer times.',
+  },
+  ar: {
+    prayers: { fajr: 'الفجر', dhuhr: 'الظهر', asr: 'العصر', maghrib: 'المغرب', isha: 'العشاء', sunrise: 'الشروق' },
+    azaan: 'الأذان', iqamah: 'الإقامة',
+    months: ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'],
+    days: ['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'],
+    daysShort: ['أحد','اثن','ثلا','أرب','خمي','جمع','سبت'],
+    dayCol: 'يوم',
+    hijriMonths: ['محرم','صفر','ربيع الأول','ربيع الثاني','جمادى الأولى','جمادى الثانية','رجب','شعبان','رمضان','شوال','ذو القعدة','ذو الحجة'],
+    hijriCol: 'هجري',
+    loading: 'جار تحميل أوقات الصلاة…',
+    error: 'تعذّر تحميل أوقات الصلاة.',
+  },
+}

@@ -1,0 +1,23 @@
+{
+  "name": "masjid-times-server",
+  "version": "2.0.0",
+  "description": "API server + SDK for Masjid Prayer Times",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lit": "^3.3.2",
+    "tom-select": "^2.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0",
+    "vue": "^3.4.21"
+  }
+}
