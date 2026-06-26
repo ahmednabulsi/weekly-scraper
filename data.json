@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-20 08:18:41.376992",
+    "date_scraped": "2026-06-26 03:51:54.027146",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Sh. Alauddin El-Bakri"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Omar Hedroug"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Kawsar Hossain"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Mowlid Ali"
                 }
             ]
         },
@@ -50,24 +50,9 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - LGIC",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "3rd Jummah - Prospect Center",
-                    "time": "2:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "4th Jummah - Prospect Center",
-                    "time": "3:30 PM",
-                    "speaker": null
+                    "label": "1st Jummah",
+                    "time": "1:30 pm",
+                    "speaker": "Kareem Elsayed"
                 }
             ]
         },
