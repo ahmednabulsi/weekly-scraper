@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-06-26 11:48:51.136527",
+    "date_scraped": "2026-06-27 07:44:18.638831",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Alauddin El-Bakri"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Omar Hedroug"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Kawsar Hossain"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Imam Mowlid Ali"
+                    "speaker": null
                 }
             ]
         },
@@ -52,7 +52,7 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 pm",
-                    "speaker": "Imam Mowlid Ali"
+                    "speaker": null
                 }
             ]
         },
