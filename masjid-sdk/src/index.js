@@ -13,6 +13,7 @@ class MasjidPrayerTimes extends LitElement {
     theme:         { type: String },
     lang:          { type: String },
     timeFormat:    { type: String, attribute: 'time-format' },
+    showAmpm:      { type: String, attribute: 'show-ampm' },
     showAzaan:     { type: String, attribute: 'show-azaan' },
     showIqamah:    { type: String, attribute: 'show-iqamah' },
     showSunrise:   { type: String, attribute: 'show-sunrise' },
@@ -50,6 +51,7 @@ class MasjidPrayerTimes extends LitElement {
     this.theme         = 'light'
     this.lang          = 'en'
     this.timeFormat    = '12h'
+    this.showAmpm      = 'false'
     this.showAzaan     = 'true'
     this.showIqamah    = 'true'
     this.showSunrise   = 'true'
@@ -85,6 +87,7 @@ class MasjidPrayerTimes extends LitElement {
 
   get _t()           { return I18N[this.lang] || I18N.en }
   get _showAzaan()   { return this.showAzaan   !== 'false' }
+  get _showAmpm()    { return this.showAmpm    === 'true' }
   get _showIqamah()  { return this.showIqamah  !== 'false' }
   get _showSunrise() { return this.showSunrise === 'true' }
   get _showDate()    { return this.showDate    !== 'false' }
@@ -109,6 +112,11 @@ class MasjidPrayerTimes extends LitElement {
 
   get _prayerList() {
     return this.prayers.split(',').map(s => s.trim()).filter(Boolean)
+  }
+
+  _formatPrayerTime(time, prayer) {
+    const period = prayer === 'fajr' || prayer === 'sunrise' ? 'AM' : 'PM'
+    return formatTime(time, this.timeFormat, this.lang, this._showAmpm, period)
   }
 
   get _displayPrayers() {
@@ -292,7 +300,7 @@ class MasjidPrayerTimes extends LitElement {
               ? html`
                   <div class="times-group">
                     <div class="time-block">
-                      <div class="time-value">${formatTime(times.sunrise, this.timeFormat, this.lang)}</div>
+                      <div class="time-value">${this._formatPrayerTime(times.sunrise, 'sunrise')}</div>
                     </div>
                   </div>`
               : html`
@@ -300,12 +308,12 @@ class MasjidPrayerTimes extends LitElement {
                     ${this._showAzaan ? html`
                       <div class="time-block">
                         <div class="time-label">${this._adhanLabel}</div>
-                        <div class="${azCls}">${formatTime(times[`${p}_azaan`], this.timeFormat, this.lang)}</div>
+                        <div class="${azCls}">${this._formatPrayerTime(times[`${p}_azaan`], p)}</div>
                       </div>` : nothing}
                     ${this._showIqamah ? html`
                       <div class="time-block">
                         <div class="time-label">${this._iqamahLabel}</div>
-                        <div class="${iqCls}">${formatTime(times[`${p}_iqamah`], this.timeFormat, this.lang)}</div>
+                        <div class="${iqCls}">${this._formatPrayerTime(times[`${p}_iqamah`], p)}</div>
                       </div>` : nothing}
                   </div>`
             }
@@ -330,12 +338,12 @@ class MasjidPrayerTimes extends LitElement {
             <div class="card-times">
               ${p === 'sunrise'
                 ? html`
-                    <div class="${azCls}">${formatTime(times.sunrise, this.timeFormat, this.lang)}</div>
+                    <div class="${azCls}">${this._formatPrayerTime(times.sunrise, 'sunrise')}</div>
                     ${this._showIqamah ? html`<div class="${iqCls}" style="visibility:hidden" aria-hidden="true">-</div>` : nothing}
                   `
                 : html`
-                    ${this._showAzaan   ? html`<div class="${azCls}">${formatTime(times[`${p}_azaan`],  this.timeFormat, this.lang)}</div>` : nothing}
-                    ${this._showIqamah  ? html`<div class="${iqCls}">${formatTime(times[`${p}_iqamah`], this.timeFormat, this.lang)}</div>` : nothing}
+                    ${this._showAzaan   ? html`<div class="${azCls}">${this._formatPrayerTime(times[`${p}_azaan`], p)}</div>` : nothing}
+                    ${this._showIqamah  ? html`<div class="${iqCls}">${this._formatPrayerTime(times[`${p}_iqamah`], p)}</div>` : nothing}
                   `
               }
             </div>
@@ -369,12 +377,12 @@ class MasjidPrayerTimes extends LitElement {
             <div class="ct-name">${this._prayerLabel(p)}</div>
             ${p === 'sunrise'
               ? html`
-                  <div class="ct-time">${formatTime(times.sunrise, this.timeFormat, this.lang)}</div>
+                  <div class="ct-time">${this._formatPrayerTime(times.sunrise, 'sunrise')}</div>
                   ${this._showIqamah ? html`<div aria-hidden="true"></div>` : nothing}
                 `
               : html`
-                  ${this._showAzaan  ? html`<div class="${azCls}">${formatTime(times[`${p}_azaan`],  this.timeFormat, this.lang)}</div>` : nothing}
-                  ${this._showIqamah ? html`<div class="${iqCls}">${formatTime(times[`${p}_iqamah`], this.timeFormat, this.lang)}</div>` : nothing}
+                  ${this._showAzaan  ? html`<div class="${azCls}">${this._formatPrayerTime(times[`${p}_azaan`], p)}</div>` : nothing}
+                  ${this._showIqamah ? html`<div class="${iqCls}">${this._formatPrayerTime(times[`${p}_iqamah`], p)}</div>` : nothing}
                 `}
           </div>
         `)}
@@ -388,9 +396,9 @@ class MasjidPrayerTimes extends LitElement {
     const hl   = this.highlightTime
     const showSecondary = this._showAzaan && this._showIqamah
     const heroKey = hl === 'iqamah' ? `${next}_iqamah` : `${next}_azaan`
-    const heroTime = formatTime(times[heroKey], this.timeFormat, this.lang)
+    const heroTime = this._formatPrayerTime(times[heroKey], next)
     const secKey  = hl === 'iqamah' ? `${next}_azaan` : `${next}_iqamah`
-    const secTime = formatTime(times[secKey], this.timeFormat, this.lang)
+    const secTime = this._formatPrayerTime(times[secKey], next)
     const secLabel = hl === 'iqamah' ? this._adhanLabel : this._iqamahLabel
     return html`
       <div class="fc-wrap">
@@ -406,10 +414,10 @@ class MasjidPrayerTimes extends LitElement {
               ${this._showIcons ? html`<div class="fc-chip-icon" aria-hidden="true">${unsafeHTML(ICONS[p] || ICONS.dhuhr)}</div>` : nothing}
               <div class="fc-chip-name">${this._prayerLabel(p)}</div>
               ${p === 'sunrise'
-                ? html`<div class="fc-chip-time">${formatTime(times.sunrise, this.timeFormat, this.lang)}</div>`
+                ? html`<div class="fc-chip-time">${this._formatPrayerTime(times.sunrise, 'sunrise')}</div>`
                 : html`
-                    ${this._showAzaan  ? html`<div class="fc-chip-time ${hl === 'adhan' || hl === 'both' ? 'hl-primary' : ''}">${formatTime(times[`${p}_azaan`],  this.timeFormat, this.lang)}</div>` : nothing}
-                    ${this._showIqamah ? html`<div class="fc-chip-iqamah ${hl === 'iqamah' || hl === 'both' ? 'hl-primary' : 'hl-dim'}">${formatTime(times[`${p}_iqamah`], this.timeFormat, this.lang)}</div>` : nothing}
+                    ${this._showAzaan  ? html`<div class="fc-chip-time ${hl === 'adhan' || hl === 'both' ? 'hl-primary' : ''}">${this._formatPrayerTime(times[`${p}_azaan`], p)}</div>` : nothing}
+                    ${this._showIqamah ? html`<div class="fc-chip-iqamah ${hl === 'iqamah' || hl === 'both' ? 'hl-primary' : 'hl-dim'}">${this._formatPrayerTime(times[`${p}_iqamah`], p)}</div>` : nothing}
                   `}
             </div>
           `)}
@@ -489,10 +497,10 @@ class MasjidPrayerTimes extends LitElement {
                 ${hijriCell}
                 ${dp.map(p => {
                   if (p === 'sunrise') {
-                    return html`<td>${formatTime(dayTimes.sunrise, this.timeFormat, this.lang)}</td>`
+                    return html`<td>${this._formatPrayerTime(dayTimes.sunrise, 'sunrise')}</td>`
                   }
-                  const az = formatTime(dayTimes[`${p}_azaan`],  this.timeFormat, this.lang)
-                  const iq = formatTime(dayTimes[`${p}_iqamah`], this.timeFormat, this.lang)
+                  const az = this._formatPrayerTime(dayTimes[`${p}_azaan`], p)
+                  const iq = this._formatPrayerTime(dayTimes[`${p}_iqamah`], p)
                   if (useSplit) {
                     return [
                       html`<td class="${hl === 'adhan' || hl === 'both' ? 'td-hl' : ''}">${az}</td>`,

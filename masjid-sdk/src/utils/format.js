@@ -13,11 +13,21 @@ export function to24h(timeStr) {
   return `${String(h).padStart(2, '0')}:${min}`
 }
 
-export function formatTime(timeStr, fmt, lang) {
+export function formatTime(timeStr, fmt, lang, showPeriod = false, periodHint = '') {
   if (!timeStr) return '—'
   if (fmt === '24h') return to24h(timeStr)
-  if (lang === 'ar') return timeStr.replace(/AM/i, 'ص').replace(/PM/i, 'م')
-  return timeStr
+  if (timeStr === '-' || timeStr === '—') return timeStr
+
+  let formatted = String(timeStr).trim()
+  const hasPeriod = /\s*(AM|PM)$/i.test(formatted)
+  if (showPeriod && !hasPeriod && periodHint) {
+    formatted = `${formatted} ${periodHint}`
+  } else if (!showPeriod && hasPeriod) {
+    formatted = formatted.replace(/\s*(AM|PM)$/i, '')
+  }
+
+  if (lang === 'ar') return formatted.replace(/AM/i, 'ص').replace(/PM/i, 'م')
+  return formatted
 }
 
 export function formatGregorian(date, fmt, lang) {
