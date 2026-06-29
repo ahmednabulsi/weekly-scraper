@@ -41,6 +41,7 @@ A zero-dependency JavaScript Web Component that displays prayer times on any web
 | `theme` | `light` \| `dark` \| `emerald` \| `navy` \| `gold` \| `minimal` | `light` | Built-in color theme |
 | `lang` | `en` \| `ar` | `en` | Language — Arabic enables RTL layout automatically |
 | `time-format` | `12h` \| `24h` | `12h` | Clock format |
+| `show-ampm` | `true` \| `false` | `false` | Show AM/PM after 12-hour prayer times |
 | `show-azaan` | `true` \| `false` | `true` | Show Adhan times |
 | `show-iqamah` | `true` \| `false` | `true` | Show Iqamah times |
 | `show-sunrise` | `true` \| `false` | `false` | Show Sunrise row |

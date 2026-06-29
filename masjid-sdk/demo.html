@@ -474,6 +474,7 @@
         <label class="toggle-item"><input type="checkbox" id="c-show-hijri-col"> Hijri column (monthly)</label>
         <label class="toggle-item"><input type="checkbox" id="c-show-sunrise" checked> Sunrise</label>
         <label class="toggle-item"><input type="checkbox" id="c-show-icons" checked> Prayer icons</label>
+        <label class="toggle-item"><input type="checkbox" id="c-show-ampm"> AM/PM</label>
       </div>
     </div>
 
@@ -506,6 +507,7 @@
         theme="light"
         lang="en"
         time-format="12h"
+        show-ampm="false"
         show-azaan="true"
         show-iqamah="true"
         show-sunrise="true"
@@ -548,6 +550,7 @@
     'theme':           'light',
     'lang':            'en',
     'time-format':     '12h',
+    'show-ampm':       'false',
     'show-azaan':      'true',
     'show-iqamah':     'true',
     'show-sunrise':    'true',
@@ -713,6 +716,7 @@
     'c-show-hijri':     'show-hijri',
     'c-show-hijri-col': 'show-hijri-col',
     'c-show-icons':     'show-icons',
+    'c-show-ampm':      'show-ampm',
   };
   for (const [id, attr] of Object.entries(checks)) {
     document.getElementById(id).addEventListener('change', e => set(attr, e.target.checked ? 'true' : 'false'));
