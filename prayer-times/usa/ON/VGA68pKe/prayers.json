@@ -2372,11 +2372,11 @@
             "dhuhr_azaan": "1:22",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:42",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:04",
             "maghrib_iqamah": "9:09",
             "isha_azaan": "10:53",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "2": {
             "fajr_azaan": "3:50",
@@ -2385,11 +2385,11 @@
             "dhuhr_azaan": "1:22",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:42",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:04",
             "maghrib_iqamah": "9:09",
             "isha_azaan": "10:52",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "3": {
             "fajr_azaan": "3:51",
@@ -2398,11 +2398,11 @@
             "dhuhr_azaan": "1:22",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:42",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:04",
             "maghrib_iqamah": "9:09",
             "isha_azaan": "10:52",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "4": {
             "fajr_azaan": "3:52",
@@ -2411,11 +2411,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:42",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:03",
             "maghrib_iqamah": "9:08",
             "isha_azaan": "10:51",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "5": {
             "fajr_azaan": "3:53",
@@ -2424,11 +2424,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:42",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:03",
             "maghrib_iqamah": "9:08",
             "isha_azaan": "10:51",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "6": {
             "fajr_azaan": "3:54",
@@ -2437,11 +2437,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:03",
             "maghrib_iqamah": "9:08",
             "isha_azaan": "10:50",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "7": {
             "fajr_azaan": "3:55",
@@ -2450,11 +2450,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:02",
             "maghrib_iqamah": "9:07",
             "isha_azaan": "10:49",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "8": {
             "fajr_azaan": "3:56",
@@ -2463,11 +2463,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:02",
             "maghrib_iqamah": "9:07",
             "isha_azaan": "10:48",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "9": {
             "fajr_azaan": "3:57",
@@ -2476,11 +2476,11 @@
             "dhuhr_azaan": "1:23",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:01",
             "maghrib_iqamah": "9:06",
             "isha_azaan": "10:48",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "10": {
             "fajr_azaan": "3:58",
@@ -2489,11 +2489,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:01",
             "maghrib_iqamah": "9:06",
             "isha_azaan": "10:47",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "11": {
             "fajr_azaan": "3:59",
@@ -2502,11 +2502,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:41",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:00",
             "maghrib_iqamah": "9:05",
             "isha_azaan": "10:46",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "12": {
             "fajr_azaan": "4:00",
@@ -2515,11 +2515,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:40",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "9:00",
             "maghrib_iqamah": "9:05",
             "isha_azaan": "10:45",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "13": {
             "fajr_azaan": "4:02",
@@ -2528,11 +2528,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:40",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:59",
             "maghrib_iqamah": "9:04",
             "isha_azaan": "10:44",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "14": {
             "fajr_azaan": "4:03",
@@ -2541,11 +2541,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:40",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:59",
             "maghrib_iqamah": "9:04",
             "isha_azaan": "10:43",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "15": {
             "fajr_azaan": "4:04",
@@ -2554,11 +2554,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:40",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:58",
             "maghrib_iqamah": "9:03",
             "isha_azaan": "10:41",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "16": {
             "fajr_azaan": "4:06",
@@ -2567,11 +2567,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:39",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:57",
             "maghrib_iqamah": "9:02",
             "isha_azaan": "10:40",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "17": {
             "fajr_azaan": "4:07",
@@ -2580,11 +2580,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:39",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:56",
             "maghrib_iqamah": "9:01",
             "isha_azaan": "10:39",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "18": {
             "fajr_azaan": "4:08",
@@ -2593,11 +2593,11 @@
             "dhuhr_azaan": "1:24",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:38",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:56",
             "maghrib_iqamah": "9:01",
             "isha_azaan": "10:38",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "19": {
             "fajr_azaan": "4:10",
@@ -2606,11 +2606,11 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:38",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:55",
             "maghrib_iqamah": "9:00",
             "isha_azaan": "10:36",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "20": {
             "fajr_azaan": "4:11",
@@ -2619,11 +2619,11 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:38",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:15",
             "maghrib_azaan": "8:54",
             "maghrib_iqamah": "8:59",
             "isha_azaan": "10:35",
-            "isha_iqamah": "10:15"
+            "isha_iqamah": "10:30"
         },
         "21": {
             "fajr_azaan": "4:13",
@@ -2632,7 +2632,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:37",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:53",
             "maghrib_iqamah": "8:58",
             "isha_azaan": "10:34",
@@ -2645,7 +2645,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:37",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:52",
             "maghrib_iqamah": "8:57",
             "isha_azaan": "10:32",
@@ -2658,7 +2658,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:36",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:51",
             "maghrib_iqamah": "8:56",
             "isha_azaan": "10:31",
@@ -2671,7 +2671,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:36",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:50",
             "maghrib_iqamah": "8:55",
             "isha_azaan": "10:29",
@@ -2684,7 +2684,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:35",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:49",
             "maghrib_iqamah": "8:54",
             "isha_azaan": "10:28",
@@ -2697,7 +2697,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:34",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:48",
             "maghrib_iqamah": "8:53",
             "isha_azaan": "10:26",
@@ -2710,7 +2710,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:34",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:47",
             "maghrib_iqamah": "8:52",
             "isha_azaan": "10:25",
@@ -2723,7 +2723,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:33",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:46",
             "maghrib_iqamah": "8:51",
             "isha_azaan": "10:23",
@@ -2736,7 +2736,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:32",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:45",
             "maghrib_iqamah": "8:50",
             "isha_azaan": "10:21",
@@ -2749,7 +2749,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:32",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:44",
             "maghrib_iqamah": "8:49",
             "isha_azaan": "10:20",
@@ -2762,7 +2762,7 @@
             "dhuhr_azaan": "1:25",
             "dhuhr_iqamah": "1:45",
             "asr_azaan": "6:31",
-            "asr_iqamah": "6:45",
+            "asr_iqamah": "7:00",
             "maghrib_azaan": "8:43",
             "maghrib_iqamah": "8:48",
             "isha_azaan": "10:18",
