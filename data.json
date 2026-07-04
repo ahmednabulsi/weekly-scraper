@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-03 11:38:30.300395",
+    "date_scraped": "2026-07-04 07:39:40.314288",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Alauddin El-Bakri"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Imam Fuad Mohamed"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Br. Ihab Badr"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "Ust. Taaha Chaudhry"
+                    "speaker": null
                 }
             ]
         },
@@ -52,7 +52,7 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Yousef Al-Shehabi"
+                    "speaker": null
                 }
             ]
         },
