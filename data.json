@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-04 07:39:40.314288",
+    "date_scraped": "2026-07-10 03:26:36.883497",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Br. Samy Hilali"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Mohamed Abutaleb"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Alauddin Elbakri"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Br. Basim Elkarra"
                 }
             ]
         },
@@ -50,8 +50,18 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - LGIC",
+                    "label": "1st Jummah - Prospect Center",
                     "time": "1:30 PM",
+                    "speaker": "Asim Billoo"
+                },
+                {
+                    "label": "2nd Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": "Ihab Badr"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "3:30 PM",
                     "speaker": null
                 }
             ]
