@@ -1,5 +1,5 @@
 {
-    "last_check": "2026-06-29T12:30:20Z",
+    "last_check": "2026-07-11T00:00:00Z",
     "mosques": {
         "alnoor": {
             "version": "2024.04.26",
@@ -10,7 +10,7 @@
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/vOLn92KM/prayers.json"
         },
         "bosni": {
-            "version": "2026.06.29",
+            "version": "2026.07.11",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/CA/icbab/prayers.json"
         },
         "Yaseen Belmont Masjid": {
@@ -22,7 +22,7 @@
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/0AWO20Aj/prayers.json"
         },
         "SVIC": {
-            "version": "2026.04.27",
+            "version": "2026.07.05",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/zKz05nAO/prayers.json"
         },
         "Blossom Valley Muslim Community Center": {
