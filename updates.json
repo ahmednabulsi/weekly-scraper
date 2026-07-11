@@ -1,5 +1,5 @@
 {
-    "last_check": "2026-07-11T00:00:00Z",
+    "last_check": "2026-07-12T00:00:00Z",
     "mosques": {
         "alnoor": {
             "version": "2024.04.26",
@@ -10,7 +10,7 @@
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/California/vOLn92KM/prayers.json"
         },
         "bosni": {
-            "version": "2026.07.11",
+            "version": "2026.07.12",
             "url": "https://raw.githubusercontent.com/ahmednabulsi/weekly-scraper/refs/heads/main/prayer-times/usa/CA/icbab/prayers.json"
         },
         "Yaseen Belmont Masjid": {
