@@ -1,70 +1,21 @@
 {
-    "date_scraped": "2026-07-11 07:07:46.806176",
+    "date_scraped": "2026-07-17 02:43:35.815627",
     "data": [
         {
             "location": "MCA",
-            "prayers": [
-                {
-                    "label": "1st Jummah",
-                    "time": "12:15 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
-                }
-            ]
+            "prayers": null
         },
         {
             "location": "AlNoor",
-            "prayers": [
-                {
-                    "label": "1st Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "2:30 PM",
-                    "speaker": null
-                }
-            ]
+            "prayers": null
         },
         {
             "location": "SBIA",
-            "prayers": [
-                {
-                    "label": "1st Jummah",
-                    "time": "1:15 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "2:30 PM",
-                    "speaker": null
-                }
-            ]
+            "prayers": []
         },
         {
             "location": "WVMuslim",
-            "prayers": [
-                {
-                    "label": "1st Jummah - Prospect Center",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah - LGIC",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "3rd Jummah - Prospect Center",
-                    "time": "2:30 PM",
-                    "speaker": null
-                }
-            ]
+            "prayers": []
         },
         {
             "location": "YaseenBelmont",
