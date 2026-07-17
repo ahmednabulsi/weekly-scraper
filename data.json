@@ -1,21 +1,70 @@
 {
-    "date_scraped": "2026-07-17 02:43:35.815627",
+    "date_scraped": "2026-07-17 07:17:22.497328",
     "data": [
         {
             "location": "MCA",
-            "prayers": null
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "12:15 PM",
+                    "speaker": "Sh. Safi Khan"
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Sh. Abdeljalil Mezgouri"
+                }
+            ]
         },
         {
             "location": "AlNoor",
-            "prayers": null
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Dr. Khaled Obeid"
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "2:30 PM",
+                    "speaker": "TBA"
+                }
+            ]
         },
         {
             "location": "SBIA",
-            "prayers": []
+            "prayers": [
+                {
+                    "label": "1st Jummah",
+                    "time": "1:15 PM",
+                    "speaker": null
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "2:30 PM",
+                    "speaker": null
+                }
+            ]
         },
         {
             "location": "WVMuslim",
-            "prayers": []
+            "prayers": [
+                {
+                    "label": "1st Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": "Imam Fuad"
+                },
+                {
+                    "label": "2nd Jummah - Prospect Center",
+                    "time": "1:30 PM",
+                    "speaker": "Zaid Yousef"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "2:30 PM",
+                    "speaker": "Ust. Safi Khan"
+                }
+            ]
         },
         {
             "location": "YaseenBelmont",
