@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-17 10:53:27.294855",
+    "date_scraped": "2026-07-18 06:56:28.495794",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": "Sh. Safi Khan"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Sh. Abdeljalil Mezgouri"
+                    "speaker": null
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": "Dr. Khaled Obeid"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": "TBA"
+                    "speaker": null
                 }
             ]
         },
@@ -52,17 +52,17 @@
                 {
                     "label": "1st Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": "Imam Fuad"
+                    "speaker": null
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
                     "time": "1:30 PM",
-                    "speaker": "Zaid Yousef"
+                    "speaker": null
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
                     "time": "2:30 PM",
-                    "speaker": "Ust. Safi Khan"
+                    "speaker": null
                 }
             ]
         },
