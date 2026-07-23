@@ -31,6 +31,7 @@ import requests
 
 AJAX_URL = "https://www.mcabayarea.org/wp-admin/admin-ajax.php"
 CALENDAR_URL = "https://www.mcabayarea.org/events-calendar/"
+HOME_URL = "https://www.mcabayarea.org/"
 
 # Realistic browser headers — the bare "Mozilla/5.0" UA gets a Cloudflare 403.
 HEADERS = {
@@ -93,6 +94,55 @@ def parse_events(month_html):
     return events
 
 
+# The homepage "Featured Events" section is NOT part of MEC's calendar — it's a
+# hand-curated Divi "event-grid" of event-card blocks. MEC exposes no featured
+# flag anywhere (checked the monthly feed, WP REST API, and taxonomies), so the
+# homepage grid is the only source of truth for what the site treats as featured.
+_CARD_SPLIT_RE = re.compile(r'<div class="event-card\s*">')
+_STRIP_TAGS_RE = re.compile(r"<[^>]+>")
+
+
+def _card_text(fragment):
+    """Strip tags and collapse whitespace from an HTML fragment."""
+    if not fragment:
+        return None
+    return html.unescape(re.sub(r"\s+", " ", _STRIP_TAGS_RE.sub(" ", fragment))).strip()
+
+
+def parse_featured(home_html):
+    """Extract the homepage 'Featured Events' grid (event-card blocks)."""
+    start = home_html.find('class="event-grid"')
+    if start < 0:
+        return []
+    grid = home_html[start:]
+    featured = []
+    for chunk in _CARD_SPLIT_RE.split(grid)[1:]:
+        name_m = re.search(r'<h3 class="event-name">\s*<a[^>]*>(.*?)</a>', chunk, re.S)
+        if not name_m:
+            break  # ran past the end of the grid into unrelated markup
+        def grp(pat):
+            m = re.search(pat, chunk, re.S)
+            return m.group(1) if m else None
+        featured.append({
+            "title": _card_text(name_m.group(1)),
+            "date_text": _card_text(grp(r'<span class="event-date">(.*?)</span>')),
+            "time_text": _card_text(grp(r'<div class="event-time[^"]*">(.*?)</div>')),
+            "url": grp(r'<h3 class="event-name">\s*<a href="([^"]+)"'),
+            "image": grp(r'<img[^>]*src="([^"]+)"'),
+            "featured": True,
+        })
+    return featured
+
+
+def fetch_featured(session):
+    """Fetch and parse the homepage 'Featured Events' section."""
+    resp = session.get(HOME_URL, headers=HEADERS, timeout=30)
+    if resp.status_code == 403:
+        raise RuntimeError("HTTP 403 (Cloudflare block) fetching homepage for featured events.")
+    resp.raise_for_status()
+    return parse_featured(resp.text)
+
+
 def fetch_month(session, year, month):
     """POST the AJAX call for one month and return its parsed events."""
     resp = session.post(
@@ -131,6 +181,8 @@ def main():
     ap.add_argument("--months", type=int, default=3,
                     help="How many months from the current one to fetch (default 3). Ignored if --year/--month given.")
     ap.add_argument("-o", "--output", default="mca_events.json", help="Output JSON path.")
+    ap.add_argument("--featured", action="store_true",
+                    help="Also include the homepage 'Featured Events' section (added under a 'featured' key).")
     args = ap.parse_args()
 
     if bool(args.year) ^ bool(args.month):
@@ -168,6 +220,15 @@ def main():
         "count": len(all_events),
         "events": all_events,
     }
+
+    if args.featured:
+        try:
+            featured = fetch_featured(session)
+            result["featured"] = featured
+            print(f"  featured: {len(featured)} events", file=sys.stderr)
+        except Exception as exc:
+            print(f"! featured: {exc}", file=sys.stderr)
+            result["featured"] = []
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
     print(f"\nWrote {len(all_events)} events -> {args.output}", file=sys.stderr)
