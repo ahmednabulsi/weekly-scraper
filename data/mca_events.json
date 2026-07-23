@@ -390,5 +390,23 @@
       "url": "https://www.mcabayarea.org/mec-events/introductory-quran-reading-class-for-sisters-only/?occurrence=2026-08-02",
       "description": "This beginner-friendly class is open to sisters with no prior knowledge of Arabic. It aims to help you learn to read the Qur’an correctly in Arabic through step-by-step instruction and guided practice.Instructor: Sr. Lamia AmmarWhen: Every Sunday, Starting June 7 |  12:00 PM – 1:30 PMWhere: MCA Youth LoungeRegister"
     }
+  ],
+  "featured": [
+    {
+      "title": "Sisters Social",
+      "date_text": "Jul 25, 2026",
+      "time_text": "2:00PM - 4:30PM",
+      "url": "https://www.mcabayarea.org/mec-events/sisters-social/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/July-2026-New-Sisters-in-Islam-Social-22.jpg",
+      "featured": true
+    },
+    {
+      "title": "MCA Youth Leadership & Communication Workshop",
+      "date_text": "Aug 01, 2026 to Sep 19, 2026",
+      "time_text": "3:00PM - 5:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/mca-youth-leadership-communication-workshop/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-x-Toastmasters-Youth-Leadership-Communication-Program-Season-2-2026-1080-x-1350-px.png",
+      "featured": true
+    }
   ]
 }
