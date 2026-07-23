@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch MCA events (current month)
-        run: python tools/fetch_mca_events.py --months 1 -o data/mca_events.json
+      - name: Fetch MCA events (current month + featured)
+        run: python tools/fetch_mca_events.py --months 1 --featured -o data/mca_events.json
 
       - name: Commit and Push changes
         run: |
