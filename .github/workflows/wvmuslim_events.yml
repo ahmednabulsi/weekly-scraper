@@ -1,0 +1,39 @@
+name: WV Muslim Events
+
+on:
+  schedule:
+    # Runs at 08:00 UTC every Monday (1:00 AM Monday PDT / UTC-7)
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  fetch-events:
+    runs-on: ubuntu-latest
+
+    # Needed so the bot can commit the refreshed JSON back to the repo.
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch WV Muslim events (current month)
+        run: python tools/fetch_wvmuslim_events.py --months 1 -o data/wvmuslim_events.json
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # "|| exit 0" keeps the workflow green when the events haven't changed.
+          git commit -m "Update WV Muslim events: $(date -u)" || exit 0
+          git push
