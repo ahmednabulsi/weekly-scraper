@@ -1,4 +1,3 @@
-@@ -0,0 +1,180 @@
 #!/usr/bin/env python3
 """Fetch MCA Bay Area events straight from the Modern Events Calendar AJAX
 endpoint (no browser) and write them to JSON.
