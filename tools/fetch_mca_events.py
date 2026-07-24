@@ -25,7 +25,7 @@ import html
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 
 import requests
 
@@ -56,6 +56,28 @@ def clean(text):
     return html.unescape(text).strip() if isinstance(text, str) else text
 
 
+def fix_mec_time(iso):
+    """Correct MEC's double-timezone bug in schema.org startDate/endDate.
+
+    MEC writes the intended local wall-clock time (e.g. 9:30 AM) into the
+    timestamp as if it were UTC, then *also* appends the site's offset — so
+    "9:30 AM Pacific" ships as "2026-07-23T02:30:00-07:00", which is 7h early
+    (8h in PST). The real local time is the UTC wall-clock of that value, so we
+    convert to UTC and re-stamp it with the original offset. Verified against
+    the rendered event-page times for every event in a summer (PDT) and winter
+    (PST) month — the shift is uniform, so this is safe to apply unconditionally.
+    """
+    if not iso:
+        return iso
+    try:
+        dt = datetime.fromisoformat(iso)
+    except (ValueError, TypeError):
+        return iso
+    if dt.tzinfo is None:
+        return iso  # no offset to double-apply; leave as-is
+    return dt.astimezone(timezone.utc).replace(tzinfo=dt.tzinfo).isoformat()
+
+
 def parse_events(month_html):
     """Extract schema.org/Event objects from the calendar HTML's JSON-LD blocks."""
     events = []
@@ -84,8 +106,8 @@ def parse_events(month_html):
                 img = img.get("url")
             events.append({
                 "title": clean(c.get("name")),
-                "start": c.get("startDate"),
-                "end": c.get("endDate"),
+                "start": fix_mec_time(c.get("startDate")),
+                "end": fix_mec_time(c.get("endDate")),
                 "location": clean(loc),
                 "image": img,
                 "url": c.get("url"),
