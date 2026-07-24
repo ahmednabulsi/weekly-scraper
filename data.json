@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-24 02:44:52.473187",
+    "date_scraped": "2026-07-24 07:31:44.615642",
     "data": [
         {
             "location": "MCA",
@@ -50,9 +50,24 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah",
-                    "time": "1:30 pm",
+                    "label": "1st Jummah - LGIC",
+                    "time": "1:30 PM",
                     "speaker": "Imam Basil Farooq"
+                },
+                {
+                    "label": "2nd Jummah",
+                    "time": "1:30 PM",
+                    "speaker": "Shaykh Alauddin ElBakri"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "2:30 PM",
+                    "speaker": "Ihab Badr"
+                },
+                {
+                    "label": "4th Jummah - Prospect Center",
+                    "time": "3:30 PM",
+                    "speaker": "TBA"
                 }
             ]
         },
