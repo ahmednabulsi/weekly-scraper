@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-07-23",
+  "generated_at": "2026-07-25",
   "window": {
     "start": "2026-07-01",
     "end": "2026-07-31"
   },
-  "count": 88,
+  "count": 89,
   "featured_count": 0,
   "events": [
     {
@@ -699,7 +699,17 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (2:30 PM) – TBA",
+      "title": "Jumu’ah (1:30 PM) – Shaykh Alauddin ElBakri",
+      "start": "2026-07-24 13:30:00",
+      "end": "2026-07-24 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-shaykh-alauddin-elbakri/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Ihab Badr",
       "start": "2026-07-24 14:30:00",
       "end": "2026-07-24 15:00:00",
       "all_day": false,
@@ -709,11 +719,11 @@
       "featured": false
     },
     {
-      "title": "Under His Shade",
+      "title": "Under His Shade – At MCA",
       "start": "2026-07-25 16:00:00",
       "end": "2026-07-25 21:00:00",
       "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
+      "venue": "Muslim Community Association",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/07/Website-Banners-3.png",
       "url": "https://wvmuslim.org/event/under-his-shade/",
       "featured": false
