@@ -2,8 +2,8 @@ name: MCA Events
 
 on:
   schedule:
-    # Runs at 08:00 UTC every Monday (1:00 AM Monday PDT / UTC-7)
-    - cron: '0 8 * * 1'
+    # Runs twice daily at 08:00 and 20:00 UTC (1:00 AM & 1:00 PM PDT / UTC-7)
+    - cron: '0 8,20 * * *'
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
