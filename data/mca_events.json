@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-07-25",
-  "count": 40,
+  "generated_at": "2026-07-26",
+  "count": 39,
   "events": [
-    {
-      "title": "Sisters Social",
-      "start": "2026-07-25T14:00:00-07:00",
-      "end": "2026-07-25T16:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/July-2026-New-Sisters-in-Islam-Social-22.jpg",
-      "url": "https://www.mcabayarea.org/mec-events/sisters-social/?occurrence=2026-07-25",
-      "description": "Revert sisters as well as those interested in Islam are invited to our July social about navigating loss and hardships as a new Muslim. We will reflect on finding strength, patience, and hope through faith while connecting with sisters in a warm and supportive space.Feel free to bring a dish to share.When: Sat, July 25 | 2:00 PM - 4:30 PMWhere: MCA Youth LoungeRSVP Here"
-    },
     {
       "title": "The Kids’ Tafsir Reading Club",
       "start": "2026-07-26T10:30:00-07:00",
@@ -365,14 +356,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Sisters Social",
-      "date_text": "Jul 25, 2026",
-      "time_text": "2:00PM - 4:30PM",
-      "url": "https://www.mcabayarea.org/mec-events/sisters-social/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/July-2026-New-Sisters-in-Islam-Social-22.jpg",
-      "featured": true
-    },
     {
       "title": "Family Movie Night: Wall-E",
       "date_text": "Jul 31, 2026",
