@@ -1,44 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-07-30",
-  "count": 17,
+  "generated_at": "2026-07-31",
+  "count": 13,
   "events": [
-    {
-      "title": "MCA Youth x My ‘Ilm Summer Math Tutoring Program",
-      "start": "2026-07-30T15:30:00-07:00",
-      "end": "2026-07-30T16:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/Math-Tutoring-newsletter.png",
-      "url": "https://www.mcabayarea.org/mec-events/mca-youth-x-my-ilm-summer-math-tutoring-program/?occurrence=2026-07-30",
-      "description": "The goal is to help students strengthen their skills and prepare for the upcoming school year! Instruction will be organized by grade level, with each grade assigned its own week of classes. For example, students entering 7th grade will attend during one designated week. A detailed schedule will be shared soon.When: Mondays and Thursdays | July 13-30 | 10:00 AM-12:00 PMWhere: Maryam Hall and Fatimah HallRegister Here"
-    },
-    {
-      "title": "Islam 101: A New Muslims’ Guide",
-      "start": "2026-07-30T18:30:00-07:00",
-      "end": "2026-07-30T19:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/04/Islam-101-1080x1350-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/islam-101-a-new-muslims-guide-2/?occurrence=2026-07-30",
-      "description": "A New Muslims’ GuideNew Muslims, as well as those interested in learning about Islam, are invited to join this weekly class. It covers the fundamentals of Islam and offers a welcoming space to ask questions and learn in a supportive environment. We warmly welcome people of all faiths to attend. Don't forget to RSVPWhen: Every Thursday 6:30 PMWhere: MCA Youth Lounge"
-    },
-    {
-      "title": "Level Up Deen: Youth Summer Program",
-      "start": "2026-07-30T19:00:00-07:00",
-      "end": "2026-07-30T20:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/06/Level-Up-Deen-A-Summer-Faith-Nourishment-Program-June-2026-1080-x-1350-px.png",
-      "url": "https://www.mcabayarea.org/mec-events/level-up-deen-youth-summer-program/?occurrence=2026-07-30",
-      "description": "Join us this summer for Level Up Deen: A Summer Faith & Nourishment Program with Sheikh Imran Vaid as we strengthen our connection with the Qur'an and grow in our understanding of Islam together! This 12-week series is designed to help youth strengthen and retain their Qur'an memorization while building a strong foundation in Islamic knowledge and character, inshaAllahProgram Includes:Qur'an memorization, translation, & tafseer of Juz 'Amma (Surahs 91–114)Practical lessons from the 40 Hadith of Imam NawawiInteractive Q&A on faith, identity, and everyday lifeWho: Open to brothers and sisters | Registration requiredWhen:  Tuesdays & Thursdays, June 16–August 25 | 7:00–8:00 PMWhere: MCA Men’s Prayer Hall & Youth LoungeRSVP Here"
-    },
-    {
-      "title": "Unveiling Guidance: A Practical Guide to Living Islam",
-      "start": "2026-07-30T20:00:00-07:00",
-      "end": "2026-07-30T21:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/04/Unveiling-Guidance-thumbnail-1.jpg",
-      "url": "https://www.mcabayarea.org/mec-events/unveiling-guidance-a-practical-guide-to-living-islam/?occurrence=2026-07-30",
-      "description": "Step into a transformative journey with our upcoming community class on Imam al-Ghazali’s The Beginning of Guidance.More than just theory, this class brings faith into your everyday life helping you understand how worship, character, and self-discipline shape not only your actions, but your inner state as a believer.Whether you’re seeking to deepen your connection with Allah, refine your character, or build consistency in your worship, this class offers practical, timeless guidance rooted in one of Islam’s most cherished works.RSVP HereWhen:  Thursdays |  at 8:00 PM (After Maghrib)Where: MCA Khadijah Banquet Hall"
-    },
     {
       "title": "MCA Summer Camp 2026",
       "start": "2026-07-31T10:00:00-07:00",
@@ -180,6 +144,22 @@
       "time_text": "10:00AM - 1:00PM",
       "url": "https://www.mcabayarea.org/mec-events/careers-in-medicine-mca-youth-x-link-collab/",
       "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-MCA-Youth-x-Link-Collab-Aug-1-Careers-in-Medicine-1080-x-1350-px.png",
+      "featured": true
+    },
+    {
+      "title": "Health Heroes Kids’ Workshop",
+      "date_text": "Aug 06, 2026",
+      "time_text": "3:30PM - 5:30PM",
+      "url": "https://www.mcabayarea.org/mec-events/health-heroes-kids-workshop/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/Instagram-Post-45-Health-Heroes-Workshop.png",
+      "featured": true
+    },
+    {
+      "title": "August Seniors Social",
+      "date_text": "Aug 16, 2026",
+      "time_text": "10:00AM - 2:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/august-seniors-social/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/Seniors-Social-Flyers.png",
       "featured": true
     }
   ]
