@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-25 07:11:22.916724",
+    "date_scraped": "2026-07-31 02:53:35.979743",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Sh. Samy Hilali"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Fuad Mohamed"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Khalid Obeid"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Fuad Mohamed"
                 }
             ]
         },
@@ -50,24 +50,9 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah - LGIC",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "2nd Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "3rd Jummah - Prospect Center",
-                    "time": "2:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "4th Jummah - Prospect Center",
-                    "time": "3:30 PM",
-                    "speaker": null
+                    "label": "1st Jummah",
+                    "time": "1:30 pm",
+                    "speaker": "TBA"
                 }
             ]
         },
