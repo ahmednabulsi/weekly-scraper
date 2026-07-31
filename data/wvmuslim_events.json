@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-07-30",
+  "generated_at": "2026-07-31",
   "window": {
     "start": "2026-07-01",
     "end": "2026-07-31"
   },
-  "count": 89,
+  "count": 92,
   "featured_count": 0,
   "events": [
     {
@@ -889,13 +889,43 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Dr. Youssef Ismail",
       "start": "2026-07-31 13:30:00",
       "end": "2026-07-31 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-07-31/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-14/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) – Imam Basil Farooq",
+      "start": "2026-07-31 13:30:00",
+      "end": "2026-07-31 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-imam-basil-farooq-4/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Imam Sami Rehman",
+      "start": "2026-07-31 14:30:00",
+      "end": "2026-07-31 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-imam-sami-rehman/",
+      "featured": false
+    },
+    {
+      "title": "Annual General Board Meeting",
+      "start": "2026-07-31 18:30:00",
+      "end": "2026-07-31 21:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/07/Copy-of-GBM-2025-presentation.png",
+      "url": "https://wvmuslim.org/event/annual-general-board-meeting/",
       "featured": false
     }
   ]
