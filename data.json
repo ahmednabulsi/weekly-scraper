@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-07-31 02:53:35.979743",
+    "date_scraped": "2026-07-31 07:50:43.634436",
     "data": [
         {
             "location": "MCA",
@@ -37,12 +37,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "1:15 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir Anwar"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "2:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Abdullah Ali"
                 }
             ]
         },
@@ -50,9 +50,24 @@
             "location": "WVMuslim",
             "prayers": [
                 {
-                    "label": "1st Jummah",
-                    "time": "1:30 pm",
-                    "speaker": "TBA"
+                    "label": "1st Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": "Dr. Youssef Ismail"
+                },
+                {
+                    "label": "2nd Jummah - Prospect Center",
+                    "time": "1:30 PM",
+                    "speaker": "Imam Basil Farooq"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "2:30 PM",
+                    "speaker": "Imam Sami Rehman"
+                },
+                {
+                    "label": "4th Jummah - Prospect Center",
+                    "time": "3:30 PM",
+                    "speaker": null
                 }
             ]
         },
