@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-08-01",
-  "count": 99,
+  "generated_at": "2026-08-02",
+  "count": 98,
   "events": [
-    {
-      "title": "MCA Youth Leadership & Communication Workshop",
-      "start": "2026-08-01T15:00:00-07:00",
-      "end": "2026-08-01T17:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-x-Toastmasters-Youth-Leadership-Communication-Program-Season-2-2026-1080-x-1350-px.png",
-      "url": "https://www.mcabayarea.org/mec-events/mca-youth-leadership-communication-workshop/?occurrence=2026-08-01",
-      "description": "Build confidence, sharpen your speaking skills, and grow as a leader this summer!  Join us for an exciting, hands-on program designed to help youth to overcome shyness, build confidence and develop communications skills and leadership qualities under Toastmasters International guidance.  Don’t miss out!Program details:Handbook, 6 sessions and 2 prep SessionsFinal presentation and family  dinner in KBHFinancial aid is available for this program, contact us at youth@mcabayarea.org When: Saturdays | August 01 – September 19 | 3–5 PM Where: MCA Youth LoungeRegister Here"
-    },
     {
       "title": "The Kids’ Tafsir Reading Club",
       "start": "2026-08-02T10:30:00-07:00",
@@ -896,22 +887,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "MCA Youth Leadership & Communication Workshop",
-      "date_text": "Aug 01, 2026 to Sep 19, 2026",
-      "time_text": "3:00PM - 5:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/mca-youth-leadership-communication-workshop/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-x-Toastmasters-Youth-Leadership-Communication-Program-Season-2-2026-1080-x-1350-px.png",
-      "featured": true
-    },
-    {
-      "title": "Careers in Medicine – MCA Youth x Link Collab",
-      "date_text": "Aug 01, 2026",
-      "time_text": "10:00AM - 1:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/careers-in-medicine-mca-youth-x-link-collab/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-MCA-Youth-x-Link-Collab-Aug-1-Careers-in-Medicine-1080-x-1350-px.png",
-      "featured": true
-    },
     {
       "title": "Health Heroes Kids’ Workshop",
       "date_text": "Aug 06, 2026",
