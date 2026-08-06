@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-08-05",
+  "generated_at": "2026-08-06",
   "window": {
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 53,
+  "count": 59,
   "featured_count": 0,
   "events": [
     {
@@ -109,6 +109,16 @@
       "featured": false
     },
     {
+      "title": "WVMA Youth Groups",
+      "start": "2026-08-06 18:30:00",
+      "end": "2026-08-06 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/faith.png",
+      "url": "https://wvmuslim.org/event/wvma-youth-groups/",
+      "featured": false
+    },
+    {
       "title": "Boys Tajweed Class",
       "start": "2026-08-06 18:30:00",
       "end": "2026-08-06 19:30:00",
@@ -159,13 +169,23 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) – Samy Hilali",
+      "start": "2026-08-07 13:30:00",
+      "end": "2026-08-07 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-samy-hilali-3/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Shaykh AbdulNasir Jangda",
       "start": "2026-08-07 13:30:00",
       "end": "2026-08-07 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-07/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-15/",
       "featured": false
     },
     {
@@ -176,6 +196,26 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/07/ice-cream.png",
       "url": "https://wvmuslim.org/event/ice-cream-social/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Zaid Yousef",
+      "start": "2026-08-07 14:30:00",
+      "end": "2026-08-07 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-zaid-yousef-3/",
+      "featured": false
+    },
+    {
+      "title": "Seminar with Sh. AbdulNasir Jangda",
+      "start": "2026-08-08 10:00:00",
+      "end": "2026-08-08 15:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/janga.png",
+      "url": "https://wvmuslim.org/event/seminar-with-sh-abdulnasir-jangda/",
       "featured": false
     },
     {
@@ -286,6 +326,26 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
       "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-14/",
+      "featured": false
+    },
+    {
+      "title": "Community Night with Sh. Sami Rehman",
+      "start": "2026-08-14 18:00:00",
+      "end": "2026-08-14 21:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Shaykh-Sami-Rehman.png",
+      "url": "https://wvmuslim.org/event/community-night-with-sh-sami-rehman/",
+      "featured": false
+    },
+    {
+      "title": "Compassion in Action: Senior Service Project",
+      "start": "2026-08-15 11:30:00",
+      "end": "2026-08-15 13:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/compassion.png",
+      "url": "https://wvmuslim.org/event/compassion-in-action-senior-service-project/",
       "featured": false
     },
     {
