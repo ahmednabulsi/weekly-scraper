@@ -5,7 +5,7 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 59,
+  "count": 60,
   "featured_count": 0,
   "events": [
     {
@@ -216,6 +216,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/janga.png",
       "url": "https://wvmuslim.org/event/seminar-with-sh-abdulnasir-jangda/",
+      "featured": false
+    },
+    {
+      "title": "Little Hearts Storytime",
+      "start": "2026-08-09 10:30:00",
+      "end": "2026-08-09 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/childrenbook.png",
+      "url": "https://wvmuslim.org/event/little-hearts-storytime/",
       "featured": false
     },
     {
