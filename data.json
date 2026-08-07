@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-08-07 02:42:35.350058",
+    "date_scraped": "2026-08-07 06:09:44.055519",
     "data": [
         {
             "location": "MCA",
@@ -48,7 +48,23 @@
         },
         {
             "location": "WVMuslim",
-            "prayers": []
+            "prayers": [
+                {
+                    "label": "1st Jummah - Prospect Center",
+                    "time": "1:30 PM",
+                    "speaker": "Samy Hilali"
+                },
+                {
+                    "label": "2nd Jummah - LGIC",
+                    "time": "1:30 PM",
+                    "speaker": "Shaykh AbdulNasir Jangda"
+                },
+                {
+                    "label": "3rd Jummah - Prospect Center",
+                    "time": "3:30 PM",
+                    "speaker": null
+                }
+            ]
         },
         {
             "location": "YaseenBelmont",
