@@ -5,7 +5,7 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 60,
+  "count": 61,
   "featured_count": 0,
   "events": [
     {
@@ -236,6 +236,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
       "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-08-09/",
+      "featured": false
+    },
+    {
+      "title": "Ready for It – WVMA Youth Night",
+      "start": "2026-08-09 18:30:00",
+      "end": "2026-08-09 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/readyforit.png",
+      "url": "https://wvmuslim.org/event/ready-for-it-wvma-youth-night/",
       "featured": false
     },
     {
