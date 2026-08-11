@@ -5,7 +5,7 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 61,
+  "count": 67,
   "featured_count": 0,
   "events": [
     {
@@ -339,13 +339,33 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) – Ihab Badr",
+      "start": "2026-08-14 13:30:00",
+      "end": "2026-08-14 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-ihab-badr-3/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Zaid Yousef",
       "start": "2026-08-14 13:30:00",
       "end": "2026-08-14 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-14/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-16/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – TBA",
+      "start": "2026-08-14 14:30:00",
+      "end": "2026-08-14 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-tba-3/",
       "featured": false
     },
     {
@@ -369,6 +389,16 @@
       "featured": false
     },
     {
+      "title": "Quran Night for the Orphans",
+      "start": "2026-08-15 20:00:00",
+      "end": "2026-08-15 21:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/quranight.png",
+      "url": "https://wvmuslim.org/event/quran-night-for-the-orphans/",
+      "featured": false
+    },
+    {
       "title": "Beginners Arabic Class",
       "start": "2026-08-16 14:00:00",
       "end": "2026-08-16 15:30:00",
@@ -376,6 +406,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
       "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-08-16/",
+      "featured": false
+    },
+    {
+      "title": "A Legacy of Light with Imam Siraj Wahhaj",
+      "start": "2026-08-16 17:00:00",
+      "end": "2026-08-16 18:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/siraj.png",
+      "url": "https://wvmuslim.org/event/a-legacy-of-light-with-imam-siraj-wahhaj/",
       "featured": false
     },
     {
@@ -476,6 +516,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
       "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-21/",
+      "featured": false
+    },
+    {
+      "title": "Siraat Beach Bonfire",
+      "start": "2026-08-22 19:00:00",
+      "end": "2026-08-22 22:00:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/beachbonfire.png",
+      "url": "https://wvmuslim.org/event/siraat-bonfire/",
       "featured": false
     },
     {
@@ -586,6 +636,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
       "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-28/",
+      "featured": false
+    },
+    {
+      "title": "Sunnah Festival 2026",
+      "start": "2026-08-29 14:00:00",
+      "end": "2026-08-29 18:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/sunnahfestbanner.png",
+      "url": "https://wvmuslim.org/event/sunnah-festival-2026/",
       "featured": false
     },
     {
