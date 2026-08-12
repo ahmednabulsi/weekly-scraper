@@ -5,7 +5,7 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 67,
+  "count": 64,
   "featured_count": 0,
   "events": [
     {
@@ -309,16 +309,6 @@
       "featured": false
     },
     {
-      "title": "Boys High School Halaqa",
-      "start": "2026-08-13 19:30:00",
-      "end": "2026-08-13 20:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-2/2026-08-13/",
-      "featured": false
-    },
-    {
       "title": "Rooted in Reflection",
       "start": "2026-08-13 20:00:00",
       "end": "2026-08-13 21:00:00",
@@ -479,16 +469,6 @@
       "featured": false
     },
     {
-      "title": "Boys High School Halaqa",
-      "start": "2026-08-20 19:30:00",
-      "end": "2026-08-20 20:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-2/2026-08-20/",
-      "featured": false
-    },
-    {
       "title": "Rooted in Reflection",
       "start": "2026-08-20 20:00:00",
       "end": "2026-08-20 21:00:00",
@@ -596,16 +576,6 @@
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
       "url": "https://wvmuslim.org/event/boys-tajweed-class-2/2026-08-27/",
-      "featured": false
-    },
-    {
-      "title": "Boys High School Halaqa",
-      "start": "2026-08-27 19:30:00",
-      "end": "2026-08-27 20:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-2/2026-08-27/",
       "featured": false
     },
     {
