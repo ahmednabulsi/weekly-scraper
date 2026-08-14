@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-08-13",
+  "generated_at": "2026-08-14",
   "window": {
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 64,
+  "count": 61,
   "featured_count": 0,
   "events": [
     {
@@ -299,16 +299,6 @@
       "featured": false
     },
     {
-      "title": "Boys Tajweed Class",
-      "start": "2026-08-13 18:30:00",
-      "end": "2026-08-13 19:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-2/2026-08-13/",
-      "featured": false
-    },
-    {
       "title": "Rooted in Reflection",
       "start": "2026-08-13 20:00:00",
       "end": "2026-08-13 21:00:00",
@@ -459,16 +449,6 @@
       "featured": false
     },
     {
-      "title": "Boys Tajweed Class",
-      "start": "2026-08-20 18:30:00",
-      "end": "2026-08-20 19:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-2/2026-08-20/",
-      "featured": false
-    },
-    {
       "title": "Rooted in Reflection",
       "start": "2026-08-20 20:00:00",
       "end": "2026-08-20 21:00:00",
@@ -566,16 +546,6 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/04/arabic-class-for-urdu-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters/2026-08-27/",
-      "featured": false
-    },
-    {
-      "title": "Boys Tajweed Class",
-      "start": "2026-08-27 18:30:00",
-      "end": "2026-08-27 19:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-2/2026-08-27/",
       "featured": false
     },
     {
