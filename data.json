@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-08-14 06:14:27.151998",
+    "date_scraped": "2026-08-14 10:11:24.441449",
     "data": [
         {
             "location": "MCA",
@@ -61,13 +61,8 @@
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
-                    "time": "2:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "4th Jummah - Prospect Center",
                     "time": "3:30 PM",
-                    "speaker": null
+                    "speaker": "TBA"
                 }
             ]
         },
