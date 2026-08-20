@@ -5,7 +5,7 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 61,
+  "count": 66,
   "featured_count": 0,
   "events": [
     {
@@ -106,16 +106,6 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/04/arabic-class-for-urdu-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters/2026-08-06/",
-      "featured": false
-    },
-    {
-      "title": "WVMA Youth Groups",
-      "start": "2026-08-06 18:30:00",
-      "end": "2026-08-06 20:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/faith.png",
-      "url": "https://wvmuslim.org/event/wvma-youth-groups/",
       "featured": false
     },
     {
@@ -449,6 +439,16 @@
       "featured": false
     },
     {
+      "title": "WVMA Youth Groups",
+      "start": "2026-08-20 18:30:00",
+      "end": "2026-08-20 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/faith.png",
+      "url": "https://wvmuslim.org/event/wvma-youth-groups/2026-08-20/",
+      "featured": false
+    },
+    {
       "title": "Rooted in Reflection",
       "start": "2026-08-20 20:00:00",
       "end": "2026-08-20 21:00:00",
@@ -469,13 +469,43 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Imam Sami Rehman",
       "start": "2026-08-21 13:30:00",
       "end": "2026-08-21 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-21/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-17/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) – Imam Basil Farooq",
+      "start": "2026-08-21 13:30:00",
+      "end": "2026-08-21 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-imam-basil-farooq-5/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – TBA",
+      "start": "2026-08-21 14:30:00",
+      "end": "2026-08-21 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-tba-4/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (3:30 PM) – Kareem Darwish",
+      "start": "2026-08-21 15:30:00",
+      "end": "2026-08-21 16:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-11/",
       "featured": false
     },
     {
@@ -579,6 +609,16 @@
       "featured": false
     },
     {
+      "title": "Jumu’ah (3:30 PM) – TBA",
+      "start": "2026-08-28 15:30:00",
+      "end": "2026-08-28 16:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-kareem-darwish/2026-08-28/",
+      "featured": false
+    },
+    {
       "title": "Sunnah Festival 2026",
       "start": "2026-08-29 14:00:00",
       "end": "2026-08-29 18:00:00",
@@ -596,6 +636,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
       "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-08-30/",
+      "featured": false
+    },
+    {
+      "title": "New Muslims Potluck Social",
+      "start": "2026-08-30 18:00:00",
+      "end": "2026-08-30 20:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/NMsocial.png",
+      "url": "https://wvmuslim.org/event/new-muslims-potluck-social/",
       "featured": false
     },
     {
