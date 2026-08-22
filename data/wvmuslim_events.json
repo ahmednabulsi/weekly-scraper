@@ -1,6 +1,6 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-22",
   "window": {
     "start": "2026-08-01",
     "end": "2026-08-31"
@@ -505,7 +505,7 @@
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-11/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-13/",
       "featured": false
     },
     {
@@ -599,13 +599,13 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Imam Basil Farooq",
       "start": "2026-08-28 13:30:00",
       "end": "2026-08-28 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-08-28/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-18/",
       "featured": false
     },
     {
@@ -613,9 +613,9 @@
       "start": "2026-08-28 15:30:00",
       "end": "2026-08-28 16:00:00",
       "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-kareem-darwish/2026-08-28/",
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-08-28/",
       "featured": false
     },
     {
