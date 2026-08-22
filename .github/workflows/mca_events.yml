@@ -36,4 +36,19 @@ jobs:
           git add -A
           # "|| exit 0" keeps the workflow green when the events haven't changed.
           git commit -m "Update MCA events: $(date -u)" || exit 0
-          git push
+          # Other scheduled workflows in this repo can push to main around the same
+          # time, so retry with a rebase if our push is rejected as non-fast-forward.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Push succeeded."
+              break
+            fi
+            echo "Push rejected (attempt $i/5) - fetching and rebasing onto origin/main..."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase conflict - aborting this run's push; the next scheduled run will pick it up."
+              git rebase --abort
+              exit 0
+            fi
+            sleep $((RANDOM % 5 + 1))
+          done
