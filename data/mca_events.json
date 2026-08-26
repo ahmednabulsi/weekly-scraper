@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
   "generated_at": "2026-08-26",
-  "count": 39,
+  "count": 38,
   "events": [
-    {
-      "title": "Story & Play Time",
-      "start": "2026-08-26T10:30:00-07:00",
-      "end": "2026-08-26T12:30:00-07:00",
-      "location": "",
-      "image": "",
-      "url": "https://www.mcabayarea.org/mec-events/story-play-time-2/?occurrence=2026-08-26",
-      "description": "The MCA Bookstore, in collaboration with the Women’s Committee, is excited to bring families together every week! Our Story Times are designed to spark a love of reading, strengthen Islamic values, and enrich children’s understanding of their deen in a fun, age-appropriate way. Through stories, songs, and activities, kids develop language, social, and early learning skills.Registration Required"
-    },
     {
       "title": "Tajweed for Brothers at Masjid Al-Noor",
       "start": "2026-08-26T18:00:00-07:00",
@@ -112,15 +103,6 @@
       "description": "Join our weekly tafsir class with AlHuda instructor Sr. Lubna Afzal to study the opening chapters of the Quran. Students will embark on a translation, word-by-word analysis and tafsir that will foster a greater understanding and love for the surahs. Great for busy sisters and beginners!    This weekly tafsir class that will cover translation, word-by-word analysis and tafsir of Surah Fatiha and Surah Baqarah."
     },
     {
-      "title": "Women’s Committee Volunteer Social",
-      "start": "2026-08-29T12:00:00-07:00",
-      "end": "2026-08-29T14:00:00-07:00",
-      "location": "Rizq Halal Eats",
-      "image": "",
-      "url": "https://www.mcabayarea.org/mec-events/womens-committee-volunteer-social/?occurrence=2026-08-29",
-      "description": "Join us for a relaxed Women’s Committee Volunteer Social and discover how you can be part of creating meaningful programs and memorable experiences for sisters in our community. Meet the team, share your ideas, enjoy some drinks , and take part in a fun activity!Registration requiredWhen: Saturday, August 29 | NoonWhere: Rizq Halal Eats at MCA"
-    },
-    {
       "title": "Sisters Beginners Tajweed Class  (Online Only)",
       "start": "2026-08-29T13:00:00-07:00",
       "end": "2026-08-29T15:00:00-07:00",
@@ -128,6 +110,15 @@
       "image": "https://www.mcabayarea.org/wp-content/uploads/2025/12/Tajweed-Sisters-Class.jpeg",
       "url": "https://www.mcabayarea.org/mec-events/sisters-beginners-tajweed-class-online-only/?occurrence=2026-08-29",
       "description": "Start your tajweed journey from the basics. Learn essential rules and practice recitation in a beginner-friendly, supportive environment with Dr. Mona Ibrahim.Instructor:Dr. Mona IbrahimWhen: Every Saturday | 1:00–3:00 PMWhere: Online Register Here"
+    },
+    {
+      "title": "Women’s Committee Volunteer Social",
+      "start": "2026-08-29T14:00:00-07:00",
+      "end": "2026-08-29T16:00:00-07:00",
+      "location": "Rizq Halal Eats",
+      "image": "",
+      "url": "https://www.mcabayarea.org/mec-events/womens-committee-volunteer-social/?occurrence=2026-08-29",
+      "description": "Join us for a relaxed Women’s Committee Volunteer Social and discover how you can be part of creating meaningful programs and memorable experiences for sisters in our community. Meet the team, share your ideas, enjoy some drinks , and take part in a fun activity!    Registration required    When: Saturday, August 29 | Noon    Where: Rizq Halal Eats at MCA"
     },
     {
       "title": "MCA Youth Leadership & Communication Workshop",
