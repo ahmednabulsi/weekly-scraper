@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-28",
   "window": {
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "count": 67,
+  "count": 69,
   "featured_count": 0,
   "events": [
     {
@@ -609,13 +609,33 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (1:30 PM) – Zaid Yousef",
+      "start": "2026-08-28 13:30:00",
+      "end": "2026-08-28 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-zaid-yousef-2/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Abdul Malik Mujahid",
+      "start": "2026-08-28 14:30:00",
+      "end": "2026-08-28 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-abdul-malik-mujahid/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (3:30 PM) – Abdullah Shah",
       "start": "2026-08-28 15:30:00",
       "end": "2026-08-28 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-08-28/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-14/",
       "featured": false
     },
     {
