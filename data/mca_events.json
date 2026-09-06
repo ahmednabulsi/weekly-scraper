@@ -1,26 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-09-05",
-  "count": 111,
+  "generated_at": "2026-09-06",
+  "count": 109,
   "events": [
-    {
-      "title": "MCA Youth Leadership & Communication Workshop",
-      "start": "2026-09-05T15:00:00-07:00",
-      "end": "2026-09-05T17:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-x-Toastmasters-Youth-Leadership-Communication-Program-Season-2-2026-1080-x-1350-px.png",
-      "url": "https://www.mcabayarea.org/mec-events/mca-youth-leadership-communication-workshop/?occurrence=2026-09-05",
-      "description": "Build confidence, sharpen your speaking skills, and grow as a leader this summer!  Join us for an exciting, hands-on program designed to help youth to overcome shyness, build confidence and develop communications skills and leadership qualities under Toastmasters International guidance.  Don’t miss out!Program details:Handbook, 6 sessions and 2 prep SessionsFinal presentation and family  dinner in KBHFinancial aid is available for this program, contact us at youth@mcabayarea.org When: Saturdays | August 01 – September 19 | 3–5 PM Where: MCA Youth LoungeRegister Here"
-    },
-    {
-      "title": "Using Artificial Intelligence to Analyze and Pick Stocks",
-      "start": "2026-09-05T19:45:00-07:00",
-      "end": "2026-09-05T20:45:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/Outreach-AI-Stocks-2.jpg",
-      "url": "https://www.mcabayarea.org/mec-events/using-artificial-intelligence-to-analyze-and-pick-stocks/?occurrence=2026-09-05",
-      "description": "Join us for a practical and timely session on Using Artificial Intelligence to Analyze and Pick Stocks with Azeem Sattar, Co-Founder of Serene Equity Investments and seasoned fintech leader.Learn how AI can be used to evaluate companies, identify opportunities, compare investment ideas, and support smarter decision-making for both long-term portfolios and active trading. The session will also explore how data, discipline, and risk management can work together when using AI-powered tools.When: Saturday, September 5 | After Maghrib — 7:40 PMWhere: MCA Khadijah Banquet Hall"
-    },
     {
       "title": "The Kids’ Tafsir Reading Club",
       "start": "2026-09-06T10:30:00-07:00",
@@ -1004,22 +986,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Using Artificial Intelligence to Analyze and Pick Stocks",
-      "date_text": "Sep 05, 2026",
-      "time_text": "7:30PM - 9:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/using-artificial-intelligence-to-analyze-and-pick-stocks/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/Outreach-AI-Stocks-2.jpg",
-      "featured": true
-    },
-    {
-      "title": "Kids Got Talent 2026",
-      "date_text": "Sep 05, 2026",
-      "time_text": "9:00AM - 5:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/kids-got-talent-2026/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/KGT-20206-1080-x-1350.png",
-      "featured": true
-    },
     {
       "title": "Islam 101: A New Muslims’ Guide",
       "date_text": "Sep 10, 2026",
