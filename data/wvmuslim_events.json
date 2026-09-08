@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-09-07",
+  "generated_at": "2026-09-08",
   "window": {
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 47,
+  "count": 50,
   "featured_count": 0,
   "events": [
     {
@@ -119,16 +119,6 @@
       "featured": false
     },
     {
-      "title": "Between the Verses",
-      "start": "2026-09-07 20:00:00",
-      "end": "2026-09-07 21:00:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Between-the-Verses-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/between-the-verses-3/2026-09-07/",
-      "featured": false
-    },
-    {
       "title": "Stories of the Prophets with Ihab Badr",
       "start": "2026-09-07 21:20:00",
       "end": "2026-09-07 22:00:00",
@@ -146,6 +136,16 @@
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Sister-Fareeda-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/reflecting-on-the-quran/2026-09-08/",
+      "featured": false
+    },
+    {
+      "title": "Youth Workshop: Navigating Middle School",
+      "start": "2026-09-08 16:00:00",
+      "end": "2026-09-08 17:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/baseerah.png",
+      "url": "https://wvmuslim.org/event/youth-workshop-navigating-middle-school/2026-09-08/",
       "featured": false
     },
     {
@@ -259,6 +259,16 @@
       "featured": false
     },
     {
+      "title": "Youth Workshop: Navigating Middle School",
+      "start": "2026-09-15 16:00:00",
+      "end": "2026-09-15 17:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/baseerah.png",
+      "url": "https://wvmuslim.org/event/youth-workshop-navigating-middle-school/2026-09-15/",
+      "featured": false
+    },
+    {
       "title": "Reflections from the Short Surahs",
       "start": "2026-09-16 21:00:00",
       "end": "2026-09-16 21:45:00",
@@ -369,6 +379,16 @@
       "featured": false
     },
     {
+      "title": "Youth Workshop: Navigating Middle School",
+      "start": "2026-09-22 16:00:00",
+      "end": "2026-09-22 17:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/baseerah.png",
+      "url": "https://wvmuslim.org/event/youth-workshop-navigating-middle-school/2026-09-22/",
+      "featured": false
+    },
+    {
       "title": "The Day of Judgement with Imam Tahir",
       "start": "2026-09-23 21:00:00",
       "end": "2026-09-23 21:30:00",
@@ -466,6 +486,16 @@
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Sister-Fareeda-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/reflecting-on-the-quran/2026-09-29/",
+      "featured": false
+    },
+    {
+      "title": "Youth Workshop: Navigating Middle School",
+      "start": "2026-09-29 16:00:00",
+      "end": "2026-09-29 17:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/baseerah.png",
+      "url": "https://wvmuslim.org/event/youth-workshop-navigating-middle-school/2026-09-29/",
       "featured": false
     },
     {
