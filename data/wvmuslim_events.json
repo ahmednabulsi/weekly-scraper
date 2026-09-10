@@ -149,16 +149,6 @@
       "featured": false
     },
     {
-      "title": "The Day of Judgement with Imam Tahir",
-      "start": "2026-09-09 21:00:00",
-      "end": "2026-09-09 21:30:00",
-      "all_day": false,
-      "venue": "Saratoga Musalla",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/04/imamtahir.png",
-      "url": "https://wvmuslim.org/event/the-day-of-judgement-with-imam-tahir/2026-09-09/",
-      "featured": false
-    },
-    {
       "title": "Arabic Grammar for Urdu-speaking Sisters",
       "start": "2026-09-10 10:00:00",
       "end": "2026-09-10 11:00:00",
@@ -189,13 +179,33 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Shaykh Alauddin ElBakri",
       "start": "2026-09-11 13:30:00",
       "end": "2026-09-11 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-09-11/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-20/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) – Ihab Badr",
+      "start": "2026-09-11 13:30:00",
+      "end": "2026-09-11 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-ihab-badr-4/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Munir Qtaish",
+      "start": "2026-09-11 14:30:00",
+      "end": "2026-09-11 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-munir-qtaish/",
       "featured": false
     },
     {
@@ -386,16 +396,6 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/baseerah.png",
       "url": "https://wvmuslim.org/event/youth-workshop-navigating-middle-school/2026-09-22/",
-      "featured": false
-    },
-    {
-      "title": "The Day of Judgement with Imam Tahir",
-      "start": "2026-09-23 21:00:00",
-      "end": "2026-09-23 21:30:00",
-      "all_day": false,
-      "venue": "Saratoga Musalla",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/04/imamtahir.png",
-      "url": "https://wvmuslim.org/event/the-day-of-judgement-with-imam-tahir/2026-09-23/",
       "featured": false
     },
     {
