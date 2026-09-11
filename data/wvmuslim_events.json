@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "window": {
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 50,
+  "count": 60,
   "featured_count": 0,
   "events": [
     {
@@ -159,13 +159,33 @@
       "featured": false
     },
     {
-      "title": "Rooted in Reflection",
-      "start": "2026-09-10 20:00:00",
-      "end": "2026-09-10 21:00:00",
+      "title": "Boys Tajweed Class",
+      "start": "2026-09-10 18:30:00",
+      "end": "2026-09-10 19:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-10/",
+      "featured": false
+    },
+    {
+      "title": "Boys High School Halaqa",
+      "start": "2026-09-10 19:30:00",
+      "end": "2026-09-10 20:30:00",
       "all_day": false,
       "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/rooted-in-Reflection-1920-x-1080-px-1.png",
-      "url": "https://wvmuslim.org/event/rooted-in-reflection-2/2026-09-10/",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-10/",
+      "featured": false
+    },
+    {
+      "title": "After Isha Reflections with Imam Basil",
+      "start": "2026-09-10 21:00:00",
+      "end": "2026-09-10 22:00:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
+      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil/2026-09-10/",
       "featured": false
     },
     {
@@ -209,13 +229,23 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (3:30 PM) – Imam Sami Rehman",
       "start": "2026-09-11 15:30:00",
       "end": "2026-09-11 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-09-11/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-16/",
+      "featured": false
+    },
+    {
+      "title": "Masjid Clean up",
+      "start": "2026-09-12 10:00:00",
+      "end": "2026-09-12 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Masjid-Clean-up-1920-x-1080-px.png",
+      "url": "https://wvmuslim.org/event/masjid-clean-up-3/",
       "featured": false
     },
     {
@@ -226,6 +256,16 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/04/Salahstretching.png",
       "url": "https://wvmuslim.org/event/salah-stretching-2/",
+      "featured": false
+    },
+    {
+      "title": "Bridge to High School",
+      "start": "2026-09-13 13:30:00",
+      "end": "2026-09-13 15:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/bridgehighschool.png",
+      "url": "https://wvmuslim.org/event/bridge-to-high-school/",
       "featured": false
     },
     {
@@ -309,6 +349,26 @@
       "featured": false
     },
     {
+      "title": "Boys Tajweed Class",
+      "start": "2026-09-17 18:30:00",
+      "end": "2026-09-17 19:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-17/",
+      "featured": false
+    },
+    {
+      "title": "Boys High School Halaqa",
+      "start": "2026-09-17 19:30:00",
+      "end": "2026-09-17 20:30:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-17/",
+      "featured": false
+    },
+    {
       "title": "Rooted in Reflection",
       "start": "2026-09-17 20:00:00",
       "end": "2026-09-17 21:00:00",
@@ -316,6 +376,16 @@
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/rooted-in-Reflection-1920-x-1080-px-1.png",
       "url": "https://wvmuslim.org/event/rooted-in-reflection-2/2026-09-17/",
+      "featured": false
+    },
+    {
+      "title": "After Isha Reflections with Imam Basil",
+      "start": "2026-09-17 21:00:00",
+      "end": "2026-09-17 22:00:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
+      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil/2026-09-17/",
       "featured": false
     },
     {
@@ -409,6 +479,26 @@
       "featured": false
     },
     {
+      "title": "Boys Tajweed Class",
+      "start": "2026-09-24 18:30:00",
+      "end": "2026-09-24 19:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-24/",
+      "featured": false
+    },
+    {
+      "title": "Boys High School Halaqa",
+      "start": "2026-09-24 19:30:00",
+      "end": "2026-09-24 20:30:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-24/",
+      "featured": false
+    },
+    {
       "title": "Rooted in Reflection",
       "start": "2026-09-24 20:00:00",
       "end": "2026-09-24 21:00:00",
@@ -416,6 +506,16 @@
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/rooted-in-Reflection-1920-x-1080-px-1.png",
       "url": "https://wvmuslim.org/event/rooted-in-reflection-2/2026-09-24/",
+      "featured": false
+    },
+    {
+      "title": "After Isha Reflections with Imam Basil",
+      "start": "2026-09-24 21:00:00",
+      "end": "2026-09-24 22:00:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
+      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil/2026-09-24/",
       "featured": false
     },
     {
