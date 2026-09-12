@@ -1,35 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-09-11",
-  "count": 97,
+  "generated_at": "2026-09-12",
+  "count": 94,
   "events": [
-    {
-      "title": "Crocheting For Beginners",
-      "start": "2026-09-11T16:00:00-07:00",
-      "end": "2026-09-11T17:30:00-07:00",
-      "location": "",
-      "image": "",
-      "url": "https://www.mcabayarea.org/mec-events/crocheting-for-beginners/?occurrence=2026-09-11",
-      "description": "Unravel your inner artist and join Jawariya and Shifa Quraishi for a beginner-friendly crochet class designed for sisters ages 7 and up. This 10-week hands-on series will introduce participants to foundational crochet techniques in a welcoming environment, with guided instruction each week to help build confidence and creativity.Registration is $150 for the full series, with $50 from each student registration supporting MCA Women’s Committee programs. Optional supplies are available for purchase for those who need yarn, scissors, and a crochet needle.When:  Fridays Sep 4 - Nov 6 | 4:00 PM - 5:20 PMWhere: MCA Maryam HallRegister"
-    },
-    {
-      "title": "Raising Digital Heroes Featuring Noor Kids",
-      "start": "2026-09-11T17:30:00-07:00",
-      "end": "2026-09-11T19:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/1080-×-1350.png",
-      "url": "https://www.mcabayarea.org/mec-events/raising-digital-heroes-featuring-noor-kids/?occurrence=2026-09-11",
-      "description": "Raising Digital Heroes: A Noor Kids Experience at MCA featuring The Digital Armor, an interactive workshop for ages 8–12 on navigating the digital world with faith, values, and purpose, followed by a Meet the Author session. Free babysitting available for ages 3–7When:  Friday, September 11, 2026 | 5:30 PM–7:30 PMWhere: MCA Khadijah Banquet HallRegister"
-    },
-    {
-      "title": "Quran Night",
-      "start": "2026-09-11T20:00:00-07:00",
-      "end": "2026-09-11T21:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/Quran-Night-1080x1320-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/quran-night/?occurrence=2026-09-11",
-      "description": "Join us for a beautiful evening of Qur’an recitation, reflection, and spiritual renewal with the mashayikh. Come together as a community for a night of inspiration and connection with the Qur’an.Free | Registration RequiredBabysitting available for children ages 3–5When:  Friday, September 11 | 8 PM After MaghribWhere: MCA Khadijah Banquet Hall"
-    },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-09-12T08:00:00-07:00",
@@ -878,22 +851,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Raising Digital Heroes Featuring Noor Kids",
-      "date_text": "Sep 11, 2026",
-      "time_text": "5:30PM - 7:30PM",
-      "url": "https://www.mcabayarea.org/mec-events/raising-digital-heroes-featuring-noor-kids/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/1080-×-1350-1.png",
-      "featured": true
-    },
-    {
-      "title": "Quran Night: A Night of Beautiful Recitation",
-      "date_text": "Sep 11, 2026",
-      "time_text": "8:00PM - 10:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/quran-night/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/Quran-Night-1080x1320-1.png",
-      "featured": true
-    },
     {
       "title": "Data and Donuts with Dad",
       "date_text": "Sep 12, 2026",
