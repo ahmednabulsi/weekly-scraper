@@ -1,26 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-09-12",
-  "count": 87,
+  "generated_at": "2026-09-13",
+  "count": 85,
   "events": [
-    {
-      "title": "MCA Youth Leadership & Communication Workshop",
-      "start": "2026-09-12T15:00:00-07:00",
-      "end": "2026-09-12T17:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/MCA-Youth-x-Toastmasters-Youth-Leadership-Communication-Program-Season-2-2026-1080-x-1350-px.png",
-      "url": "https://www.mcabayarea.org/mec-events/mca-youth-leadership-communication-workshop/?occurrence=2026-09-12",
-      "description": "Build confidence, sharpen your speaking skills, and grow as a leader this summer!  Join us for an exciting, hands-on program designed to help youth to overcome shyness, build confidence and develop communications skills and leadership qualities under Toastmasters International guidance.  Don’t miss out!Program details:Handbook, 6 sessions and 2 prep SessionsFinal presentation and family  dinner in KBHFinancial aid is available for this program, contact us at youth@mcabayarea.org When: Saturdays | August 01 – September 19 | 3–5 PM Where: MCA Youth LoungeRegister Here"
-    },
-    {
-      "title": "Data and Donuts with Dad",
-      "start": "2026-09-12T17:30:00-07:00",
-      "end": "2026-09-12T19:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/MCA-Youth-Data-and-Donuts-with-dad-Sep-2026-1080-x-1350-px.png",
-      "url": "https://www.mcabayarea.org/mec-events/data-and-donuts-with-dad/?occurrence=2026-09-12",
-      "description": "We're excited to welcome Gulrez Khan—an award-winning local author, international keynote speaker, and leader in data science—for a special presentation featuring the award-winning book, Drawing Data with Kids.Families will enjoy Donuts with Dad while hearing from Gulrez about how data science can be fun, accessible, and engaging through relatable stories and real-life examples.Event Highlights:🍩 Donuts and refreshments👨‍👧 Quality time with dads and father figures🎨 Hands-on drawing activities📊 Fun introduction to data visualization🤝 Family fellowship and learningSpots are limited! Registration RequiredWhen: Saturday, September 12 | 5:30 PM – 7:00 PMWhere: MCA Youth LoungeRegister"
-    },
     {
       "title": "Aqeedah 101: Exploring The Essense of Islam",
       "start": "2026-09-13T11:15:00-07:00",
@@ -788,14 +770,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Data and Donuts with Dad",
-      "date_text": "Sep 12, 2026",
-      "time_text": "5:30PM - 7:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/data-and-donuts-with-dad/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/MCA-Youth-Data-and-Donuts-with-dad-Sep-2026-1080-x-1350-px.png",
-      "featured": true
-    },
     {
       "title": "Salutations Upon the Strangers",
       "date_text": "Sep 18, 2026",
