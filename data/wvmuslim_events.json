@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-15",
   "window": {
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 60,
+  "count": 72,
   "featured_count": 0,
   "events": [
     {
@@ -339,6 +339,16 @@
       "featured": false
     },
     {
+      "title": "A Sisters’ Night with Sh. Ieasha Prime",
+      "start": "2026-09-17 18:00:00",
+      "end": "2026-09-17 20:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Iesha-.png",
+      "url": "https://wvmuslim.org/event/a-sisters-night-with-sh-ieasha-prime/",
+      "featured": false
+    },
+    {
       "title": "WVMA Youth Groups",
       "start": "2026-09-17 18:30:00",
       "end": "2026-09-17 20:30:00",
@@ -399,13 +409,33 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Shaykh Ahmed Biloo",
       "start": "2026-09-18 13:30:00",
       "end": "2026-09-18 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-09-18/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-21/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) – Imam Basil Farooq",
+      "start": "2026-09-18 13:30:00",
+      "end": "2026-09-18 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-imam-basil-farooq-6/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Shaykh Alauddin ElBakri",
+      "start": "2026-09-18 14:30:00",
+      "end": "2026-09-18 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-shaykh-alauddin-elbakri-2/",
       "featured": false
     },
     {
@@ -416,6 +446,66 @@
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
       "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-09-18/",
+      "featured": false
+    },
+    {
+      "title": "Raising the Next Generation of Muslims in America",
+      "start": "2026-09-18 20:00:00",
+      "end": "2026-09-18 21:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Banners_.png",
+      "url": "https://wvmuslim.org/event/raising-the-next-generation-of-muslims-in-america/",
+      "featured": false
+    },
+    {
+      "title": "Juz Amma Qur’an Class",
+      "start": "2026-09-19 10:00:00",
+      "end": "2026-09-19 11:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-19/",
+      "featured": false
+    },
+    {
+      "title": "New Immigrant Workshop",
+      "start": "2026-09-19 10:30:00",
+      "end": "2026-09-19 12:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-03-at-21.45.55.jpeg",
+      "url": "https://wvmuslim.org/event/new-immigrant-workshop/",
+      "featured": false
+    },
+    {
+      "title": "Little Hearts Storytime",
+      "start": "2026-09-19 10:30:00",
+      "end": "2026-09-19 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/littlehearts.png",
+      "url": "https://wvmuslim.org/event/little-hearts-storytime-2/",
+      "featured": false
+    },
+    {
+      "title": "Juz Amma Qur’an Class",
+      "start": "2026-09-20 10:00:00",
+      "end": "2026-09-20 11:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-20/",
+      "featured": false
+    },
+    {
+      "title": "Puberty with Purpose for Girls and Boys",
+      "start": "2026-09-20 11:00:00",
+      "end": "2026-09-20 13:00:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Banners_puberty.png",
+      "url": "https://wvmuslim.org/event/puberty-with-purpose-for-girls-and-boys/2026-09-20/",
       "featured": false
     },
     {
@@ -546,6 +636,36 @@
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
       "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-09-25/",
+      "featured": false
+    },
+    {
+      "title": "Juz Amma Qur’an Class",
+      "start": "2026-09-26 10:00:00",
+      "end": "2026-09-26 11:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-26/",
+      "featured": false
+    },
+    {
+      "title": "Juz Amma Qur’an Class",
+      "start": "2026-09-27 10:00:00",
+      "end": "2026-09-27 11:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-27/",
+      "featured": false
+    },
+    {
+      "title": "Puberty with Purpose for Girls and Boys",
+      "start": "2026-09-27 11:00:00",
+      "end": "2026-09-27 13:00:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Banners_puberty.png",
+      "url": "https://wvmuslim.org/event/puberty-with-purpose-for-girls-and-boys/2026-09-27/",
       "featured": false
     },
     {
