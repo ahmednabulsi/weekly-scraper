@@ -5,7 +5,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 72,
+  "count": 70,
   "featured_count": 0,
   "events": [
     {
@@ -165,17 +165,7 @@
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-10/",
-      "featured": false
-    },
-    {
-      "title": "Boys High School Halaqa",
-      "start": "2026-09-10 19:30:00",
-      "end": "2026-09-10 20:30:00",
-      "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-10/",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/",
       "featured": false
     },
     {
@@ -349,6 +339,16 @@
       "featured": false
     },
     {
+      "title": "Boys Tajweed Class",
+      "start": "2026-09-17 18:00:00",
+      "end": "2026-09-17 18:50:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-6/2026-09-17/",
+      "featured": false
+    },
+    {
       "title": "WVMA Youth Groups",
       "start": "2026-09-17 18:30:00",
       "end": "2026-09-17 20:30:00",
@@ -359,23 +359,13 @@
       "featured": false
     },
     {
-      "title": "Boys Tajweed Class",
-      "start": "2026-09-17 18:30:00",
+      "title": "Boys High School Halaqa",
+      "start": "2026-09-17 18:45:00",
       "end": "2026-09-17 19:30:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-17/",
-      "featured": false
-    },
-    {
-      "title": "Boys High School Halaqa",
-      "start": "2026-09-17 19:30:00",
-      "end": "2026-09-17 20:30:00",
-      "all_day": false,
-      "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-17/",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-5/2026-09-17/",
       "featured": false
     },
     {
@@ -439,13 +429,13 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (3:30 PM) – Kareem Darwish",
       "start": "2026-09-18 15:30:00",
       "end": "2026-09-18 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-09-18/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-17/",
       "featured": false
     },
     {
@@ -466,16 +456,6 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
       "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-19/",
-      "featured": false
-    },
-    {
-      "title": "New Immigrant Workshop",
-      "start": "2026-09-19 10:30:00",
-      "end": "2026-09-19 12:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-03-at-21.45.55.jpeg",
-      "url": "https://wvmuslim.org/event/new-immigrant-workshop/",
       "featured": false
     },
     {
@@ -570,22 +550,22 @@
     },
     {
       "title": "Boys Tajweed Class",
-      "start": "2026-09-24 18:30:00",
-      "end": "2026-09-24 19:30:00",
+      "start": "2026-09-24 18:00:00",
+      "end": "2026-09-24 18:50:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-4/2026-09-24/",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-6/2026-09-24/",
       "featured": false
     },
     {
       "title": "Boys High School Halaqa",
-      "start": "2026-09-24 19:30:00",
-      "end": "2026-09-24 20:30:00",
+      "start": "2026-09-24 18:45:00",
+      "end": "2026-09-24 19:30:00",
       "all_day": false,
-      "venue": null,
+      "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-4/2026-09-24/",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-5/2026-09-24/",
       "featured": false
     },
     {
