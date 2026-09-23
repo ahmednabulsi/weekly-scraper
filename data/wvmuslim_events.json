@@ -5,7 +5,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 70,
+  "count": 75,
   "featured_count": 0,
   "events": [
     {
@@ -170,8 +170,8 @@
     },
     {
       "title": "After Isha Reflections with Imam Basil",
-      "start": "2026-09-10 21:00:00",
-      "end": "2026-09-10 22:00:00",
+      "start": "2026-09-10 20:30:00",
+      "end": "2026-09-10 21:30:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
@@ -380,8 +380,8 @@
     },
     {
       "title": "After Isha Reflections with Imam Basil",
-      "start": "2026-09-17 21:00:00",
-      "end": "2026-09-17 22:00:00",
+      "start": "2026-09-17 20:30:00",
+      "end": "2026-09-17 21:30:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
@@ -539,6 +539,16 @@
       "featured": false
     },
     {
+      "title": "The Day of Judgement with Imam Tahir",
+      "start": "2026-09-23 20:30:00",
+      "end": "2026-09-23 21:00:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/judgemnt.png",
+      "url": "https://wvmuslim.org/event/the-day-of-judgement-with-imam-tahir-3/2026-09-23/",
+      "featured": false
+    },
+    {
       "title": "Arabic Grammar for Urdu-speaking Sisters",
       "start": "2026-09-24 10:00:00",
       "end": "2026-09-24 11:00:00",
@@ -580,8 +590,8 @@
     },
     {
       "title": "After Isha Reflections with Imam Basil",
-      "start": "2026-09-24 21:00:00",
-      "end": "2026-09-24 22:00:00",
+      "start": "2026-09-24 20:30:00",
+      "end": "2026-09-24 21:30:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
@@ -609,6 +619,26 @@
       "featured": false
     },
     {
+      "title": "Jumu’ah (1:30 PM) – Ihab Badr",
+      "start": "2026-09-25 13:30:00",
+      "end": "2026-09-25 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-ihab-badr-5/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Shaykh Alauddin Elbakri",
+      "start": "2026-09-25 14:30:00",
+      "end": "2026-09-25 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-shaykh-alauddin-elbakri-3/",
+      "featured": false
+    },
+    {
       "title": "Jumu’ah (3:30 PM) – TBA",
       "start": "2026-09-25 15:30:00",
       "end": "2026-09-25 16:00:00",
@@ -619,6 +649,16 @@
       "featured": false
     },
     {
+      "title": "When Life Feels too Heavy",
+      "start": "2026-09-25 18:30:00",
+      "end": "2026-09-25 21:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Banners2.png",
+      "url": "https://wvmuslim.org/event/when-life-feels-too-heavy/",
+      "featured": false
+    },
+    {
       "title": "Juz Amma Qur’an Class",
       "start": "2026-09-26 10:00:00",
       "end": "2026-09-26 11:30:00",
@@ -626,6 +666,16 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
       "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-09-26/",
+      "featured": false
+    },
+    {
+      "title": "Community Garden Meetup",
+      "start": "2026-09-26 10:00:00",
+      "end": "2026-09-26 11:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/garden.png",
+      "url": "https://wvmuslim.org/event/community-garden-meetup/",
       "featured": false
     },
     {
