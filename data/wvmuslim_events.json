@@ -5,7 +5,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 75,
+  "count": 73,
   "featured_count": 0,
   "events": [
     {
@@ -345,7 +345,7 @@
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-6/2026-09-17/",
+      "url": "https://wvmuslim.org/event/boys-tajweed-class-6/",
       "featured": false
     },
     {
@@ -365,7 +365,7 @@
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-5/2026-09-17/",
+      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-5/",
       "featured": false
     },
     {
@@ -556,26 +556,6 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/04/arabic-class-for-urdu-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters/2026-09-24/",
-      "featured": false
-    },
-    {
-      "title": "Boys Tajweed Class",
-      "start": "2026-09-24 18:00:00",
-      "end": "2026-09-24 18:50:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/boystajweed.png",
-      "url": "https://wvmuslim.org/event/boys-tajweed-class-6/2026-09-24/",
-      "featured": false
-    },
-    {
-      "title": "Boys High School Halaqa",
-      "start": "2026-09-24 18:45:00",
-      "end": "2026-09-24 19:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/06/high-school-boys.png",
-      "url": "https://wvmuslim.org/event/boys-high-school-halaqa-5/2026-09-24/",
       "featured": false
     },
     {
