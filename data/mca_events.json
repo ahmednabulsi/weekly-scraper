@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-09-25",
-  "count": 44,
+  "generated_at": "2026-09-26",
+  "count": 43,
   "events": [
-    {
-      "title": "Heavy Heart: Open Conversations",
-      "start": "2026-09-25T18:00:00-07:00",
-      "end": "2026-09-25T19:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/MCA-Youth-Suicide-Prevention-Awareness-Month-1080-x-1350-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/heavy-heart-open-conversations/?occurrence=2026-09-25",
-      "description": "Sometimes our hearts feel heavy, and having a safe space to talk can make a difference. Join MCA Youth & Khalil Center for an open, meaningful conversation focused on mental health, emotional well-being, and suicide prevention awareness.Ages 16+ | Brothers & SistersWhen:  Friday, Sep 25 | 6PM - 7PMWhere: MCA Youth Lounge"
-    },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-09-26T08:00:00-07:00",
@@ -401,14 +392,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Heavy Heart: Open Conversations",
-      "date_text": "Sep 25, 2026",
-      "time_text": "6:00PM - 7:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/heavy-heart-open-conversations/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/MCA-Youth-Suicide-Prevention-Awareness-Month-1080-x-1350-1.png",
-      "featured": true
-    },
     {
       "title": "Angels & Demons w/ Sh. Waleed Basyouni",
       "date_text": "Sep 26, 2026",
