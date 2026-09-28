@@ -1,35 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-09-27",
-  "count": 30,
+  "generated_at": "2026-09-28",
+  "count": 27,
   "events": [
-    {
-      "title": "Meaningful Conversations w/ Sh. Alauddin",
-      "start": "2026-09-27T17:30:00-07:00",
-      "end": "2026-09-27T18:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/meaningful-conversations-newsletter.jpeg",
-      "url": "https://www.mcabayarea.org/mec-events/meaningful-conversations-w-sh-alauddin/?occurrence=2026-09-27",
-      "description": "Meaningful Conversations is a weekly halaqa for high school and college students — a welcoming space to ask questions, reflect, and grow together in faith . Led by Shaykh Alauddin ElBakri, each session is an open, interactive circle designed for honest discussion and meaningful connection.When: Sundays | 5:30PM – 6:30 PMWhere: MCA Youth LoungeRSVP"
-    },
-    {
-      "title": "Seminary Sundays Adab 102 – High School Diploma",
-      "start": "2026-09-27T18:30:00-07:00",
-      "end": "2026-09-27T20:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/08/Adab-102-8x11-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/seminary-sundays-adab-102-high-school-diploma/?occurrence=2026-09-27",
-      "description": "What if the way you seek knowledge was just as important as the knowledge itself? Join our high school diploma students, alongside Imam Fuad Mohamed, in studying The Tā'iyyah of al-Ilbīrī, a classical poem on the character of the student of knowledge. This course covers The Character of the Student of Knowledge, teaching the sincerity, humility, and discipline every seeker of knowledge needs.When: Sundays, September 13th - November 29th | 6:30 PM - 8:30 PMWhere: MCA Youth LoungeRegister"
-    },
-    {
-      "title": "Tafseerah: Professionals Halaqa",
-      "start": "2026-09-27T19:00:00-07:00",
-      "end": "2026-09-27T20:30:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/07/Tafseerah-Flyer-Shayh-MCA.png",
-      "url": "https://www.mcabayarea.org/mec-events/tafseerah-professionals-halaqa/?occurrence=2026-09-27",
-      "description": "Tafseerah is a unique summer halaqa series for professionals and adults, exploring the Qur'an in the order it was revealed to the Prophet Muhammad ﷺ .  Led by Shaykh Alauddin ElBakri, each session uncovers the spiritual, historical, and social context of revelation in an engaging and reflective setting. Refreshments providedWhen: Sundays | 7PM – 8:30 PMWhere: MCA Youth LoungeRSVP"
-    },
     {
       "title": "Bulugh Al Maraam: The Fiqh of Prayer",
       "start": "2026-09-29T09:30:00-07:00",
@@ -275,14 +248,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Tafseerah: Professionals Halaqa",
-      "date_text": "Sep 27, 2026",
-      "time_text": "7:00PM - 8:30PM",
-      "url": "https://www.mcabayarea.org/mec-events/tafseerah-professionals-halaqa-2/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/Tafseerah-8.5x11in-1.png",
-      "featured": true
-    },
     {
       "title": "This is Our Islam: Hispanic Heritage Month",
       "date_text": "Oct 02, 2026",
