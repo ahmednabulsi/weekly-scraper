@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "window": {
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "count": 73,
+  "count": 72,
   "featured_count": 0,
   "events": [
     {
@@ -109,13 +109,13 @@
       "featured": false
     },
     {
-      "title": "Beginners Arabic Class",
-      "start": "2026-09-06 14:00:00",
-      "end": "2026-09-06 15:30:00",
+      "title": "Between the Verses",
+      "start": "2026-09-07 20:00:00",
+      "end": "2026-09-07 21:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
-      "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-09-06/",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Between-the-Verses-1920-x-1080-px.png",
+      "url": "https://wvmuslim.org/event/between-the-verses-3/2026-09-07/",
       "featured": false
     },
     {
@@ -256,16 +256,6 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/bridgehighschool.png",
       "url": "https://wvmuslim.org/event/bridge-to-high-school/",
-      "featured": false
-    },
-    {
-      "title": "Beginners Arabic Class",
-      "start": "2026-09-13 14:00:00",
-      "end": "2026-09-13 15:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
-      "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-09-13/",
       "featured": false
     },
     {
@@ -489,16 +479,6 @@
       "featured": false
     },
     {
-      "title": "Beginners Arabic Class",
-      "start": "2026-09-20 14:00:00",
-      "end": "2026-09-20 15:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
-      "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-09-20/",
-      "featured": false
-    },
-    {
       "title": "Between the Verses",
       "start": "2026-09-21 20:00:00",
       "end": "2026-09-21 21:00:00",
@@ -679,33 +659,33 @@
       "featured": false
     },
     {
-      "title": "Beginners Arabic Class",
-      "start": "2026-09-27 14:00:00",
-      "end": "2026-09-27 15:30:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/05/arabic.png",
-      "url": "https://wvmuslim.org/event/beginners-arabic-class/2026-09-27/",
-      "featured": false
-    },
-    {
       "title": "Between the Verses",
-      "start": "2026-09-28 20:00:00",
-      "end": "2026-09-28 21:00:00",
+      "start": "2026-09-28 19:00:00",
+      "end": "2026-09-28 20:30:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Between-the-Verses-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/between-the-verses-3/2026-09-28/",
+      "url": "https://wvmuslim.org/event/between-the-verses-4/2026-09-28/",
       "featured": false
     },
     {
       "title": "Stories of the Prophets with Ihab Badr",
-      "start": "2026-09-28 21:20:00",
-      "end": "2026-09-28 22:00:00",
+      "start": "2026-09-28 20:20:00",
+      "end": "2026-09-28 21:30:00",
       "all_day": false,
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Ihab-Badr-after-Isha-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/stories-of-the-prophets-with-ihab-badr/2026-09-28/",
+      "url": "https://wvmuslim.org/event/stories-of-the-prophets-with-ihab-badr-2/2026-09-28/",
+      "featured": false
+    },
+    {
+      "title": "80% of Quranic Words Halaqa",
+      "start": "2026-09-28 21:00:00",
+      "end": "2026-09-28 22:00:00",
+      "all_day": false,
+      "venue": null,
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/80-of-Quranic-Words-Halaqa-1920-x-1080-px.png",
+      "url": "https://wvmuslim.org/event/80-of-quranic-words-halaqa-2/2026-09-28/",
       "featured": false
     },
     {
@@ -729,13 +709,23 @@
       "featured": false
     },
     {
+      "title": "Siraat Pathways: The Art of Noticing",
+      "start": "2026-09-29 19:00:00",
+      "end": "2026-09-29 21:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/sirat.png",
+      "url": "https://wvmuslim.org/event/siraat-pathways-the-art-of-noticing/",
+      "featured": false
+    },
+    {
       "title": "Reflections from the Short Surahs",
-      "start": "2026-09-30 21:00:00",
-      "end": "2026-09-30 21:45:00",
+      "start": "2026-09-30 20:20:00",
+      "end": "2026-09-30 21:15:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/04/Short-Surah-Sami-Hilali.png",
-      "url": "https://wvmuslim.org/event/reflections-from-the-short-surahs/2026-09-30/",
+      "url": "https://wvmuslim.org/event/reflections-from-the-short-surahs-2/2026-09-30/",
       "featured": false
     }
   ]
