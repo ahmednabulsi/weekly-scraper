@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 68,
+  "count": 71,
   "featured_count": 0,
   "events": [
     {
@@ -99,6 +99,26 @@
       "featured": false
     },
     {
+      "title": "Is it Really Worth it?",
+      "start": "2026-10-02 19:00:00",
+      "end": "2026-10-02 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/worthit.png",
+      "url": "https://wvmuslim.org/event/is-it-really-worth-it/",
+      "featured": false
+    },
+    {
+      "title": "Seerah & Slices (Boys 14+)",
+      "start": "2026-10-02 19:00:00",
+      "end": "2026-10-02 20:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/seerah.png",
+      "url": "https://wvmuslim.org/event/seerah-slices-boys-14/",
+      "featured": false
+    },
+    {
       "title": "Juz Amma Qur’an Class",
       "start": "2026-10-03 10:00:00",
       "end": "2026-10-03 11:30:00",
@@ -116,6 +136,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/BEYOND.png",
       "url": "https://wvmuslim.org/event/beyond-the-grades/",
+      "featured": false
+    },
+    {
+      "title": "Monthly Community Qiyam",
+      "start": "2026-10-03 20:50:00",
+      "end": "2026-10-03 21:50:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/qiyma.png",
+      "url": "https://wvmuslim.org/event/monthly-community-qiyam/",
       "featured": false
     },
     {
