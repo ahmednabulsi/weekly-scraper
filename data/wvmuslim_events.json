@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 77,
+  "count": 80,
   "featured_count": 0,
   "events": [
     {
@@ -296,6 +296,26 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
       "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-10-10/",
+      "featured": false
+    },
+    {
+      "title": "Salah & Stretching",
+      "start": "2026-10-10 13:30:00",
+      "end": "2026-10-10 14:30:00",
+      "all_day": false,
+      "venue": "Saratoga Musalla",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/04/Salahstretching.png",
+      "url": "https://wvmuslim.org/event/salah-stretching-2/",
+      "featured": false
+    },
+    {
+      "title": "Candidate Forum",
+      "start": "2026-10-10 14:00:00",
+      "end": "2026-10-10 16:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/Website-Banners-2.png",
+      "url": "https://wvmuslim.org/event/candidate-forum/",
       "featured": false
     },
     {
@@ -776,6 +796,16 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
       "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-10-31/",
+      "featured": false
+    },
+    {
+      "title": "Pajama Movie Night",
+      "start": "2026-10-31 18:30:00",
+      "end": "2026-10-31 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/moviewide.png",
+      "url": "https://wvmuslim.org/event/pajama-movie-night-2/",
       "featured": false
     }
   ]
