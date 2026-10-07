@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 80,
+  "count": 79,
   "featured_count": 0,
   "events": [
     {
@@ -306,16 +306,6 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/04/Salahstretching.png",
       "url": "https://wvmuslim.org/event/salah-stretching-2/",
-      "featured": false
-    },
-    {
-      "title": "Candidate Forum",
-      "start": "2026-10-10 14:00:00",
-      "end": "2026-10-10 16:00:00",
-      "all_day": false,
-      "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/Website-Banners-2.png",
-      "url": "https://wvmuslim.org/event/candidate-forum/",
       "featured": false
     },
     {
