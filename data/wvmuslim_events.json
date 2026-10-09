@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "window": {
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 79,
+  "count": 81,
   "featured_count": 0,
   "events": [
     {
@@ -269,23 +269,43 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Anas Osman",
       "start": "2026-10-09 13:30:00",
       "end": "2026-10-09 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-10-09/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-24/",
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (1:30 PM) – Ihab Badr",
+      "start": "2026-10-09 13:30:00",
+      "end": "2026-10-09 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-ihab-badr-6/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (2:30 PM) – Saleh Saleh",
+      "start": "2026-10-09 14:30:00",
+      "end": "2026-10-09 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-saleh-saleh/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (3:30 PM) – Kareem Darwish",
       "start": "2026-10-09 15:30:00",
       "end": "2026-10-09 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-10-09/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-19/",
       "featured": false
     },
     {
