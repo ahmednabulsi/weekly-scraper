@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 81,
+  "count": 82,
   "featured_count": 0,
   "events": [
     {
@@ -336,6 +336,16 @@
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
       "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-10-11/",
+      "featured": false
+    },
+    {
+      "title": "Gardening Group Meet-up",
+      "start": "2026-10-11 13:30:00",
+      "end": "2026-10-11 14:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/gardenmeetup.png",
+      "url": "https://wvmuslim.org/event/gardening-group-meet-up/",
       "featured": false
     },
     {
