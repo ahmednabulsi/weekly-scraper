@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-10-09",
-  "count": 97,
+  "generated_at": "2026-10-10",
+  "count": 96,
   "events": [
-    {
-      "title": "Candidate Forum",
-      "start": "2026-10-09T19:00:00-07:00",
-      "end": "2026-10-09T21:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/10.9.26-MCA-Candidate-Forum-FLYER-4.jpg",
-      "url": "https://www.mcabayarea.org/mec-events/candidate-forum/?occurrence=2026-10-09",
-      "description": "Candidate Forum  Join us at MCA for a Candidate Forum on Friday, October 9, from 7:00 to 9:00 p.m. Meet local candidates, hear their positions, and ask questions that matter to our community.  Register at bit.ly/forummca."
-    },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-10-10T08:00:00-07:00",
@@ -878,14 +869,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Candidate Forum",
-      "date_text": "Oct 09, 2026",
-      "time_text": "7:00PM - 9:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/candidate-forum/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/10.9.26-MCA-Candidate-Forum-FLYER-4.jpg",
-      "featured": true
-    },
     {
       "title": "Umrah w/ Imam Fuad",
       "date_text": "Nov 25, 2026 to Dec 06, 2026",
