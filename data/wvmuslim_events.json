@@ -1,11 +1,11 @@
 {
   "source": "https://wvmuslim.org/calendar/",
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-12",
   "window": {
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 82,
+  "count": 85,
   "featured_count": 0,
   "events": [
     {
@@ -409,6 +409,16 @@
       "featured": false
     },
     {
+      "title": "Mommy and Me",
+      "start": "2026-10-15 10:00:00",
+      "end": "2026-10-15 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/mom.png",
+      "url": "https://wvmuslim.org/event/mommy-and-me/2026-10-15/",
+      "featured": false
+    },
+    {
       "title": "WVMA Youth Groups (Girls)",
       "start": "2026-10-15 18:30:00",
       "end": "2026-10-15 20:30:00",
@@ -589,6 +599,16 @@
       "featured": false
     },
     {
+      "title": "Mommy and Me",
+      "start": "2026-10-22 10:00:00",
+      "end": "2026-10-22 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/mom.png",
+      "url": "https://wvmuslim.org/event/mommy-and-me/2026-10-22/",
+      "featured": false
+    },
+    {
       "title": "Rooted in Reflection",
       "start": "2026-10-22 19:00:00",
       "end": "2026-10-22 20:00:00",
@@ -746,6 +766,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/04/arabic-class-for-urdu-1920-x-1080-px.png",
       "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters/2026-10-29/",
+      "featured": false
+    },
+    {
+      "title": "Mommy and Me",
+      "start": "2026-10-29 10:00:00",
+      "end": "2026-10-29 11:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/mom.png",
+      "url": "https://wvmuslim.org/event/mommy-and-me/2026-10-29/",
       "featured": false
     },
     {
