@@ -1,7 +1,7 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-10-12",
-  "count": 83,
+  "generated_at": "2026-10-13",
+  "count": 86,
   "events": [
     {
       "title": "Bulugh Al Maraam: The Fiqh of Prayer",
@@ -112,6 +112,15 @@
       "description": "Unravel your inner artist and join Jawariya and Shifa Quraishi for a beginner-friendly crochet class designed for sisters ages 7 and up. This 10-week hands-on series will introduce participants to foundational crochet techniques in a welcoming environment, with guided instruction each week to help build confidence and creativity.Registration is $150 for the full series, with $50 from each student registration supporting MCA Women’s Committee programs. Optional supplies are available for purchase for those who need yarn, scissors, and a crochet needle.When:  Fridays Sep 4 - Nov 6 | 4:00 PM - 5:20 PMWhere: MCA Maryam HallRegister"
     },
     {
+      "title": "Evening with our Local Imams",
+      "start": "2026-10-16T20:00:00-07:00",
+      "end": "2026-10-16T21:00:00-07:00",
+      "location": "South Bay Islamic Association (SBIA - Masjid al-Mustafa)",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/An-Evening-with-Our-Local-Imams.png",
+      "url": "https://www.mcabayarea.org/mec-events/evening-with-our-local-imams/?occurrence=2026-10-16",
+      "description": "Join us for an evening featuring local imams from MCA, SBIA, WVMA, and EIC as they share their perspectives, experiences, and advice for our community.    When:  Friday, October 16 | 8PM (After Maghrib)    Where: South Bay Islamic Association (SBIA)    2345 Harris Way, San Jose    RSVP"
+    },
+    {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-10-17T08:00:00-07:00",
       "end": "2026-10-17T09:00:00-07:00",
@@ -182,6 +191,15 @@
       "image": "",
       "url": "https://www.mcabayarea.org/mec-events/henna-masterclass/?occurrence=2026-10-17",
       "description": "MCA Women invites girls and women ages 13+ to join a Henna Masterclass with artist Mariyam Afreen. Participants will learn henna design techniques and create intricate patterns in a hands-on class environment.When:  Saturdays Sep 12 - Dec 5 | 2:30 PM to 3:30 PMWhere: MCA Maryam HallRegister"
+    },
+    {
+      "title": "New Sisters in Islam Sisters Social",
+      "start": "2026-10-17T15:00:00-07:00",
+      "end": "2026-10-17T17:00:00-07:00",
+      "location": "MCA Youth Lounge",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/New-Sisters-in-Islam-Social.jpg",
+      "url": "https://www.mcabayarea.org/mec-events/new-sisters-in-islam-sisters-social/?occurrence=2026-10-17",
+      "description": "Revert sisters and those exploring Islam are invited to join us for an afternoon of games, food and sisterhood.    Bring your favorite game to play and a dish of your choice to share.    When:  Saturday, October 17 | 3 PM–5 PM    Where: MCA Youth Lounge    RSVP"
     },
     {
       "title": "The Kids’ Tafsir Reading Club",
@@ -697,6 +715,15 @@
       "description": "MCA Women invites girls and women ages 13+ to join a Henna Masterclass with artist Mariyam Afreen. Participants will learn henna design techniques and create intricate patterns in a hands-on class environment.When:  Saturdays Sep 12 - Dec 5 | 2:30 PM to 3:30 PMWhere: MCA Maryam HallRegister"
     },
     {
+      "title": "Ladies Paint Night",
+      "start": "2026-10-31T16:00:00-07:00",
+      "end": "2026-10-31T18:30:00-07:00",
+      "location": "MCA Maryam Hall",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/LadiesPaintNight-Instagram.png",
+      "url": "https://www.mcabayarea.org/mec-events/ladies-paint-night-2/?occurrence=2026-10-31",
+      "description": "Join MCA Women for a fun and creative Ladies Paint Night with artist Pinar. Enjoy an evening of guided painting, creativity, and community. All supplies are included, and no prior painting experience is needed.    When: Saturday, October 31 | 4:00 PM–6:30 PM    Where: MCA Maryam Hall    Register"
+    },
+    {
       "title": "The Kids’ Tafsir Reading Club",
       "start": "2026-11-01T10:30:00-08:00",
       "end": "2026-11-01T11:30:00-08:00",
@@ -753,6 +780,38 @@
   ],
   "featured": [
     {
+      "title": "Evening with our Local Imams",
+      "date_text": "Oct 16, 2026",
+      "time_text": "8:00PM - 10:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/evening-with-our-local-imams/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/An-Evening-with-Our-Local-Imams.png",
+      "featured": true
+    },
+    {
+      "title": "New Sisters in Islam Sisters Social",
+      "date_text": "Oct 17, 2026",
+      "time_text": "3:00PM - 5:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/new-sisters-in-islam-sisters-social/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/New-Sisters-in-Islam-Social.jpg",
+      "featured": true
+    },
+    {
+      "title": "Ladies Paint Night",
+      "date_text": "Oct 31, 2026",
+      "time_text": "4:00PM - 6:30PM",
+      "url": "https://www.mcabayarea.org/mec-events/ladies-paint-night-2/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/LadiesPaintNight-Instagram.png",
+      "featured": true
+    },
+    {
+      "title": "Ladies Ebru Paint Night",
+      "date_text": "Nov 14, 2026",
+      "time_text": "4:00PM - 6:30PM",
+      "url": "https://www.mcabayarea.org/mec-events/ladies-ebru-paint-night/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/EBRU-Insta.png",
+      "featured": true
+    },
+    {
       "title": "Umrah w/ Imam Fuad",
       "date_text": "Nov 25, 2026 to Dec 06, 2026",
       "time_text": "",
@@ -765,7 +824,7 @@
       "date_text": "Dec 04, 2026 to Dec 05, 2026",
       "time_text": "6:30PM - 4:00PM",
       "url": "https://www.mcabayarea.org/mec-events/bay-area-muslims-singles-event/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/09/MCA-december-singles-event-1-1.png",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/MCA-december-singles-event-2.png",
       "featured": true
     }
   ]
