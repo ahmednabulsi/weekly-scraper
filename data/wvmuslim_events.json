@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 85,
+  "count": 87,
   "featured_count": 0,
   "events": [
     {
@@ -459,23 +459,43 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) – Zaid Youssef",
+      "start": "2026-10-16 13:30:00",
+      "end": "2026-10-16 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-zaid-youssef/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Imam Basil Farooq",
       "start": "2026-10-16 13:30:00",
       "end": "2026-10-16 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-10-16/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-25/",
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (2:30 PM) – TBA",
+      "start": "2026-10-16 14:30:00",
+      "end": "2026-10-16 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-tba-5/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (3:30 PM) – Farhad Noorzay",
       "start": "2026-10-16 15:30:00",
       "end": "2026-10-16 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-10-16/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-20/",
       "featured": false
     },
     {
@@ -689,12 +709,12 @@
       "featured": false
     },
     {
-      "title": "Book Launch Event",
+      "title": "Meet the Author",
       "start": "2026-10-24 13:30:00",
       "end": "2026-10-24 15:30:00",
       "all_day": false,
       "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/book.png",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/de.png",
       "url": "https://wvmuslim.org/event/book-launch-event/",
       "featured": false
     },
