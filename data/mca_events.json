@@ -1,26 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-10-16",
-  "count": 75,
+  "generated_at": "2026-10-17",
+  "count": 73,
   "events": [
-    {
-      "title": "Crocheting For Beginners",
-      "start": "2026-10-16T16:00:00-07:00",
-      "end": "2026-10-16T17:30:00-07:00",
-      "location": "",
-      "image": "",
-      "url": "https://www.mcabayarea.org/mec-events/crocheting-for-beginners/?occurrence=2026-10-16",
-      "description": "Unravel your inner artist and join Jawariya and Shifa Quraishi for a beginner-friendly crochet class designed for sisters ages 7 and up. This 10-week hands-on series will introduce participants to foundational crochet techniques in a welcoming environment, with guided instruction each week to help build confidence and creativity.Registration is $150 for the full series, with $50 from each student registration supporting MCA Women’s Committee programs. Optional supplies are available for purchase for those who need yarn, scissors, and a crochet needle.When:  Fridays Sep 4 - Nov 6 | 4:00 PM - 5:20 PMWhere: MCA Maryam HallRegister"
-    },
-    {
-      "title": "Evening with our Local Imams",
-      "start": "2026-10-16T20:00:00-07:00",
-      "end": "2026-10-16T21:00:00-07:00",
-      "location": "South Bay Islamic Association (SBIA - Masjid al-Mustafa)",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/An-Evening-with-Our-Local-Imams.png",
-      "url": "https://www.mcabayarea.org/mec-events/evening-with-our-local-imams/?occurrence=2026-10-16",
-      "description": "Join us for an evening featuring local imams from MCA, SBIA, WVMA, and EIC as they share their perspectives, experiences, and advice for our community.When:  Friday, October 16 | 8PM (After Maghrib)Where: South Bay Islamic Association (SBIA)2345 Harris Way, San JoseRSVP"
-    },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-10-17T08:00:00-07:00",
@@ -680,14 +662,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Evening with our Local Imams",
-      "date_text": "Oct 16, 2026",
-      "time_text": "8:00PM - 10:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/evening-with-our-local-imams/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/An-Evening-with-Our-Local-Imams.png",
-      "featured": true
-    },
     {
       "title": "New Sisters in Islam Sisters Social",
       "date_text": "Oct 17, 2026",
