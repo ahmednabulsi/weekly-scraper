@@ -1,17 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-10-17",
-  "count": 65,
+  "generated_at": "2026-10-18",
+  "count": 64,
   "events": [
-    {
-      "title": "New Sisters in Islam Sisters Social",
-      "start": "2026-10-17T15:00:00-07:00",
-      "end": "2026-10-17T17:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/New-Sisters-in-Islam-Social.jpg",
-      "url": "https://www.mcabayarea.org/mec-events/new-sisters-in-islam-sisters-social/?occurrence=2026-10-17",
-      "description": "Revert sisters and those exploring Islam are invited to join us for an afternoon of games, food and sisterhood.Bring your favorite game to play and a dish of your choice to share.When:  Saturday, October 17 | 3 PM–5 PMWhere: MCA Youth LoungeRSVP"
-    },
     {
       "title": "The Kids’ Tafsir Reading Club",
       "start": "2026-10-18T10:30:00-07:00",
@@ -590,14 +581,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "New Sisters in Islam Sisters Social",
-      "date_text": "Oct 17, 2026",
-      "time_text": "3:00PM - 5:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/new-sisters-in-islam-sisters-social/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/New-Sisters-in-Islam-Social.jpg",
-      "featured": true
-    },
     {
       "title": "Ladies Paint Night",
       "date_text": "Oct 31, 2026",
