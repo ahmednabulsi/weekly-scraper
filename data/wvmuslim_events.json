@@ -5,7 +5,7 @@
     "start": "2026-10-01",
     "end": "2026-10-31"
   },
-  "count": 93,
+  "count": 96,
   "featured_count": 0,
   "events": [
     {
@@ -781,21 +781,21 @@
     {
       "title": "Between the Verses",
       "start": "2026-10-26 19:00:00",
-      "end": "2026-10-26 20:30:00",
+      "end": "2026-10-26 20:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Between-the-Verses-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/between-the-verses-4/2026-10-26/",
+      "url": "https://wvmuslim.org/event/between-the-verses-5/2026-10-26/",
       "featured": false
     },
     {
       "title": "Stories of the Prophets with Ihab Badr",
-      "start": "2026-10-26 20:20:00",
-      "end": "2026-10-26 21:30:00",
+      "start": "2026-10-26 20:00:00",
+      "end": "2026-10-26 21:00:00",
       "all_day": false,
       "venue": null,
       "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Ihab-Badr-after-Isha-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/stories-of-the-prophets-with-ihab-badr-2/2026-10-26/",
+      "url": "https://wvmuslim.org/event/stories-of-the-prophets-with-ihab-badr-3/2026-10-26/",
       "featured": false
     },
     {
@@ -819,13 +819,23 @@
       "featured": false
     },
     {
-      "title": "Reflections from the Short Surahs",
-      "start": "2026-10-28 20:20:00",
-      "end": "2026-10-28 21:15:00",
+      "title": "High School Boys Youth Group",
+      "start": "2026-10-28 18:20:00",
+      "end": "2026-10-28 20:00:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/10/Website-BannersHS.png",
+      "url": "https://wvmuslim.org/event/high-school-boys-youth-group/2026-10-28/",
+      "featured": false
+    },
+    {
+      "title": "The Final Verses",
+      "start": "2026-10-28 20:00:00",
+      "end": "2026-10-28 21:00:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/04/Short-Surah-Sami-Hilali.png",
-      "url": "https://wvmuslim.org/event/reflections-from-the-short-surahs-2/2026-10-28/",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Bannersweb.png",
+      "url": "https://wvmuslim.org/event/reflections-from-the-short-surahs-3/2026-10-28/",
       "featured": false
     },
     {
@@ -870,12 +880,12 @@
     },
     {
       "title": "After Isha Reflections with Imam Basil",
-      "start": "2026-10-29 20:30:00",
-      "end": "2026-10-29 21:30:00",
+      "start": "2026-10-29 20:00:00",
+      "end": "2026-10-29 21:00:00",
       "all_day": false,
       "venue": "Saratoga Musalla",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
-      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil/2026-10-29/",
+      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil-2/2026-10-29/",
       "featured": false
     },
     {
@@ -889,23 +899,43 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – TBA",
+      "title": "Jumu’ah (1:30 PM) – Sh Junaid Bhaiyat",
+      "start": "2026-10-30 13:30:00",
+      "end": "2026-10-30 14:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-sh-junaid-bhaiyat/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (1:30 PM) @ LGIC – Zaid Yousef",
       "start": "2026-10-30 13:30:00",
       "end": "2026-10-30 14:00:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
-      "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-10-30/",
+      "url": "https://wvmuslim.org/event/jumuah-130-pm-lgic-tba-27/",
       "featured": false
     },
     {
-      "title": "Jumu’ah (3:30 PM) – TBA",
+      "title": "Jumu’ah (2:30 PM) – Aman Falol",
+      "start": "2026-10-30 14:30:00",
+      "end": "2026-10-30 15:00:00",
+      "all_day": false,
+      "venue": "Prospect Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
+      "url": "https://wvmuslim.org/event/jumuah-230-pm-aman-falol/",
+      "featured": false
+    },
+    {
+      "title": "Jumu’ah (3:30 PM) – Chafik Ziyadeh",
       "start": "2026-10-30 15:30:00",
       "end": "2026-10-30 16:00:00",
       "all_day": false,
       "venue": "Prospect Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/08/Screenshot-2025-07-09-at-10.51.12-AM-1024x705-1.png",
-      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-12/2026-10-30/",
+      "url": "https://wvmuslim.org/event/jumuah-330-pm-tba-22/",
       "featured": false
     },
     {
