@@ -1,26 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-10-30",
-  "count": 19,
+  "generated_at": "2026-10-31",
+  "count": 17,
   "events": [
-    {
-      "title": "Green Deen: The 6 R’s Of Sustainability",
-      "start": "2026-10-30T18:00:00-07:00",
-      "end": "2026-10-30T20:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Green-and-White-Illustrated-Sustainability-Instagram-Post.png",
-      "url": "https://www.mcabayarea.org/mec-events/green-deen-the-6-rs-of-sustainability/?occurrence=2026-10-30",
-      "description": "Get ready to learn 6 R's of Sustainability that will have an impact on your Khalifa status, InShaAllahRefuse + Reduce + Recycle + Reuse + Repair + RotFun Eco Activities — a joyful gathering that brings our community together in the spirit faith, unity and sustainability through an evening filled with family-friendly activities that nurtures khalifas lifestyle of Green Deen.Come with friends, family, and community.When:  Friday, October 30 | 6 pm to Isha  Where: MCA Khadijah Banquet Hall"
-    },
-    {
-      "title": "Healing Through Ruqyah",
-      "start": "2026-10-30T20:00:00-07:00",
-      "end": "2026-10-30T22:00:00-07:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Healing-Through-Ruqyah-1320x1080-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/healing-through-ruqyah/?occurrence=2026-10-30",
-      "description": "Join Imam Ammar Shahin for an insightful and educational talk exploring the reality of ruqyah in light of the Qur’an and Sunnah. With over 15 years of experience performing ruqyah and conducting educational workshops in the U.S. and abroad, Imam Ammar Shahin will help attendees better understand Islamic spiritual protection, black magic, and possession.Learn how to approach these matters with authentic Islamic knowledge, distinguish sound guidance from misconceptions, and understand the role of Qur’anic recitation and Prophetic teachings in spiritual protection.Whether you have questions about ruqyah or simply want to strengthen your understanding of this important subject, this session offers an opportunity to gain clarity, deepen your knowledge, and strengthen your connection with Allah.When:  Friday, October 30 | 8:00 PM (after Isha)Where: MCA Khadijah Banquet HallRSVP"
-    },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
       "start": "2026-10-31T08:00:00-07:00",
@@ -177,22 +159,6 @@
   ],
   "featured": [
     {
-      "title": "Healing Through Ruqyah",
-      "date_text": "Oct 30, 2026",
-      "time_text": "8:00PM - 10:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/healing-through-ruqyah/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Healing-Through-Ruqyah-1320x1080-1.png",
-      "featured": true
-    },
-    {
-      "title": "Green Deen: The 6 R’s Of Sustainability",
-      "date_text": "Oct 30, 2026",
-      "time_text": "6:00PM - 8:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/green-deen-the-6-rs-of-sustainability/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Green-and-White-Illustrated-Sustainability-Instagram-Post.png",
-      "featured": true
-    },
-    {
       "title": "Ladies Paint Night",
       "date_text": "Oct 31, 2026",
       "time_text": "4:00PM - 6:30PM",
@@ -222,6 +188,22 @@
       "time_text": "7:00PM - 8:00PM",
       "url": "https://www.mcabayarea.org/mec-events/history-of-fiqh/",
       "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/The-Fiqh-Series-1080x1350-1.png",
+      "featured": true
+    },
+    {
+      "title": "Seniors Social",
+      "date_text": "Nov 08, 2026",
+      "time_text": "10:00AM - 2:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/seniors-social/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Seniors-Social-Flyers-2.png",
+      "featured": true
+    },
+    {
+      "title": "Ladies Ebru Paint Night",
+      "date_text": "Nov 14, 2026",
+      "time_text": "4:00PM - 6:30PM",
+      "url": "https://www.mcabayarea.org/mec-events/ladies-ebru-paint-night/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/EBRU-Insta.png",
       "featured": true
     }
   ]
