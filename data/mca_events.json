@@ -1,6 +1,6 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-11-02",
+  "generated_at": "2026-11-03",
   "count": 118,
   "events": [
     {
@@ -547,10 +547,10 @@
       "title": "From Tahrir to Gaza: Lessons from Egypt’s Revolution",
       "start": "2026-11-20T20:15:00-08:00",
       "end": "2026-11-20T22:15:00-08:00",
-      "location": "",
+      "location": "MCA Maryam Hall",
       "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/From-Tahrir-To-Gaza-Nov-20-.png",
-      "url": "https://www.mcabayarea.org/mec-events/from-tahrir-to-gaza-lessons-from-egypts-revolution/?occurrence=2026-11-20",
-      "description": "15th anniversary of the egyptian revolution, a conversation with local author Rusha Latif and Political science professor Yasmeen Daifallah about lessons learnt and the cascading effects over 15 years laterNearly sixteen years after the 2011 Egyptian Revolution, we return to the experiences of the young people who ignited it and the questions their struggle continues to raise today.Drawing on Rusha Latif’s book Tahrir’s Youth: Leaders of a Leaderless Revolution, based on her firsthand research during the revolution, we will reflect on the legacy of Tahrir amid the ongoing genocide in Gaza and the widening conflict across the Middle East. In a moment shaped by the struggle for Palestinian liberation and renewed waves of popular resistance around the world, what can Egypt’s revolution teach us about movement-building, political imagination, and the possibilities of collective struggle? And how might its lessons speak to the challenges facing the Ummah today?When:  Friday, Nov 20, 2026 | 8:15 - 10:00 pm (after Isha)Where: MCA Maryam HallRSVP"
+      "url": "https://www.mcabayarea.org/mec-events/from-tahrir-to-gaza/?occurrence=2026-11-20",
+      "description": "15th anniversary of the egyptian revolution, a conversation with local author Rusha Latif and Political science professor Yasmeen Daifallah about lessons learnt and the cascading effects over 15 years later    Nearly sixteen years after the 2011 Egyptian Revolution, we return to the experiences of the young people who ignited it and the questions their struggle continues to raise today.    Drawing on Rusha Latif’s book Tahrir’s Youth: Leaders of a Leaderless Revolution, based on her firsthand research during the revolution, we will reflect on the legacy of Tahrir amid the ongoing genocide in Gaza and the widening conflict across the Middle East.    In a moment shaped by the struggle for Palestinian liberation and renewed waves of popular resistance around the world, what can Egypt’s revolution teach us about movement-building, political imagination, and the possibilities of collective struggle? And how might its lessons speak to the challenges facing the Ummah today?    When:  Friday, Nov 20, 2026 | 8:15 - 10:00 pm (after Isha)    Where: MCA Maryam Hall    RSVP"
     },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
@@ -1068,14 +1068,6 @@
   ],
   "featured": [
     {
-      "title": "History of Fiqh: Revelation & Development of Islamic Law",
-      "date_text": "Nov 02, 2026",
-      "time_text": "7:00PM - 8:00PM",
-      "url": "https://www.mcabayarea.org/mec-events/history-of-fiqh/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/The-Fiqh-Series-1080x1350-1.png",
-      "featured": true
-    },
-    {
       "title": "Seniors Social",
       "date_text": "Nov 08, 2026",
       "time_text": "10:00AM - 2:00PM",
@@ -1097,6 +1089,14 @@
       "time_text": "2:30PM - 5:00PM",
       "url": "https://www.mcabayarea.org/mec-events/new-sisters-in-islam-social-2/",
       "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/convertssocial8.5x11.png",
+      "featured": true
+    },
+    {
+      "title": "From Tahrir to Gaza: Lessons from Egypt’s Revolution",
+      "date_text": "Nov 20, 2026",
+      "time_text": "8:15PM - 10:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/from-tahrir-to-gaza-lessons-from-egypts-revolution/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/11/From-Tahrir-To-Gaza-Nov-20-.png",
       "featured": true
     },
     {
