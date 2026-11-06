@@ -9,7 +9,7 @@ can never reshape another location's entry.
 import json
 import os
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from html import unescape
 
 DATA_FILE = "data.json"
@@ -26,14 +26,33 @@ HEADERS = {"User-Agent": USER_AGENT}
 PLACEHOLDER_SPEAKERS = {"tbd", "tba", "tbd.", "n/a", "na", "none", "-", "—"}
 
 
+PACIFIC = "America/Los_Angeles"
+
+
+def now_local():
+    """Current time where the mosques are, not where the CI runner is."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        return datetime.now(ZoneInfo(PACIFIC))
+    except Exception:
+        # No tzdata available: UTC-8 is close enough for a day boundary.
+        return datetime.now(timezone.utc) - timedelta(hours=8)
+
+
 def next_friday(today=None):
-    """The Friday the sites' posted schedules refer to."""
-    today = today or datetime.now()
-    days_ahead = (4 - today.weekday()) % 7
-    # After Friday ~2pm the posted schedule has normally rolled to next week.
-    if days_ahead == 0 and today.hour >= 14:
-        days_ahead = 7
-    return today + timedelta(days=days_ahead)
+    """
+    The Friday the sites' posted schedules refer to, in Pacific time.
+
+    The rollover is the day boundary, not a time of day. On a Friday the
+    target is that same Friday: the scheduled runs land Thursday evening and
+    Friday pre-dawn Pacific, and a run GitHub delays into Friday daytime must
+    still match that day's posted khateeb rather than skipping a week ahead
+    and discarding every speaker as stale. Speakers are cleared after Jummah
+    by reset_speakers.py instead.
+    """
+    today = today or now_local()
+    return today + timedelta(days=(4 - today.weekday()) % 7)
 
 
 def ordinal(index):
