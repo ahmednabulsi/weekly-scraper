@@ -29,7 +29,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests groq google-generativeai beautifulsoup4 lxml Pillow
+          # groq is no longer needed: MCA, Al-Noor, SBIA, WVMuslim and Evergreen
+          # are now parsed directly. Gemini remains for the two image-only schedules.
+          pip install requests google-generativeai beautifulsoup4 lxml Pillow
 
       - name: Run all scrapers
         env:

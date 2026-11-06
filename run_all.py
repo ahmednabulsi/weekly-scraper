@@ -18,11 +18,14 @@ def run_script(script_name):
 
 def main():
     scripts = [
-        "mca_scraper.py",      # MCA + Al-Noor: plain HTML parsing, no AI
-        "scraper.py",           # SBIA + WVMuslim (AI extraction)
-        "evergreen_scraper.py",  # Adding this as it's part of your set
-        "bosni_scraper.py",
-        "yaseen_scraper.py"
+        # Plain HTML/API parsing, no AI, no API key needed:
+        "mca_scraper.py",        # MCA + Al-Noor
+        "sbia_scraper.py",       # SBIA
+        "wvmuslim_scraper.py",   # WVMuslim
+        "evergreen_scraper.py",  # Evergreen (EIC San Jose)
+        # Still AI-based: the schedules are only published as flyer images.
+        "bosni_scraper.py",      # ICBAB monthly timetable (Gemini OCR)
+        "yaseen_scraper.py"      # Yaseen Belmont + Burlingame (Gemini OCR)
     ]
     
     start_time = time.time()
