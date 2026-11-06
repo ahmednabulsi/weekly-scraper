@@ -5,7 +5,7 @@
     "start": "2026-11-01",
     "end": "2026-11-30"
   },
-  "count": 76,
+  "count": 77,
   "featured_count": 0,
   "events": [
     {
@@ -149,7 +149,7 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (12:30 PM) – Sh Junaid Bhaiyat",
+      "title": "Prospect Jumu’ah (12:30 PM) – Sh Junaid Bhaiyat",
       "start": "2026-11-06 12:30:00",
       "end": "2026-11-06 13:30:00",
       "all_day": false,
@@ -159,7 +159,7 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) @ LGIC – Samy Hilali",
+      "title": "LGIC Jumu’ah (1:30 PM) – Samy Hilali",
       "start": "2026-11-06 13:30:00",
       "end": "2026-11-06 14:00:00",
       "all_day": false,
@@ -169,7 +169,7 @@
       "featured": false
     },
     {
-      "title": "Jumu’ah (1:30 PM) – Imam Basil Farooq",
+      "title": "Prospect Jumu’ah (1:30 PM) – Imam Basil Farooq",
       "start": "2026-11-06 13:30:00",
       "end": "2026-11-06 14:00:00",
       "all_day": false,
@@ -356,6 +356,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2025/03/Screenshot-2025-03-27-at-2.48.12 PM.png",
       "url": "https://wvmuslim.org/event/jumuah-130-pm-tba/2026-11-13/",
+      "featured": false
+    },
+    {
+      "title": "Building a Madina – Panel Discussion",
+      "start": "2026-11-13 18:00:00",
+      "end": "2026-11-13 21:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Screenshot-2026-11-06-at-12.02.03-PM.png",
+      "url": "https://wvmuslim.org/event/building-a-madina-panel-discussion/",
       "featured": false
     },
     {
