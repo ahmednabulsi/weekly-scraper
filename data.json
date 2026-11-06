@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-06 05:31:09.947931",
+    "date_scraped": "2026-11-06 06:56:55.593042",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Br. Omar Ahmad"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Alauddin El-Bakri"
                 }
             ]
         },
@@ -21,13 +21,13 @@
             "prayers": [
                 {
                     "label": "1st Jummah",
-                    "time": "1:30 PM",
-                    "speaker": null
+                    "time": "12:30 PM",
+                    "speaker": "Br. Ihab Badr"
                 },
                 {
                     "label": "2nd Jummah",
-                    "time": "2:30 PM",
-                    "speaker": null
+                    "time": "1:30 PM",
+                    "speaker": "Ust. Ozair Hasan"
                 }
             ]
         },
