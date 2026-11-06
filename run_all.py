@@ -18,7 +18,8 @@ def run_script(script_name):
 
 def main():
     scripts = [
-        "scraper.py",
+        "mca_scraper.py",      # MCA + Al-Noor: plain HTML parsing, no AI
+        "scraper.py",           # SBIA + WVMuslim (AI extraction)
         "evergreen_scraper.py",  # Adding this as it's part of your set
         "bosni_scraper.py",
         "yaseen_scraper.py"
@@ -40,7 +41,7 @@ def main():
     all_success = True
     for script, success in results:
         status = "✓ SUCCESS" if success else "✗ FAILED"
-        print(f"{script:20} : {status}")
+        print(f"{script:22} : {status}")
         if not success:
             all_success = False
             

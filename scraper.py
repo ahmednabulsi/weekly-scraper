@@ -244,9 +244,9 @@ def consolidate_prayer_data(prayer_data):
 
 
 def main():
+    # MCA and Al-Noor are handled by mca_scraper.py, which parses the
+    # mcabayarea.org prayer tables directly instead of using an LLM.
     sites = {
-        "MCA": ("https://www.mcabayarea.org/", "loc_mca"),
-        "AlNoor": ("https://www.mcabayarea.org/", "loc_alnoor"),
         "SBIA": ("https://sbia.info", None),
         "WVMuslim": ("https://wvmuslim.org/", None)
     }
