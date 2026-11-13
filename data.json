@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-07 11:26:27.542548",
+    "date_scraped": "2026-11-13 02:38:27.782811",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Imam Fuad Mohamed"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir Anwar"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Br. Baha Shadid"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Br. Munir Iqtish"
                 }
             ]
         },
@@ -37,12 +37,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Dr. Abdullah Ali"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Youssef Ismail"
                 }
             ]
         },
@@ -52,17 +52,17 @@
                 {
                     "label": "1st Jummah - Prospect Center",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Sh Junaid Bhaiyat"
                 },
                 {
                     "label": "2nd Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh Ahmed Billoo"
                 },
                 {
                     "label": "3rd Jummah - Prospect Center",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Ihab Badr"
                 }
             ]
         },
