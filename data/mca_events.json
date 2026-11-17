@@ -1,7 +1,7 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-11-16",
-  "count": 67,
+  "generated_at": "2026-11-17",
+  "count": 68,
   "events": [
     {
       "title": "History of Fiqh: From Revelation to the Development of Islamic Law",
@@ -562,6 +562,15 @@
       "description": "MCA Women invites girls and women ages 13+ to join a Henna Masterclass with artist Mariyam Afreen. Participants will learn henna design techniques and create intricate patterns in a hands-on class environment.When:  Saturdays Sep 12 - Dec 5 | 2:30 PM to 3:30 PMWhere: MCA Maryam HallRegister"
     },
     {
+      "title": "GIS’s Rooted & Rising Fundraising Banquet",
+      "start": "2026-12-05T17:30:00-08:00",
+      "end": "2026-12-05T22:00:00-08:00",
+      "location": "MCA Khadijah Banquet Hall",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/11/Granada-Fundraising-Banquet-Flyer.png",
+      "url": "https://www.mcabayarea.org/mec-events/gis-rooted-rising-fundraising-banquet/?occurrence=2026-12-05",
+      "description": "Excitement is in the air! Get ready to be part of something extraordinary at Granada Islamic School's fundraising event. It's an event like no other, and we want you to be there!    Every registration brings us closer to achieving our mission. Together, we can help plant a seed for generations to come, inshallah.    Thank you for supporting our mission; your support is invaluable.    Want to Sponsor Granada's Annual Banquet?    Own a small business or want to support Granada? Partnering with Granada Islamic School as a corporate sponsor is a powerful way to grow your small business or non-profit while investing directly in the Bay Area community.    Sponsor Granada's Banquet Now!"
+    },
+    {
       "title": "Bay Area Muslims Singles Event",
       "start": "2026-12-05T18:30:00-08:00",
       "end": "2026-12-05T00:00:00-08:00",
@@ -630,6 +639,14 @@
       "time_text": "11:00AM - 4:00PM",
       "url": "https://www.mcabayarea.org/mec-events/bay-area-muslims-singles-event/",
       "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/MCA-december-singles-event-2.png",
+      "featured": true
+    },
+    {
+      "title": "GIS’s Rooted & Rising Fundraising Banquet",
+      "date_text": "Dec 05, 2026",
+      "time_text": "5:30PM - 10:00PM",
+      "url": "https://www.mcabayarea.org/mec-events/gis-rooted-rising-fundraising-banquet/",
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/11/Granada-Fundraising-Banquet-Flyer.png",
       "featured": true
     }
   ]
