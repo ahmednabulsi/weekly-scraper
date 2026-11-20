@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-20 06:03:38.461108",
+    "date_scraped": "2026-11-20 13:51:44.555676",
     "data": [
         {
             "location": "MCA",
@@ -52,12 +52,12 @@
                 {
                     "label": "1st Jummah - Prospect Center",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Farhad Noorzay"
                 },
                 {
                     "label": "2nd Jummah - Prospect Center",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Basil Farooq"
                 },
                 {
                     "label": "3rd Jummah - LGIC",
