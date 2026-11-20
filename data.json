@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-14 11:53:42.660969",
+    "date_scraped": "2026-11-20 06:03:38.461108",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Imam Fuad Mohamed"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Hatem Bazian"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Hisham Qaisi"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Samy Hilali"
                 }
             ]
         },
@@ -37,12 +37,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir Anwar"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Dr. Abdullah Ali"
                 }
             ]
         },
@@ -55,14 +55,14 @@
                     "speaker": null
                 },
                 {
-                    "label": "2nd Jummah - LGIC",
+                    "label": "2nd Jummah - Prospect Center",
                     "time": "1:30 PM",
                     "speaker": null
                 },
                 {
-                    "label": "3rd Jummah - Prospect Center",
+                    "label": "3rd Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh Junaid Bhaiyat"
                 }
             ]
         },
