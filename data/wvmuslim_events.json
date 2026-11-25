@@ -5,7 +5,7 @@
     "start": "2026-11-01",
     "end": "2026-11-30"
   },
-  "count": 84,
+  "count": 87,
   "featured_count": 0,
   "events": [
     {
@@ -693,19 +693,19 @@
       "start": "2026-11-25 20:00:00",
       "end": "2026-11-25 21:00:00",
       "all_day": false,
-      "venue": "Saratoga Musalla",
+      "venue": "Cupertino Islamic Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-Bannersweb.png",
-      "url": "https://wvmuslim.org/event/reflections-from-the-short-surahs-3/2026-11-25/",
+      "url": "https://wvmuslim.org/event/the-final-verses/2026-11-25/",
       "featured": false
     },
     {
-      "title": "Arabic Grammar for Urdu-speaking Sisters",
-      "start": "2026-11-26 10:00:00",
-      "end": "2026-11-26 11:00:00",
+      "title": "Isha & Khatera with Sh. Junaid",
+      "start": "2026-11-25 20:00:00",
+      "end": "2026-11-25 20:30:00",
       "all_day": false,
       "venue": "Los Gatos Islamic Center (LGIC)",
-      "image": "https://wvmuslim.org/wp-content/uploads/2025/04/arabic-class-for-urdu-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters/2026-11-26/",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Jun2.png",
+      "url": "https://wvmuslim.org/event/isha-khatera-with-sh-junaid-2/",
       "featured": false
     },
     {
@@ -716,6 +716,16 @@
       "venue": "Los Gatos Islamic Center (LGIC)",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/10/mom.png",
       "url": "https://wvmuslim.org/event/mommy-and-me/2026-11-26/",
+      "featured": false
+    },
+    {
+      "title": "Arabic Grammar for Urdu-speaking Sisters",
+      "start": "2026-11-26 10:00:00",
+      "end": "2026-11-26 11:00:00",
+      "all_day": false,
+      "venue": "Cupertino Islamic Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/arabic-class-for-urdu-1920-x-1080-px.png",
+      "url": "https://wvmuslim.org/event/arabic-grammar-for-urdu-speaking-sisters-3/2026-11-26/",
       "featured": false
     },
     {
@@ -743,19 +753,19 @@
       "start": "2026-11-26 20:00:00",
       "end": "2026-11-26 21:00:00",
       "all_day": false,
-      "venue": "Saratoga Musalla",
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/09/afterisga.png",
-      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil-2/2026-11-26/",
+      "venue": "Cupertino Islamic Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Website-Banners1.png",
+      "url": "https://wvmuslim.org/event/after-isha-reflections-with-imam-basil-3/2026-11-26/",
       "featured": false
     },
     {
       "title": "Journey Through the Quran",
       "start": "2026-11-27 10:45:00",
-      "end": "2026-11-27 23:30:00",
+      "end": "2026-11-27 12:00:00",
       "all_day": false,
-      "venue": "Saratoga Musalla",
-      "image": "https://wvmuslim.org/wp-content/uploads/2025/08/Journey-with-the-Quran-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/journey-through-the-quran/2026-11-27/",
+      "venue": "Cupertino Islamic Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2025/08/Journey-with-the-Quran-1920-x-1080-px-1.png",
+      "url": "https://wvmuslim.org/event/journey-through-the-quran-3/2026-11-27/",
       "featured": false
     },
     {
@@ -779,13 +789,23 @@
       "featured": false
     },
     {
+      "title": "Fajr & Coffee with Sh. Junaid",
+      "start": "2026-11-28 06:10:00",
+      "end": "2026-11-28 07:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Junfajr.png",
+      "url": "https://wvmuslim.org/event/fajr-coffee-with-sh-junaid/",
+      "featured": false
+    },
+    {
       "title": "Juz Amma Qur’an Class",
       "start": "2026-11-28 10:00:00",
       "end": "2026-11-28 11:30:00",
       "all_day": false,
-      "venue": "Saratoga Musalla",
+      "venue": "Cupertino Islamic Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
-      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-11-28/",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class-2/2026-11-28/",
       "featured": false
     },
     {
@@ -793,9 +813,9 @@
       "start": "2026-11-29 10:00:00",
       "end": "2026-11-29 11:30:00",
       "all_day": false,
-      "venue": "Saratoga Musalla",
+      "venue": "Cupertino Islamic Center",
       "image": "https://wvmuslim.org/wp-content/uploads/2026/09/Website-BannersJuz.png",
-      "url": "https://wvmuslim.org/event/juz-amma-quran-class/2026-11-29/",
+      "url": "https://wvmuslim.org/event/juz-amma-quran-class-2/2026-11-29/",
       "featured": false
     },
     {
@@ -819,6 +839,16 @@
       "featured": false
     },
     {
+      "title": "Isha & Khatera with Sh. Junaid",
+      "start": "2026-11-29 20:00:00",
+      "end": "2026-11-29 20:30:00",
+      "all_day": false,
+      "venue": "Los Gatos Islamic Center (LGIC)",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Jun2.png",
+      "url": "https://wvmuslim.org/event/isha-khatera-with-sh-junaid-3/",
+      "featured": false
+    },
+    {
       "title": "Between the Verses",
       "start": "2026-11-30 19:00:00",
       "end": "2026-11-30 20:00:00",
@@ -829,13 +859,13 @@
       "featured": false
     },
     {
-      "title": "Stories of the Prophets with Ihab Badr",
+      "title": "Isha & Khatera with Sh. Junaid",
       "start": "2026-11-30 20:00:00",
-      "end": "2026-11-30 21:00:00",
+      "end": "2026-11-30 20:30:00",
       "all_day": false,
-      "venue": null,
-      "image": "https://wvmuslim.org/wp-content/uploads/2026/03/Ihab-Badr-after-Isha-1920-x-1080-px.png",
-      "url": "https://wvmuslim.org/event/stories-of-the-prophets-with-ihab-badr-3/2026-11-30/",
+      "venue": "Cupertino Islamic Center",
+      "image": "https://wvmuslim.org/wp-content/uploads/2026/11/Jun1.png",
+      "url": "https://wvmuslim.org/event/isha-khatera-with-sh-junaid/",
       "featured": false
     },
     {
