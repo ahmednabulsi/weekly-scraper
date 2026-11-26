@@ -1,26 +1,8 @@
 {
   "source": "https://www.mcabayarea.org/events-calendar/",
-  "generated_at": "2026-11-25",
-  "count": 47,
+  "generated_at": "2026-11-26",
+  "count": 45,
   "events": [
-    {
-      "title": "Umrah w/ Imam Fuad",
-      "start": "2026-11-25T22:00:00-08:00",
-      "end": "2026-11-25T23:00:00-08:00",
-      "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Umrah-1080x1350-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/umrah-w-imam-fuad/?occurrence=2026-11-25",
-      "description": "Join Imam Fuad Mohamed for a meaningful journey through Makkah and Madinah this Thanksgiving break, following in the footsteps of our beloved Sahabah.4 Nights in Makkah | 4 Nights in MadinahPackage includes 5-star hotels, entry visa, daily open buffet, qualified guides, Haramain train, and flights.When:  November 25 - December 06Learn More and Register"
-    },
-    {
-      "title": "Tajweed for Brothers at Masjid Al-Noor",
-      "start": "2026-11-26T02:00:00-08:00",
-      "end": "2026-11-26T03:00:00-08:00",
-      "location": "Masjid Al-Noor",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2025/01/UpdatedNoor-Tajweed-brothers-8.5x11-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/tajweed-for-brothers-at-masjid-al-noor/?occurrence=2026-11-25",
-      "description": "Masjid Al-Noor invites brothers to a Beginner’s Tajweed Class designed to teach the foundational rules of Tajweed and help you enhance your Quranic recitation. Led by Ustadh Saleh, this weekly course provides a supportive environment for beginners to develop confidence and precision in their recitation.    🗓 Schedule: Every Wednesday  ⏰ Time: 6:00 PM - 7:00 PM  📍 Venue: Masjid Al-Noor, 1755 Catherine St., Santa Clara, CA 95050    This class is ideal for those new to Tajweed or seeking to strengthen their understanding of proper Quranic pronunciation. Come and deepen your connection with the words of Allah in a welcoming and encouraging space.    For inquiries, contact us at dawah@mcabayarea.org."
-    },
     {
       "title": "Foundations of Deen",
       "start": "2026-11-27T00:00:00-08:00",
@@ -292,13 +274,13 @@
       "description": "The MCA Bookstore, in collaboration with the Women’s Committee, is excited to bring families together every week! Our Story Times are designed to spark a love of reading, strengthen Islamic values, and enrich children’s understanding of their deen in a fun, age-appropriate way. Through stories, songs, and activities, kids develop language, social, and early learning skills.Registration Required"
     },
     {
-      "title": "Choosing A Spouse: A Community Talk for Singles & Parents",
+      "title": "Community Night: Talk for Singles & Parents: Choosing a Spouse",
       "start": "2026-12-05T02:30:00-08:00",
       "end": "2026-12-05T05:00:00-08:00",
       "location": "",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/11/Friday-december-singles-event-1.png",
-      "url": "https://www.mcabayarea.org/mec-events/choosing-a-spouse/?occurrence=2026-12-04",
-      "description": "What really matters when choosing a spouse? Join Baba Ali for a candid talk about attraction, compatibility, and why being “good on paper” isn’t enough. Sh. Alauddin ElBakri will explore the Qur’anic foundations for choosing a spouse through the lens of mawaddah (affection).Free and open to all. Registration is required. Singles ages 21+, parents, and guardians.If you’ve already registered for the December 5 Singles Meetup, your registration includes Friday’s talks.When:  Friday, Dec. 4 | 6:30–9:00 PMWhere: MCA Khadijah Banquet HallRSVP"
+      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/11/Copy-of-MCA-december-singles-event-1-1.png",
+      "url": "https://www.mcabayarea.org/mec-events/community-night-talk-for-singles-parents/?occurrence=2026-12-04",
+      "description": "What really matters when choosing a spouse? Join Baba Ali for a candid talk about attraction, compatibility, and why being “good on paper” isn’t enough. Sh. Alauddin ElBakri will explore the Qur’anic foundations for choosing a spouse through the lens of mawaddah (affection).    Free and open to all. Registration is required. Singles ages 21+, parents, and guardians.    If you’ve already registered for the December 5 Singles Meetup, your registration includes Friday’s talks.    When:  Friday, Dec. 4 | 6:30–9:00 PM    Where: MCA Khadijah Banquet Hall    RSVP"
     },
     {
       "title": "Free Food Distribution (Sign-Up Required) via Support Life Foundation",
@@ -428,14 +410,6 @@
     }
   ],
   "featured": [
-    {
-      "title": "Umrah w/ Imam Fuad",
-      "date_text": "Nov 25, 2026 to Dec 06, 2026",
-      "time_text": "",
-      "url": "https://www.mcabayarea.org/mec-events/umrah-w-imam-fuad/",
-      "image": "https://www.mcabayarea.org/wp-content/uploads/2026/10/Umrah-1080x1350-1.png",
-      "featured": true
-    },
     {
       "title": "Choosing A Spouse: A Community Talk for Singles & Parents",
       "date_text": "Dec 04, 2026",
