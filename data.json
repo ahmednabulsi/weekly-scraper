@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-21 13:11:05.169102",
+    "date_scraped": "2026-11-27 07:08:04.850439",
     "data": [
         {
             "location": "MCA",
@@ -7,12 +7,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Sh. Samy Hilali"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir Anwar"
                 }
             ]
         },
@@ -22,12 +22,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Br Munir Iqtish"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Sh. Kawsar Hossain"
                 }
             ]
         },
@@ -37,12 +37,12 @@
                 {
                     "label": "1st Jummah",
                     "time": "12:15 PM",
-                    "speaker": null
+                    "speaker": "Imam Tahir Anwar"
                 },
                 {
                     "label": "2nd Jummah",
                     "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Ustadh Ameen Almallah"
                 }
             ]
         },
@@ -52,17 +52,12 @@
                 {
                     "label": "1st Jummah - Prospect Center",
                     "time": "12:30 PM",
-                    "speaker": null
+                    "speaker": "Kareem Syed"
                 },
                 {
-                    "label": "2nd Jummah - Prospect Center",
+                    "label": "2nd Jummah - LGIC",
                     "time": "1:30 PM",
-                    "speaker": null
-                },
-                {
-                    "label": "3rd Jummah - LGIC",
-                    "time": "1:30 PM",
-                    "speaker": null
+                    "speaker": "Shaykh Junaid Bhaiyat"
                 }
             ]
         },
