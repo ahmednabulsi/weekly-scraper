@@ -1,5 +1,5 @@
 {
-    "date_scraped": "2026-11-27 07:08:04.850439",
+    "date_scraped": "2026-11-27 14:44:55.628271",
     "data": [
         {
             "location": "MCA",
@@ -55,7 +55,12 @@
                     "speaker": "Kareem Syed"
                 },
                 {
-                    "label": "2nd Jummah - LGIC",
+                    "label": "2nd Jummah - Prospect Center",
+                    "time": "1:30 PM",
+                    "speaker": "Imam Basil Farooq"
+                },
+                {
+                    "label": "3rd Jummah - LGIC",
                     "time": "1:30 PM",
                     "speaker": "Shaykh Junaid Bhaiyat"
                 }
